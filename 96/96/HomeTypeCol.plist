@@ -22,9 +22,39 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>精装维修</string>
+		<string>家电/房屋维修</string>
 		<key>Icon</key>
 		<string>weixiu</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>搬家 拉货</string>
+		<key>Icon</key>
+		<string>banjiatong</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>科学育婴指导</string>
+		<key>Icon</key>
+		<string>yuersao</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>呵护健康洁净如新</string>
+		<key>Icon</key>
+		<string>qichebaoyang</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>3折起</string>
+		<key>Icon</key>
+		<string>xiche</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string></string>
+		<key>Icon</key>
+		<string>gengduo</string>
 	</dict>
 </array>
 </plist>

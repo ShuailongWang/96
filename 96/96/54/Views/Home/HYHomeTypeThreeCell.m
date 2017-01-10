@@ -33,9 +33,12 @@ static NSString *HYHomeTypeThreeCellID = @"HYHomeTypeThreeCellID";
             flowLayout.minimumInteritemSpacing = 0;
             flowLayout.itemSize = CGSizeMake(130, HYHomeTypeThreeCellHeight);
             flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+            
             _myCollectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, HYHomeTypeThreeCellHeight) collectionViewLayout:flowLayout];
             _myCollectionView.delegate = self;
             _myCollectionView.dataSource = self;
+            _myCollectionView.showsVerticalScrollIndicator = NO;
+            _myCollectionView.showsHorizontalScrollIndicator = NO;
             _myCollectionView.backgroundColor = [UIColor whiteColor];
             [_myCollectionView registerNib:[UINib nibWithNibName:@"HYTypeCollectionCell" bundle: nil] forCellWithReuseIdentifier:HYHomeTypeThreeCellID];
             [self.contentView addSubview:_myCollectionView];

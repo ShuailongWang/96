@@ -13,8 +13,8 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         if (nil == _nameLabel) {
-            self.backgroundColor = RGB(222, 238, 252);
-            _nameLabel = [UILabel labelWithTitle:@"活动评估"];
+            self.backgroundColor = [UIColor whiteColor];
+            _nameLabel = [UILabel labelWithTitle:@""];
             _nameLabel.frame = self.bounds;
             _nameLabel.x = 10;
             [self addSubview:_nameLabel];

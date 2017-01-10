@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYJobsOSectonToOneCell">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_main_haojob_gaoxin" translatesAutoresizingMaskIntoConstraints="NO" id="eE9-uw-FMB">
+                    <rect key="frame" x="10" y="10" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="I1L-tb-siM"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高薪高福利" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dQ-tC-43q">
+                    <rect key="frame" x="70" y="15" width="363" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.98431372549999996" green="0.0" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="优选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPg-xf-mC4">
+                    <rect key="frame" x="70" y="40" width="363" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eE9-uw-FMB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="6Dc-EA-dFl"/>
+                <constraint firstAttribute="trailing" secondItem="9dQ-tC-43q" secondAttribute="trailing" constant="10" id="Fo3-0b-KYK"/>
+                <constraint firstAttribute="trailing" secondItem="bPg-xf-mC4" secondAttribute="trailing" constant="10" id="PEj-Mt-kZ5"/>
+                <constraint firstItem="eE9-uw-FMB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="RFJ-Uk-sNt"/>
+                <constraint firstItem="bPg-xf-mC4" firstAttribute="leading" secondItem="eE9-uw-FMB" secondAttribute="trailing" constant="10" id="XIm-JD-HlJ"/>
+                <constraint firstAttribute="bottom" secondItem="eE9-uw-FMB" secondAttribute="bottom" constant="10" id="cqe-lF-4cP"/>
+                <constraint firstItem="9dQ-tC-43q" firstAttribute="top" secondItem="eE9-uw-FMB" secondAttribute="top" constant="5" id="hPW-tV-2J6"/>
+                <constraint firstItem="bPg-xf-mC4" firstAttribute="bottom" secondItem="eE9-uw-FMB" secondAttribute="bottom" constant="-5" id="jUX-nY-ZW9"/>
+                <constraint firstItem="9dQ-tC-43q" firstAttribute="leading" secondItem="eE9-uw-FMB" secondAttribute="trailing" constant="10" id="rif-FP-brZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImageView" destination="eE9-uw-FMB" id="I6y-5U-A1C"/>
+                <outlet property="subLabel" destination="bPg-xf-mC4" id="msb-CG-5Pg"/>
+                <outlet property="titleLabel" destination="9dQ-tC-43q" id="aao-Ek-wCf"/>
+            </connections>
+            <point key="canvasLocation" x="72.5" y="11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="job_main_haojob_gaoxin" width="50" height="50"/>
+    </resources>
+</document>

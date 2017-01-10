@@ -40,9 +40,9 @@
     }
     
     if (nil == _myScrollView) {
-        _myScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, KScreen_Width, CellHeight)];
+        _myScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, KScreen_Width, HYTypeCellHeight)];
         _myScrollView.delegate = self;
-        _myScrollView.contentSize = CGSizeMake(KScreen_Width * pageCount, CellHeight);
+        _myScrollView.contentSize = CGSizeMake(KScreen_Width * pageCount, HYTypeCellHeight);
         _myScrollView.pagingEnabled = YES;
         _myScrollView.showsVerticalScrollIndicator = NO;
         _myScrollView.showsHorizontalScrollIndicator = NO;
@@ -55,7 +55,7 @@
     if (nil == _pageControl) {
         // 添加pageControl
         _pageControl = [[UIPageControl alloc] init];
-        _pageControl.frame = CGRectMake(KScreen_Width / 2, CellHeight - 20, 0, 0);
+        _pageControl.frame = CGRectMake(KScreen_Width / 2, HYTypeCellHeight - 20, 0, 0);
         _pageControl.centerX = self.contentView.centerX;
         _pageControl.pageIndicatorTintColor = [UIColor grayColor];
         _pageControl.currentPageIndicatorTintColor = [UIColor redColor];
@@ -70,7 +70,7 @@
 -(void)addBtnsWithPageNum:(NSInteger)number{
     NSInteger cols = 5;
     CGFloat btnW = KScreen_Width / 5;
-    CGFloat btnH = KScreen_Width / 5;
+    CGFloat btnH = btnW;
     NSInteger count = self.dataArr.count - (number * self.numberOfSinglePage);
     NSInteger indexCount;
     if (count > 0 && count <= self.numberOfSinglePage) {
@@ -83,10 +83,11 @@
     
     for (int i = 0; i<indexCount; i++) {
         UIButton  * btn = [[UIButton alloc]init];
-        
+
         int col = i % cols;
         int row = i / cols;
         NSInteger index = i + number * self.numberOfSinglePage;
+        btn.tag = index;
         NSDictionary * btnDic = self.dataArr[index];
         
         //设置图片内容（使图片和文字水平居中显示）
@@ -112,7 +113,9 @@
 
 // 按钮点击事件
 -(void)btnClick:(UIButton *)btn{
-    NSLog(@"click:%ld",btn.tag);
+    if (self.myBlock) {
+        self.myBlock(btn.tag);
+    }
 }
 
 #pragma mark - scroll delegate
