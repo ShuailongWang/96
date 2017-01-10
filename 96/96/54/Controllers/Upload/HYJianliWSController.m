@@ -7,13 +7,14 @@
 //
 
 #import "HYJianliWSController.h"
-#import "HYJobCell.h"
+#import "HYTextFieldCell.h"
+#import "HYSectionHeadView.h"
+#import "HYJianLiModel.h"
 
 @interface HYJianliWSController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (strong,nonatomic) UITableView *myTableView;
-@property (strong,nonatomic) NSArray *titleArr;
-
+@property (strong, nonatomic) UITableView *myTableView;
+@property (strong, nonatomic) NSArray *titleArr;
 @end
 
 @implementation HYJianliWSController
@@ -29,38 +30,71 @@
         _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
-        
         [self.view addSubview:_myTableView];
     }
 }
 
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 4;
+    return self.titleArr.count;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    if (section == 1) {
-        return 6;
-    }
-    return 1;
+
+    HYJianLiModel *model = self.titleArr[section];
+    return model.Items.count;
 }
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 2) {
+        if (indexPath.row == 0) {
+            UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
+            if (nil == cell) {
+                cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cellID"];
+            }
+            return cell;
+        } else if (indexPath.row == 1){
+            HYTextFieldCell *cell = [HYTextFieldCell cellWithTableView:tableView NSIndexPath:indexPath];
+            
+            HYJianLiModel *mode = self.titleArr[indexPath.section];
+            NSArray *arr = mode.Items;
+            NSDictionary *dict = arr[1];
+            cell.titleLabel.text = dict[@"Title"];
+            cell.subText.placeholder = dict[@"SubTitle"];
+            
+            return cell;
+        }
+    }
+    HYTextFieldCell *cell = [HYTextFieldCell cellWithTableView:tableView NSIndexPath:indexPath];
+    HYJianLiModel *mode = self.titleArr[indexPath.section];
+    NSArray *arr = mode.Items;
+    NSDictionary *dict = arr[indexPath.row];
+    cell.titleLabel.text = dict[@"Title"];
+    cell.subText.placeholder = dict[@"SubTitle"];
+    if ((indexPath.section == 0 && (indexPath.row == 2 || indexPath.row == 3)) || (indexPath.section == 1 && indexPath.row == 2)) {
+        //右边箭头
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    return cell;
+}
+// 组的头视图
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    NSIndexPath *indexPath = [NSIndexPath indexPathWithIndex:section];
+    HYSectionHeadView *headView = [[HYSectionHeadView alloc]initWithFrame:CGRectMake(10, 0, KScreen_Width - 20, 40)];
+    HYJianLiModel *mode = self.titleArr[indexPath.section];
+    headView.nameLabel.text = mode.ItemTitle;
+    return headView;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 40;
+}
+
+
+
 
 
 -(NSArray *)titleArr{
     if (nil == _titleArr) {
-        _titleArr = @[
-                      @[@{@"TiTle": @"您的简历不完善, 90%的企业更愿意联系完整的简历, 完善后可提升8倍的求职效果!"}],
-                      @[@{@"TiTle": @"最后一份工作"},
-                        @{@"TiTle" : @"公司名称", @"SubTiTle" : @"请输入公司名称"},
-                        @{@"TiTle" : @"职位名称", @"SubTiTle" : @"请输入职位名称"},
-                        @{@"TiTle" : @"开始时间", @"SubTiTle" : @"请选择开始时间"},
-                        @{@"TiTle" : @"结束时间", @"SubTiTle" : @"请选择结束时间"}
-                        ],
-                      @[@{@"TiTle": @"我的最高学历"}],
-                      @[@{@"TiTle": @"我的亮点"}]
-                      ];
+        _titleArr = [HYJianLiModel HYJianLiModelWithArray];
     }
     return _titleArr;
 }
-
 @end

@@ -15,8 +15,6 @@
 		780432361E23CC8B00EBE4E7 /* HYJianliCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 780432351E23CC8B00EBE4E7 /* HYJianliCell.m */; };
 		780432381E23CC9500EBE4E7 /* HYJianliCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780432371E23CC9500EBE4E7 /* HYJianliCell.xib */; };
 		7804323B1E23D96C00EBE4E7 /* HYJianliWSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7804323A1E23D96C00EBE4E7 /* HYJianliWSController.m */; };
-		7804323E1E23DDC700EBE4E7 /* HYJianliWSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7804323D1E23DDC700EBE4E7 /* HYJianliWSCell.m */; };
-		780432401E23DDCE00EBE4E7 /* HYJianliWSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7804323F1E23DDCE00EBE4E7 /* HYJianliWSCell.xib */; };
 		780432431E23E0C700EBE4E7 /* HYTypeHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 780432421E23E0C700EBE4E7 /* HYTypeHeadCell.m */; };
 		780432451E23E0CE00EBE4E7 /* HYTypeHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780432441E23E0CE00EBE4E7 /* HYTypeHeadCell.xib */; };
 		780432481E23E24F00EBE4E7 /* HYHomeCycleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 780432471E23E24F00EBE4E7 /* HYHomeCycleCell.m */; };
@@ -77,6 +75,15 @@
 		78EA7D671E22934100C0E423 /* HYUploadMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78EA7D661E22934100C0E423 /* HYUploadMainCell.xib */; };
 		78EA7D6B1E229BA500C0E423 /* HYTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EA7D6A1E229BA500C0E423 /* HYTypeCell.m */; };
 		78EA7D6D1E229D3600C0E423 /* HomeType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78EA7D6C1E229D3600C0E423 /* HomeType.plist */; };
+		84E8B6961E247C8E00630C4C /* Jianli.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E8B6951E247C8E00630C4C /* Jianli.plist */; };
+		84E8B69E1E248C4F00630C4C /* HYJianLiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */; };
+		84E8B6A11E24A89000630C4C /* HYTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B6A01E24A89000630C4C /* HYTextFieldCell.m */; };
+		84E8B6A31E24A89600630C4C /* HYTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8B6A21E24A89600630C4C /* HYTextFieldCell.xib */; };
+		84E8B6A61E24A8DB00630C4C /* HYSectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B6A51E24A8DB00630C4C /* HYSectionHeadView.m */; };
+		84E8B6A91E24ABAF00630C4C /* HYTypeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B6A81E24ABAF00630C4C /* HYTypeCollectionCell.m */; };
+		84E8B6AB1E24ABB600630C4C /* HYTypeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8B6AA1E24ABB600630C4C /* HYTypeCollectionCell.xib */; };
+		84E8B6AD1E24AE6D00630C4C /* HomeTypeCol.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E8B6AC1E24AE6D00630C4C /* HomeTypeCol.plist */; };
+		84E8B6B01E24AF3C00630C4C /* HYHomeTypeThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B6AF1E24AF3C00630C4C /* HYHomeTypeThreeCell.m */; };
 		9285E1DCF74BF2BA14D83152 /* libPods-96UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7AB61317EEFBBA80991126 /* libPods-96UITests.a */; };
 		B9C465D82473A5AC17B414A9 /* libPods-96Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD76AED665264BB04C87CB00 /* libPods-96Tests.a */; };
 /* End PBXBuildFile section */
@@ -116,9 +123,6 @@
 		780432371E23CC9500EBE4E7 /* HYJianliCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJianliCell.xib; sourceTree = "<group>"; };
 		780432391E23D96C00EBE4E7 /* HYJianliWSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJianliWSController.h; sourceTree = "<group>"; };
 		7804323A1E23D96C00EBE4E7 /* HYJianliWSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJianliWSController.m; sourceTree = "<group>"; };
-		7804323C1E23DDC700EBE4E7 /* HYJianliWSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJianliWSCell.h; sourceTree = "<group>"; };
-		7804323D1E23DDC700EBE4E7 /* HYJianliWSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJianliWSCell.m; sourceTree = "<group>"; };
-		7804323F1E23DDCE00EBE4E7 /* HYJianliWSCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJianliWSCell.xib; sourceTree = "<group>"; };
 		780432411E23E0C700EBE4E7 /* HYTypeHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTypeHeadCell.h; sourceTree = "<group>"; };
 		780432421E23E0C700EBE4E7 /* HYTypeHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTypeHeadCell.m; sourceTree = "<group>"; };
 		780432441E23E0CE00EBE4E7 /* HYTypeHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYTypeHeadCell.xib; sourceTree = "<group>"; };
@@ -238,6 +242,20 @@
 		78EA7D6A1E229BA500C0E423 /* HYTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTypeCell.m; sourceTree = "<group>"; };
 		78EA7D6C1E229D3600C0E423 /* HomeType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeType.plist; sourceTree = "<group>"; };
 		7F7389E39939CC84EB207F85 /* Pods-96.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-96.debug.xcconfig"; path = "Pods/Target Support Files/Pods-96/Pods-96.debug.xcconfig"; sourceTree = "<group>"; };
+		84E8B6951E247C8E00630C4C /* Jianli.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Jianli.plist; sourceTree = "<group>"; };
+		84E8B69C1E248C4F00630C4C /* HYJianLiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYJianLiModel.h; path = 96/54/Views/Upload/HYJianLiModel.h; sourceTree = SOURCE_ROOT; };
+		84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYJianLiModel.m; path = 96/54/Views/Upload/HYJianLiModel.m; sourceTree = SOURCE_ROOT; };
+		84E8B69F1E24A89000630C4C /* HYTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTextFieldCell.h; sourceTree = "<group>"; };
+		84E8B6A01E24A89000630C4C /* HYTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTextFieldCell.m; sourceTree = "<group>"; };
+		84E8B6A21E24A89600630C4C /* HYTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYTextFieldCell.xib; sourceTree = "<group>"; };
+		84E8B6A41E24A8DB00630C4C /* HYSectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSectionHeadView.h; sourceTree = "<group>"; };
+		84E8B6A51E24A8DB00630C4C /* HYSectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSectionHeadView.m; sourceTree = "<group>"; };
+		84E8B6A71E24ABAF00630C4C /* HYTypeCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTypeCollectionCell.h; sourceTree = "<group>"; };
+		84E8B6A81E24ABAF00630C4C /* HYTypeCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTypeCollectionCell.m; sourceTree = "<group>"; };
+		84E8B6AA1E24ABB600630C4C /* HYTypeCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYTypeCollectionCell.xib; sourceTree = "<group>"; };
+		84E8B6AC1E24AE6D00630C4C /* HomeTypeCol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeTypeCol.plist; sourceTree = "<group>"; };
+		84E8B6AE1E24AF3C00630C4C /* HYHomeTypeThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeTypeThreeCell.h; sourceTree = "<group>"; };
+		84E8B6AF1E24AF3C00630C4C /* HYHomeTypeThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeTypeThreeCell.m; sourceTree = "<group>"; };
 		BD76AED665264BB04C87CB00 /* libPods-96Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-96Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E2CFB9F04A406E8EF7BD54 /* Pods-96.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-96.release.xcconfig"; path = "Pods/Target Support Files/Pods-96/Pods-96.release.xcconfig"; sourceTree = "<group>"; };
 		EC3EBD0BEA5A98D3971CD87D /* Pods-96Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-96Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-96Tests/Pods-96Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -597,6 +615,8 @@
 		78EA7D0D1E227CF800C0E423 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84E8B69C1E248C4F00630C4C /* HYJianLiModel.h */,
+				84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -641,6 +661,8 @@
 			children = (
 				78EA7D601E22913200C0E423 /* UploadMain.plist */,
 				78EA7D6C1E229D3600C0E423 /* HomeType.plist */,
+				84E8B6951E247C8E00630C4C /* Jianli.plist */,
+				84E8B6AC1E24AE6D00630C4C /* HomeTypeCol.plist */,
 			);
 			name = Plist;
 			sourceTree = "<group>";
@@ -657,9 +679,11 @@
 				780432341E23CC8B00EBE4E7 /* HYJianliCell.h */,
 				780432351E23CC8B00EBE4E7 /* HYJianliCell.m */,
 				780432371E23CC9500EBE4E7 /* HYJianliCell.xib */,
-				7804323C1E23DDC700EBE4E7 /* HYJianliWSCell.h */,
-				7804323D1E23DDC700EBE4E7 /* HYJianliWSCell.m */,
-				7804323F1E23DDCE00EBE4E7 /* HYJianliWSCell.xib */,
+				84E8B6A41E24A8DB00630C4C /* HYSectionHeadView.h */,
+				84E8B6A51E24A8DB00630C4C /* HYSectionHeadView.m */,
+				84E8B69F1E24A89000630C4C /* HYTextFieldCell.h */,
+				84E8B6A01E24A89000630C4C /* HYTextFieldCell.m */,
+				84E8B6A21E24A89600630C4C /* HYTextFieldCell.xib */,
 			);
 			path = Upload;
 			sourceTree = "<group>";
@@ -680,6 +704,11 @@
 				780432501E23EC0D00EBE4E7 /* HYHomeTipCell.h */,
 				780432511E23EC0D00EBE4E7 /* HYHomeTipCell.m */,
 				780432531E23EC1300EBE4E7 /* HYHomeTipCell.xib */,
+				84E8B6AE1E24AF3C00630C4C /* HYHomeTypeThreeCell.h */,
+				84E8B6AF1E24AF3C00630C4C /* HYHomeTypeThreeCell.m */,
+				84E8B6A71E24ABAF00630C4C /* HYTypeCollectionCell.h */,
+				84E8B6A81E24ABAF00630C4C /* HYTypeCollectionCell.m */,
+				84E8B6AA1E24ABB600630C4C /* HYTypeCollectionCell.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -825,13 +854,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				78EA7CA11E227C1E00C0E423 /* LaunchScreen.storyboard in Resources */,
+				84E8B6961E247C8E00630C4C /* Jianli.plist in Resources */,
 				7804324F1E23E8BA00EBE4E7 /* HYHomeImageCell.xib in Resources */,
 				78EA7D5B1E22828500C0E423 /* HYNewsCell.xib in Resources */,
+				84E8B6AD1E24AE6D00630C4C /* HomeTypeCol.plist in Resources */,
 				780432541E23EC1300EBE4E7 /* HYHomeTipCell.xib in Resources */,
+				84E8B6AB1E24ABB600630C4C /* HYTypeCollectionCell.xib in Resources */,
 				780432301E23BB5100EBE4E7 /* HYJobCell.xib in Resources */,
 				78EA7D671E22934100C0E423 /* HYUploadMainCell.xib in Resources */,
+				84E8B6A31E24A89600630C4C /* HYTextFieldCell.xib in Resources */,
 				78EA7D611E22913200C0E423 /* UploadMain.plist in Resources */,
-				780432401E23DDCE00EBE4E7 /* HYJianliWSCell.xib in Resources */,
 				78EA7D6D1E229D3600C0E423 /* HomeType.plist in Resources */,
 				780432381E23CC9500EBE4E7 /* HYJianliCell.xib in Resources */,
 				780432451E23E0CE00EBE4E7 /* HYTypeHeadCell.xib in Resources */,
@@ -1017,14 +1049,17 @@
 				780432361E23CC8B00EBE4E7 /* HYJianliCell.m in Sources */,
 				78EA7D261E227CF800C0E423 /* NSString+Hash.m in Sources */,
 				78EA7D1A1E227CF800C0E423 /* DLScrollTabbarView.m in Sources */,
+				84E8B6B01E24AF3C00630C4C /* HYHomeTypeThreeCell.m in Sources */,
 				78EA7D381E227DFA00C0E423 /* HYRegisterBtn.m in Sources */,
 				78EA7D371E227DFA00C0E423 /* HYLoginHomeController.m in Sources */,
 				78EA7D3C1E227E4600C0E423 /* HYBaseController.m in Sources */,
 				7804322E1E23BB4900EBE4E7 /* HYJobCell.m in Sources */,
+				84E8B6A91E24ABAF00630C4C /* HYTypeCollectionCell.m in Sources */,
 				78EA7D121E227CF800C0E423 /* UILabel+Extension.m in Sources */,
 				78EA7D4E1E227F1700C0E423 /* HYNewsController.m in Sources */,
 				78EA7D551E2280F600C0E423 /* HYUploadController.m in Sources */,
 				780432431E23E0C700EBE4E7 /* HYTypeHeadCell.m in Sources */,
+				84E8B69E1E248C4F00630C4C /* HYJianLiModel.m in Sources */,
 				780432271E23B60800EBE4E7 /* HYJobController.m in Sources */,
 				78EA7D4A1E227F0700C0E423 /* HYScoreController.m in Sources */,
 				78EA7D161E227CF800C0E423 /* DLLRUCache.m in Sources */,
@@ -1035,9 +1070,11 @@
 				78EA7C961E227C1E00C0E423 /* AppDelegate.m in Sources */,
 				78EA7C931E227C1E00C0E423 /* main.m in Sources */,
 				78EA7D6B1E229BA500C0E423 /* HYTypeCell.m in Sources */,
+				84E8B6A11E24A89000630C4C /* HYTextFieldCell.m in Sources */,
 				78EA7D1C1E227CF800C0E423 /* DLUtility.m in Sources */,
 				78EA7D2C1E227D4500C0E423 /* HYMainTabBarController.m in Sources */,
 				78EA7D231E227CF800C0E423 /* PYSearchViewController.m in Sources */,
+				84E8B6A61E24A8DB00630C4C /* HYSectionHeadView.m in Sources */,
 				78EA7D111E227CF800C0E423 /* UIImage+Common.m in Sources */,
 				78EA7D181E227CF800C0E423 /* DLSlideView.m in Sources */,
 				78EA7D101E227CF800C0E423 /* NSString+Common.m in Sources */,
@@ -1048,7 +1085,6 @@
 				78EA7D1E1E227CF800C0E423 /* UITableViewCell+CacheHeight.m in Sources */,
 				78EA7D211E227CF800C0E423 /* PYSearchConst.m in Sources */,
 				78EA7D191E227CF800C0E423 /* DLFixedTabbarView.m in Sources */,
-				7804323E1E23DDC700EBE4E7 /* HYJianliWSCell.m in Sources */,
 				78EA7D651E22933800C0E423 /* HYUploadMainCell.m in Sources */,
 				78EA7D1D1E227CF800C0E423 /* UITableView+CacheHeight.m in Sources */,
 				78EA7D3F1E227EE000C0E423 /* HYHomeController.m in Sources */,
@@ -1225,6 +1261,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 96Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wsl.-6Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1238,6 +1275,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 96Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wsl.-6Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1250,6 +1288,7 @@
 			baseConfigurationReference = 7412CF0149312049914311CE /* Pods-96UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = 96UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wsl.-6UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1262,6 +1301,7 @@
 			baseConfigurationReference = 1D6A903721FA125690B8B040 /* Pods-96UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = 96UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wsl.-6UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

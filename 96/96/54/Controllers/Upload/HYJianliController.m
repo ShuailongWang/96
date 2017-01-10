@@ -36,6 +36,7 @@
         _myTableView.dataSource = self;
         _myTableView.backgroundColor = [UIColor whiteColor];
         _myTableView.tableHeaderView = self.headView;
+        _myTableView.bounces = NO;
         _myTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _myTableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
         [self.view addSubview:_myTableView];
@@ -146,8 +147,8 @@
     if (nil == _headView) {
         _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 180)];
         
-        UIImageView *bgImage = [[UIImageView alloc]initWithFrame:_headView.bounds];
-        bgImage.image = [UIImage imageNamed:@""];
+        UIImageView *bgImage = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 170)];
+        bgImage.image = [UIImage imageNamed:@"headImage"];
         [_headView addSubview:bgImage];
         
         UIButton *iconBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 20, 80, 80)];

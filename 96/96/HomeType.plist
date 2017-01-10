@@ -10,15 +10,33 @@
 	</dict>
 	<dict>
 		<key>Icon</key>
-		<string>house_maincate</string>
+		<string>zufang_maincate</string>
 		<key>Title</key>
-		<string>房产</string>
+		<string>租房</string>
 	</dict>
 	<dict>
 		<key>Icon</key>
 		<string>car_maincate</string>
 		<key>Title</key>
-		<string>汽车/自行车</string>
+		<string>二手房</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>job_maincate</string>
+		<key>Title</key>
+		<string>全职招聘</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>jianzhi_maincate</string>
+		<key>Title</key>
+		<string>兼职</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>二手车</string>
 	</dict>
 	<dict>
 		<key>Icon</key>
@@ -30,13 +48,67 @@
 		<key>Icon</key>
 		<string>shenghuo_maincate</string>
 		<key>Title</key>
-		<string>家政服务</string>
+		<string>家政</string>
 	</dict>
 	<dict>
 		<key>Icon</key>
 		<string>shangjie_maincate</string>
 		<key>Title</key>
 		<string>本地服务</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>58到家</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>SUV</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>peilian_thirdutility</string>
+		<key>Title</key>
+		<string>练手车</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>附近工作</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>福利工作</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>地图租房</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>优品房源</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>押一付一</string>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>shangjie_maincate</string>
+		<key>Title</key>
+		<string>更多</string>
 	</dict>
 </array>
 </plist>

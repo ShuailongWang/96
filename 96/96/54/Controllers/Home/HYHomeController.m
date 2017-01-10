@@ -11,6 +11,7 @@
 #import "HYHomeCycleCell.h"
 #import "HYHomeImageCell.h"
 #import "HYHomeTipCell.h"
+#import "HYHomeTypeThreeCell.h"
 
 @interface HYHomeController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -43,7 +44,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
-        return 4;
+        return 5;
     }
     return 1;
 }
@@ -68,6 +69,12 @@
         } else if (indexPath.row == 3){
             HYHomeTipCell *cell = [HYHomeTipCell cellWithTableView:tableView NSIndexPath:indexPath];
             return cell;
+        } else if (indexPath.row == 4) {
+            HYHomeTypeThreeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"fourCellID"];
+            if (nil == cell) {
+                cell = [[HYHomeTypeThreeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"fourCellID"];
+            }
+            return cell;
         }
     }
     
@@ -80,11 +87,13 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            return KScreen_Width/5 * 2;
+            return CellHeight;
         }else if (indexPath.row == 1 || indexPath.row == 2){
-            return 60;
+            return 80;
         } else if (indexPath.row == 3){
-            return 40;
+            return 60;
+        } else if (indexPath.row == 4){
+            return HYHomeTypeThreeCellHeight;
         }
     }
     return 90;

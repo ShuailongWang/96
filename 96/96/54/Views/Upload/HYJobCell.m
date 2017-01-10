@@ -31,6 +31,8 @@
     if (cell == nil) {
         cell = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] lastObject];
     }
+    //选中后没有颜色
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
 

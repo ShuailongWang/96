@@ -7,58 +7,133 @@
 //
 
 #import "HYTypeCell.h"
-#import "HYTypeHeadCell.h"
 
-@interface HYTypeCell()<UICollectionViewDelegate, UICollectionViewDataSource>
 
-@property (strong,nonatomic) UICollectionView *myCollectionView;
-@property (strong,nonatomic) NSArray *typeArr;
+@interface HYTypeCell()<UIScrollViewDelegate>
+
+@property (nonatomic, strong) UIScrollView *myScrollView;
+@property (nonatomic, strong) UIPageControl *pageControl;
+
 @end
 
-static NSString *HYTypeCellID = @"HYTypeCellID";
+
 @implementation HYTypeCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        if (nil == _myCollectionView) {
-            UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
-            flowLayout.minimumLineSpacing = 0;
-            flowLayout.minimumInteritemSpacing = 0;
-            flowLayout.itemSize = CGSizeMake(KScreen_Width/5, KScreen_Width/5);
-            flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-            
-            _myCollectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, KScreen_Width/5*2) collectionViewLayout:flowLayout];
-            _myCollectionView.delegate = self;
-            _myCollectionView.pagingEnabled = YES;
-            _myCollectionView.dataSource = self;
-            _myCollectionView.backgroundColor = self.backgroundColor;
-            [_myCollectionView registerNib:[UINib nibWithNibName:@"HYTypeHeadCell" bundle: nil] forCellWithReuseIdentifier:HYTypeCellID];
-            [self.contentView addSubview:_myCollectionView];
-        }
+        
+        self.numberOfSinglePage = 10;
+        [self setupUI];
     }
     return self;
 }
 
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 10;
-}
--(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-    HYTypeHeadCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:HYTypeCellID forIndexPath:indexPath];
+
+-(void)setupUI{
+    if (!self.dataArr) {
+        NSString * dataPath = [[NSBundle mainBundle] pathForResource:@"HomeType.plist" ofType:nil];
+        _dataArr = [NSArray arrayWithContentsOfFile:dataPath];
+    }
+    NSInteger pageCount = self.dataArr.count / self.numberOfSinglePage;
+    if (self.dataArr.count % self.numberOfSinglePage > 0) {
+        pageCount += 1;
+    }
     
-    NSDictionary *dict = self.typeArr[indexPath.row];
-    cell.iconImageView.image = [UIImage imageNamed:dict[@"Icon"]];
-    cell.titleLabel.text = dict[@"Title"];
-    
-    return cell;
+    if (nil == _myScrollView) {
+        _myScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, KScreen_Width, CellHeight)];
+        _myScrollView.delegate = self;
+        _myScrollView.contentSize = CGSizeMake(KScreen_Width * pageCount, CellHeight);
+        _myScrollView.pagingEnabled = YES;
+        _myScrollView.showsVerticalScrollIndicator = NO;
+        _myScrollView.showsHorizontalScrollIndicator = NO;
+        
+        for (int i = 0; i < pageCount; i++) {
+            [self addBtnsWithPageNum:i];
+        }
+        [self addSubview: _myScrollView];
+    }
+    if (nil == _pageControl) {
+        // 添加pageControl
+        _pageControl = [[UIPageControl alloc] init];
+        _pageControl.frame = CGRectMake(KScreen_Width / 2, CellHeight - 20, 0, 0);
+        _pageControl.centerX = self.contentView.centerX;
+        _pageControl.pageIndicatorTintColor = [UIColor grayColor];
+        _pageControl.currentPageIndicatorTintColor = [UIColor redColor];
+        _pageControl.hidesForSinglePage = YES;
+        _pageControl.numberOfPages = pageCount;
+        [self addSubview:_pageControl];
+        [self bringSubviewToFront:_pageControl];
+    }
 }
 
--(NSArray *)typeArr{
-    if (nil == _typeArr) {
-        NSString *path = [[NSBundle mainBundle]pathForResource:@"UploadMain.plist" ofType:nil];
-        _typeArr = [NSArray arrayWithContentsOfFile:path];
+// 循环添加按钮
+-(void)addBtnsWithPageNum:(NSInteger)number{
+    NSInteger cols = 5;
+    CGFloat btnW = KScreen_Width / 5;
+    CGFloat btnH = KScreen_Width / 5;
+    NSInteger count = self.dataArr.count - (number * self.numberOfSinglePage);
+    NSInteger indexCount;
+    if (count > 0 && count <= self.numberOfSinglePage) {
+        indexCount = count;
+    }else if(count > self.numberOfSinglePage){
+        indexCount = self.numberOfSinglePage;
+    }else{
+        return;
     }
-    return _typeArr;
+    
+    for (int i = 0; i<indexCount; i++) {
+        UIButton  * btn = [[UIButton alloc]init];
+        
+        int col = i % cols;
+        int row = i / cols;
+        NSInteger index = i + number * self.numberOfSinglePage;
+        NSDictionary * btnDic = self.dataArr[index];
+        
+        //设置图片内容（使图片和文字水平居中显示）
+        btn.contentHorizontalAlignment = UIControlContentVerticalAlignmentCenter;
+        [btn setTitle:btnDic[Title] forState:UIControlStateNormal];
+        [btn setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        btn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [btn setImage:[UIImage imageNamed:btnDic[Icon]] forState:UIControlStateNormal];
+        
+        
+        btn.frame = CGRectMake(col * btnW + number * KScreen_Width, row * btnH, btnW, btnH);
+        
+        //文字距离上边框的距离增加imageView的高度，距离左边框减少imageView的宽度，距离下边框和右边框距离不变
+        [btn setTitleEdgeInsets:UIEdgeInsetsMake(btn.currentImage.size.height+20 ,-btn.imageView.frame.size.width, 0,0)];
+        //图片距离右边框距离减少图片的宽度，其它不变
+        [btn setImageEdgeInsets:UIEdgeInsetsMake(0, (btn.width - btn.imageView.width)/2 ,0 ,0)];
+        
+        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+        [_myScrollView addSubview:btn];
+    }
 }
+
+
+// 按钮点击事件
+-(void)btnClick:(UIButton *)btn{
+    NSLog(@"click:%ld",btn.tag);
+}
+
+#pragma mark - scroll delegate
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    
+    NSInteger correntCount = (scrollView.contentOffset.x + self.width/2)/self.width;
+    self.pageControl.currentPage = correntCount;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @end

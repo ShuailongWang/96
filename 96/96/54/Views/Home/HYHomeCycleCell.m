@@ -38,7 +38,7 @@
 -(void)setupUI{
     if (nil == _iconView) {
         _iconView = [[UIImageView alloc]initWithFrame:CGRectMake(10, 10, 40, 40)];
-        _iconView.image = [UIImage imageNamed:@"car_maincate"];
+        _iconView.image = [UIImage imageNamed:@"localnews_icon"];
         [self.contentView addSubview:_iconView];
     }
     //
@@ -51,9 +51,9 @@
         _cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(_iconView.right + 5, 0, KScreen_Width - _iconView.right - 15, 60) delegate:self placeholderImage:nil];
         _cycleScrollView.scrollDirection = UICollectionViewScrollDirectionVertical;
         _cycleScrollView.onlyDisplayText = YES;
-        _cycleScrollView.titleLabelTextColor = [UIColor blackColor];
+        _cycleScrollView.titleLabelTextColor = RGB(143, 143, 143);
         _cycleScrollView.titleLabelBackgroundColor = kClearColor;
-        _cycleScrollView.titleLabelTextFont = [UIFont systemFontOfSize:17];
+        _cycleScrollView.titleLabelTextFont = [UIFont systemFontOfSize:16];
         _cycleScrollView.titlesGroup = titles;
         [self.contentView addSubview:_cycleScrollView];
     }
