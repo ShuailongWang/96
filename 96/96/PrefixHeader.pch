@@ -36,6 +36,7 @@
 #import <TPKeyboardAvoidingScrollView.h>
 #import <TPKeyboardAvoidingCollectionView.h>
 #import <YYModel.h>
+#import "SDPhotoBrowser.h"
 #import "DLSlideView.h"
 #import "YBPopupMenu.h"
 #import "UITableView+CacheHeight.h"

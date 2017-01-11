@@ -14,6 +14,7 @@
 #import "HYJobsToSectonOneCell.h"
 #import "HYJonsDetailsController.h"
 
+
 @interface HYJobsController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (strong,nonatomic) UITableView *myTableView;
@@ -46,7 +47,7 @@
     if (section == 0) {
         return 2;
     } else if(section == 1) {
-        return 2;
+        return 1;
     }
     return 20;
 }
@@ -68,21 +69,10 @@
         }
         return cell;
     } else if(indexPath.section == 1){
-        if (indexPath.row == 0) {
-            HYJobsToSectonOneCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYJobsToSectonOneCellID"];
-            if (nil == cell) {
-                cell = [[HYJobsToSectonOneCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJobsToSectonOneCellID"];
-            }
-            return cell;
-        }
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
+        HYJobsToSectonOneCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYJobsToSectonOneCellID"];
         if (nil == cell) {
-            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCellID"];
+            cell = [[HYJobsToSectonOneCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJobsToSectonOneCellID"];
         }
-        cell.textLabel.text = @"查看全部职位";
-        cell.textLabel.textColor = [UIColor redColor];
-        cell.textLabel.textAlignment = NSTextAlignmentCenter;
-        
         return cell;
     }
     HYJobsTSectionThreeCell *cell = [HYJobsTSectionThreeCell cellWithTableView:tableView NSIndexPath:indexPath];

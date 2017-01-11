@@ -7,12 +7,17 @@
 //
 
 #import "HYJonsDetailsController.h"
+#import "HYSectionHeadView.h"
 #import "HYJonsDetailsOneCell.h"
 #import "HYJonsDetailsTwoCell.h"
+#import "HYJobsDetailsPlaceCell.h"
+#import "HYJonsDetailsFourCell.h"
+#import "HYJonsDetailsFiveCell.h"
 
 @interface HYJonsDetailsController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (strong,nonatomic) UITableView *myTableView;
+@property (assign,nonatomic) BOOL sectionCheck;
 
 @end
 
@@ -21,6 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title = @"详情";
     [self setupUI];
 }
 
@@ -30,6 +36,7 @@
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
         _myTableView.bounces = NO;
+        
         [self.view addSubview:_myTableView];
     }
 }
@@ -38,19 +45,72 @@
     return 4;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-
-    return 2;
+    if (section == 0) {
+        return 2;
+    }else if(section == 3){
+        if (self.sectionCheck) {
+            return 3;
+        }else{
+            return 2;
+        }
+    }
+    return 1;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == 0) {
-        HYJonsDetailsOneCell *cell = [HYJonsDetailsOneCell cellWithTableView:tableView NSIndexPath:indexPath];
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            HYJonsDetailsOneCell *cell = [HYJonsDetailsOneCell cellWithTableView:tableView NSIndexPath:indexPath];
+            return cell;
+        }
+        HYJonsDetailsTwoCell *cell = [HYJonsDetailsTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
+        return cell;
+    }else if(indexPath.section == 1){
+        HYJobsDetailsPlaceCell *cell = [HYJobsDetailsPlaceCell cellWithTableView:tableView NSIndexPath:indexPath];
+        cell.titleLabel.text = @"北京海淀学院51号首享科技大夏正面";
+        return cell;
+    }else if(indexPath.section == 2){
+        HYJonsDetailsFourCell *cell = [HYJonsDetailsFourCell cellWithTableView:tableView NSIndexPath:indexPath];
+        cell.titleLabel.text = @"岗位职责:";
+        cell.subLabel.text = @"1, 身高180以上 \n2, 形象好 \n3, 每月4周, 上班时间为上午08:00 下班时间为06:00";
         return cell;
     }
-    HYJonsDetailsTwoCell *cell = [HYJonsDetailsTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
+    if (indexPath.row == 0) {
+        HYJonsDetailsFiveCell *cell = [HYJonsDetailsFiveCell cellWithTableView:tableView NSIndexPath:indexPath];
+        return cell;
+    }
+    if (indexPath.row == 1 && self.sectionCheck) {
+        HYJonsDetailsFourCell *cell = [HYJonsDetailsFourCell cellWithTableView:tableView NSIndexPath:indexPath];
+        cell.titleLabel.text = @"公司地址: 苏州工业园娄葑文体中心";
+        cell.subLabel.text = @"本店地处西三环紫竹桥，店内环境优雅，地理位置优越。是京城较早从事专业绿色保健按摩的养生服务机构，多年的经营得到了广大消费者的认可。\n一次舒适的减压体验，就是一次很好的心灵与身体的绽放之旅。在只属于自己的私密空间中，耳畔琴瑟萧萧，鼻尖香气袅绕，褪去了外衣的厚重，在花瓣包围的温泉水中融化僵硬的肌肉和心灵。——伊人高端男子减压会所竭诚欢迎有志之士加入，我们不仅为您提供丰厚的待遇，更为您提供一个广阔的工作平台，业内品牌影响力会让每一位员工都感到骄傲！";
+        return cell;
+    }
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
+    if (nil == cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCellID"];
+    }
+    if (self.sectionCheck) {
+        cell.textLabel.text = @"收起信息";
+    }else {
+        cell.textLabel.text = @"展开信息";
+    }
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 105;
+    if (indexPath.section == 0) {
+        return 105;
+    }else if (indexPath.section == 1){
+        return 50;
+    }else if (indexPath.section == 2){
+        return 110;
+    }
+    if (indexPath.row == 0) {
+        return 150;
+    }
+    if (indexPath.row == 1 && self.sectionCheck) {
+        return 230;
+    }
+    return 50;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     if (section == 0) {
@@ -60,6 +120,34 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     return 10;
+}
+// 组的头视图
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    HYSectionHeadView *headView = [[HYSectionHeadView alloc]initWithFrame:CGRectMake(10, 0, KScreen_Width - 20, 50)];
+    if (section == 0) {
+        return nil;
+    }else if (section == 1){
+        headView.nameLabel.text = @"工作地址";
+    }else if (section == 2){
+        headView.nameLabel.text = @"职位描述";
+    }else if (section == 3){
+        headView.nameLabel.text = @"公司信息";
+    }
+    return headView;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSInteger index;
+    if (self.sectionCheck) {
+        index = 2;
+    }else{
+        index = 1;
+    }
+    if (indexPath.section == 3 && indexPath.row == index) {
+        self.sectionCheck = !self.sectionCheck;
+        NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:indexPath.section];
+        [tableView reloadSections:indexSet withRowAnimation:UITableViewRowAnimationNone];
+    }
 }
 
 @end
