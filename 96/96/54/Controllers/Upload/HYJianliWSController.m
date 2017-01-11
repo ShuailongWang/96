@@ -10,6 +10,7 @@
 #import "HYTextFieldCell.h"
 #import "HYSectionHeadView.h"
 #import "HYJianLiModel.h"
+#import "HYSectionFootView.h"
 
 @interface HYJianliWSController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -21,25 +22,44 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"完善简历";
     [self setupUI];
 }
 
 -(void)setupUI{
+
     if (nil == _myTableView) {
         _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
+        
+        UIView *footView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 50)];
+        UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(5, 5, KScreen_Width/2, 40)];
+        button.center = footView.center;
+        [button setTitle:@"保存简历" forState:UIControlStateNormal];
+        button.backgroundColor = [UIColor redColor];
+        [button addTarget:self action:@selector(clickSaveButton) forControlEvents:UIControlEventTouchUpInside];
+        [footView addSubview:button];
+        _myTableView.tableFooterView = footView;
+
         [self.view addSubview:_myTableView];
     }
 }
-
+-(void)clickSaveButton{
+    [SVProgressHUD show];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [SVProgressHUD dismiss];
+        
+        NSArray *pushVCAry = [self.navigationController viewControllers];
+        UIViewController*popVC = [pushVCAry objectAtIndex:pushVCAry.count-3];
+        [self.navigationController popToViewController:popVC animated:YES];
+    });
+}
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return self.titleArr.count;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-
     HYJianLiModel *model = self.titleArr[section];
     return model.Items.count;
 }

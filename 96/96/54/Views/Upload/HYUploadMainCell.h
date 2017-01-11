@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HYUploadMainCell : UICollectionViewCell
+
 @property (weak, nonatomic) IBOutlet UIImageView *iconView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 

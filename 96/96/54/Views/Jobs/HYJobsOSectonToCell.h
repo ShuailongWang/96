@@ -11,4 +11,6 @@
 #define HYJobsOSectonToCellHeight   70
 @interface HYJobsOSectonToCell : UITableViewCell
 
+
+
 @end

@@ -12,4 +12,7 @@
 
 @interface HYJobsToSectonOneCell : UITableViewCell
 
+@property (strong,nonatomic) NSArray *array;
+@property (copy,nonatomic) void(^myBlock)(NSInteger index);
+
 @end

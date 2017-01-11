@@ -13,6 +13,7 @@
 #import "HYJobsDetailsPlaceCell.h"
 #import "HYJonsDetailsFourCell.h"
 #import "HYJonsDetailsFiveCell.h"
+#import "HYJonsDetailsSixCell.h"
 
 @interface HYJonsDetailsController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -42,7 +43,7 @@
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 4;
+    return 5;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
@@ -73,27 +74,33 @@
         cell.titleLabel.text = @"岗位职责:";
         cell.subLabel.text = @"1, 身高180以上 \n2, 形象好 \n3, 每月4周, 上班时间为上午08:00 下班时间为06:00";
         return cell;
-    }
-    if (indexPath.row == 0) {
-        HYJonsDetailsFiveCell *cell = [HYJonsDetailsFiveCell cellWithTableView:tableView NSIndexPath:indexPath];
+    }else if (indexPath.section == 3){
+        if (indexPath.row == 0) {
+            HYJonsDetailsFiveCell *cell = [HYJonsDetailsFiveCell cellWithTableView:tableView NSIndexPath:indexPath];
+            return cell;
+        }
+        if (indexPath.row == 1 && self.sectionCheck) {
+            HYJonsDetailsFourCell *cell = [HYJonsDetailsFourCell cellWithTableView:tableView NSIndexPath:indexPath];
+            cell.titleLabel.text = @"公司地址: 苏州工业园娄葑文体中心";
+            cell.subLabel.text = @"本店地处西三环紫竹桥，店内环境优雅，地理位置优越。是京城较早从事专业绿色保健按摩的养生服务机构，多年的经营得到了广大消费者的认可。\n一次舒适的减压体验，就是一次很好的心灵与身体的绽放之旅。在只属于自己的私密空间中，耳畔琴瑟萧萧，鼻尖香气袅绕，褪去了外衣的厚重，在花瓣包围的温泉水中融化僵硬的肌肉和心灵。——伊人高端男子减压会所竭诚欢迎有志之士加入，我们不仅为您提供丰厚的待遇，更为您提供一个广阔的工作平台，业内品牌影响力会让每一位员工都感到骄傲！";
+            return cell;
+        }
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
+        if (nil == cell) {
+            cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCellID"];
+        }
+        if (self.sectionCheck) {
+            cell.textLabel.text = @"收起信息";
+        }else {
+            cell.textLabel.text = @"展开信息";
+        }
+        cell.textLabel.textAlignment = NSTextAlignmentCenter;
         return cell;
     }
-    if (indexPath.row == 1 && self.sectionCheck) {
-        HYJonsDetailsFourCell *cell = [HYJonsDetailsFourCell cellWithTableView:tableView NSIndexPath:indexPath];
-        cell.titleLabel.text = @"公司地址: 苏州工业园娄葑文体中心";
-        cell.subLabel.text = @"本店地处西三环紫竹桥，店内环境优雅，地理位置优越。是京城较早从事专业绿色保健按摩的养生服务机构，多年的经营得到了广大消费者的认可。\n一次舒适的减压体验，就是一次很好的心灵与身体的绽放之旅。在只属于自己的私密空间中，耳畔琴瑟萧萧，鼻尖香气袅绕，褪去了外衣的厚重，在花瓣包围的温泉水中融化僵硬的肌肉和心灵。——伊人高端男子减压会所竭诚欢迎有志之士加入，我们不仅为您提供丰厚的待遇，更为您提供一个广阔的工作平台，业内品牌影响力会让每一位员工都感到骄傲！";
-        return cell;
-    }
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
+    HYJonsDetailsSixCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYJonsDetailsSixCellID"];
     if (nil == cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCellID"];
+        cell = [[HYJonsDetailsSixCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJonsDetailsSixCellID"];
     }
-    if (self.sectionCheck) {
-        cell.textLabel.text = @"收起信息";
-    }else {
-        cell.textLabel.text = @"展开信息";
-    }
-    cell.textLabel.textAlignment = NSTextAlignmentCenter;
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -103,14 +110,16 @@
         return 50;
     }else if (indexPath.section == 2){
         return 110;
+    }else if(indexPath.section == 3){
+        if (indexPath.row == 0) {
+            return 180;
+        }
+        if (indexPath.row == 1 && self.sectionCheck) {
+            return 230;
+        }
+        return 50;
     }
-    if (indexPath.row == 0) {
-        return 150;
-    }
-    if (indexPath.row == 1 && self.sectionCheck) {
-        return 230;
-    }
-    return 50;
+    return HYJonsDetailsSixCellHeight;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     if (section == 0) {
@@ -132,6 +141,8 @@
         headView.nameLabel.text = @"职位描述";
     }else if (section == 3){
         headView.nameLabel.text = @"公司信息";
+    }else if (section == 4){
+        headView.nameLabel.text = @"公司图片";
     }
     return headView;
 }

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define HYJonsDetailsSixCellHeight 150
+
 @interface HYJonsDetailsSixCell : UITableViewCell
 
 @end

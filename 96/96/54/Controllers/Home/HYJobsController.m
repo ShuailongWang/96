@@ -12,13 +12,14 @@
 #import "HYJobsOSectonToCell.h"
 #import "HYJobsTSectionThreeCell.h"
 #import "HYJobsToSectonOneCell.h"
+#import "HYJobsTypeController.h"
 #import "HYJonsDetailsController.h"
 
 
 @interface HYJobsController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (strong,nonatomic) UITableView *myTableView;
-
+@property (strong,nonatomic) NSArray *typeArr;
 @end
 
 @implementation HYJobsController
@@ -58,9 +59,6 @@
             if (nil == cell) {
                 cell = [[HYJobsOSectonOneCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJobsOSectonOneCellID"];
             }
-            cell.myBlock = ^(NSInteger index){
-                
-            };
             return cell;
         }
         HYJobsOSectonToCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYJobsOSectonToCellID"];
@@ -73,6 +71,12 @@
         if (nil == cell) {
             cell = [[HYJobsToSectonOneCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJobsToSectonOneCellID"];
         }
+        cell.array = self.typeArr;
+        cell.myBlock = ^(NSInteger index){
+            HYJobsTypeController *jobsTypeVC = [[HYJobsTypeController alloc]init];
+            jobsTypeVC.title = self.typeArr[index];
+            [self.navigationController pushViewController:jobsTypeVC animated:YES];
+        };
         return cell;
     }
     HYJobsTSectionThreeCell *cell = [HYJobsTSectionThreeCell cellWithTableView:tableView NSIndexPath:indexPath];
@@ -123,4 +127,13 @@
     }
 }
 
+
+
+-(NSArray *)typeArr{
+    if (nil == _typeArr) {
+        _typeArr = @[@"搓澡工", @"足疗师", @"按摩师", @"针灸推拿", @"软件工程师", @"销售户代表", @"教师/助教", @"程序员", @"商务", @"经理", @"文员", @"人事专员"
+                   ];
+    }
+    return _typeArr;
+}
 @end

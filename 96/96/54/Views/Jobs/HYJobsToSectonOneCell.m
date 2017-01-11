@@ -12,7 +12,7 @@
 @interface HYJobsToSectonOneCell()<UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong,nonatomic) UICollectionView *myCollectionView;
-@property (strong,nonatomic) NSArray *array;
+
 
 @end
 
@@ -58,14 +58,16 @@ static NSString *HYJobsToSectonOneToOneCellID = @"HYJobsToSectonOneToOneCellID";
     
     return cell;
 }
-
-
--(NSArray *)array{
-    if (nil == _array) {
-        _array = @[@"搓澡工", @"足疗师", @"按摩师", @"针灸推拿", @"软件工程师", @"销售户代表", @"教师/助教", @"程序员", @"商务", @"经理", @"文员", @"人事专员"
-                   ];
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (self.myBlock) {
+        self.myBlock(indexPath.item);
     }
-    return _array;
+}
+
+-(void)setArray:(NSArray *)array{
+    _array = array;
+    
+    [self.myCollectionView reloadData];
 }
 
 
