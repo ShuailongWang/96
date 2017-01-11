@@ -68,7 +68,6 @@
                 cell = [[HYTypeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYTypeCellID"];
             }
             cell.myBlock = ^(NSInteger index){
-                NSLog(@"%zd",index);
                 switch (index) {
                     case 3:{
                         HYJobsController *jobsVC = [[HYJobsController alloc]init];
@@ -110,6 +109,7 @@
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section == 1) {
         HYHouseDetailsController *detailsVC = [[HYHouseDetailsController alloc]init];
         [self.navigationController pushViewController:detailsVC animated:YES];

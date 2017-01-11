@@ -1,28 +1,27 @@
 //
-//  HYTypeCell.m
+//  HYJobsOSectonOneCell.m
 //  96
 //
-//  Created by WSL on 17/1/9.
+//  Created by admin on 17/1/11.
 //  Copyright © 2017年 王帅龙. All rights reserved.
 //
 
-#import "HYTypeCell.h"
+#import "HYJobsOSectonOneCell.h"
 
-
-@interface HYTypeCell()<UIScrollViewDelegate>
+@interface HYJobsOSectonOneCell()<UIScrollViewDelegate>
 
 @property (nonatomic, strong) UIScrollView *myScrollView;
 @property (nonatomic, strong) UIPageControl *pageControl;
 
 @end
 
+@implementation HYJobsOSectonOneCell
 
-@implementation HYTypeCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
-        self.numberOfSinglePage = 10;
+        self.numberOfSinglePage = 6;
         [self setupUI];
     }
     return self;
@@ -30,7 +29,7 @@
 
 -(void)setupUI{
     if (!self.dataArr) {
-        NSString * dataPath = [[NSBundle mainBundle] pathForResource:@"HomeType.plist" ofType:nil];
+        NSString * dataPath = [[NSBundle mainBundle] pathForResource:@"MyJob.plist" ofType:nil];
         _dataArr = [NSArray arrayWithContentsOfFile:dataPath];
     }
     NSInteger pageCount = self.dataArr.count / self.numberOfSinglePage;
@@ -67,9 +66,9 @@
 
 // 循环添加按钮
 -(void)addBtnsWithPageNum:(NSInteger)number{
-    NSInteger cols = 5;
-    CGFloat btnW = KScreen_Width / 5;
-    CGFloat btnH = btnW;
+    NSInteger cols = 3;
+    CGFloat btnW = KScreen_Width / 3;
+    CGFloat btnH = 50;
     NSInteger count = self.dataArr.count - (number * self.numberOfSinglePage);
     NSInteger indexCount;
     if (count > 0 && count <= self.numberOfSinglePage) {
@@ -82,7 +81,7 @@
     
     for (int i = 0; i<indexCount; i++) {
         UIButton  * btn = [[UIButton alloc]init];
-
+        
         int col = i % cols;
         int row = i / cols;
         NSInteger index = i + number * self.numberOfSinglePage;
@@ -96,13 +95,7 @@
         btn.titleLabel.font = [UIFont systemFontOfSize:14];
         [btn setImage:[UIImage imageNamed:btnDic[Icon]] forState:UIControlStateNormal];
         
-        
         btn.frame = CGRectMake(col * btnW + number * KScreen_Width, row * btnH, btnW, btnH);
-        
-        //文字距离上边框的距离增加imageView的高度，距离左边框减少imageView的宽度，距离下边框和右边框距离不变
-        [btn setTitleEdgeInsets:UIEdgeInsetsMake(btn.currentImage.size.height+20 ,-btn.imageView.frame.size.width, 0,0)];
-        //图片距离右边框距离减少图片的宽度，其它不变
-        [btn setImageEdgeInsets:UIEdgeInsetsMake(0, (btn.width - btn.imageView.width)/2 ,0 ,0)];
         
         [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
         [_myScrollView addSubview:btn];

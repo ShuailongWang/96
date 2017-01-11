@@ -1,8 +1,8 @@
 //
-//  HYTypeCell.h
+//  HYJobsOSectonOneCell.h
 //  96
 //
-//  Created by WSL on 17/1/9.
+//  Created by admin on 17/1/11.
 //  Copyright © 2017年 王帅龙. All rights reserved.
 //
 
@@ -11,9 +11,9 @@
 
 #define Title       @"Title"
 #define Icon        @"Icon"
-#define HYTypeCellHeight  200
+#define HYTypeCellHeight  120
 
-@interface HYTypeCell : UITableViewCell
+@interface HYJobsOSectonOneCell : UITableViewCell
 
 /// 按钮数据源
 @property (nonatomic,strong) NSArray * dataArr;

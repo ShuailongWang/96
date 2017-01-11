@@ -8,7 +8,7 @@
 
 #import "HYJobsController.h"
 #import "HYSectionHeadView.h"
-#import "HYTypeCell.h"
+#import "HYJobsOSectonOneCell.h"
 #import "HYJobsOSectonToCell.h"
 #import "HYJobsTSectionThreeCell.h"
 #import "HYJobsToSectonOneCell.h"
@@ -53,10 +53,13 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
         if (indexPath.row == 0) {
-            HYTypeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYTypeCellID"];
+            HYJobsOSectonOneCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYJobsOSectonOneCellID"];
             if (nil == cell) {
-                cell = [[HYTypeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYTypeCellID"];
+                cell = [[HYJobsOSectonOneCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJobsOSectonOneCellID"];
             }
+            cell.myBlock = ^(NSInteger index){
+                
+            };
             return cell;
         }
         HYJobsOSectonToCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYJobsOSectonToCellID"];

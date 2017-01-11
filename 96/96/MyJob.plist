@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>工作邀请</string>
+		<key>Icon</key>
+		<string>job_main_myjob_1</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>我的简历</string>
+		<key>Icon</key>
+		<string>job_main_myjob_1</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>我的简历</string>
+		<key>Icon</key>
+		<string>job_main_myjob_2</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>简历被下载</string>
+		<key>Icon</key>
+		<string>job_main_myjob_3</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>申请记录</string>
+		<key>Icon</key>
+		<string>job_main_myjob_4</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>职业测评</string>
+		<key>Icon</key>
+		<string>job_main_myjob_5</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>收藏记录</string>
+		<key>Icon</key>
+		<string>job_main_myjob_6</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>我的礼包</string>
+		<key>Icon</key>
+		<string>job_main_MyGifts</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>新手指引</string>
+		<key>Icon</key>
+		<string>job_main_NoviceLead</string>
+	</dict>
+</array>
+</plist>

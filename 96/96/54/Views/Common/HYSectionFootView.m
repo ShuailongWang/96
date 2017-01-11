@@ -17,9 +17,11 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         if (nil == _footButton) {
-            self.backgroundColor = [UIColor whiteColor];
+            self.backgroundColor = RGB(239, 239, 244);
             _footButton = [[UIButton alloc]initWithFrame:self.bounds];
             _footButton.centerX = self.centerX;
+            _footButton.height -= 10;
+            _footButton.backgroundColor = [UIColor whiteColor];
             [_footButton addTarget:self action:@selector(clickMorButton) forControlEvents:UIControlEventTouchUpInside];
             [self addSubview: _footButton];
         }

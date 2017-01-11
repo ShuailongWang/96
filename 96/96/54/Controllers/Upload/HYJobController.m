@@ -27,6 +27,7 @@
     [self setupUI];
 }
 
+
 -(void)setupUI{
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"发布" style:UIBarButtonItemStylePlain target:self action:@selector(clickRightButton)];
     if (nil == _myTableView) {
