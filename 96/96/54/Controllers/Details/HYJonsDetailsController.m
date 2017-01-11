@@ -17,6 +17,7 @@
 
 @interface HYJonsDetailsController ()<UITableViewDataSource, UITableViewDelegate>
 
+@property (strong,nonatomic) UIView *footView;
 @property (strong,nonatomic) UITableView *myTableView;
 @property (assign,nonatomic) BOOL sectionCheck;
 
@@ -33,13 +34,31 @@
 
 -(void)setupUI{
     if (nil == _myTableView) {
-        _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+        _myTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, KScreen_Height - 60) style:UITableViewStyleGrouped];
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
         _myTableView.bounces = NO;
         
         [self.view addSubview:_myTableView];
     }
+    if (nil == _footView) {
+        _footView = [[UIView alloc]initWithFrame:CGRectMake(0, _myTableView.bottom, KScreen_Width, 60)];
+        _footView.backgroundColor = RGB(35, 131, 246);
+        UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 60)];
+        [button setTitle:@"申请职位" forState:UIControlStateNormal];
+        [button addTarget:self action:@selector(clickSaveButton) forControlEvents:UIControlEventTouchUpInside];
+        [_footView addSubview:button];
+        [self.view addSubview:_footView];
+    }
+}
+-(void)clickSaveButton{
+    
+    [SVProgressHUD show];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [SVProgressHUD dismiss];
+        
+        [self.navigationController popViewControllerAnimated:YES];
+    });
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
