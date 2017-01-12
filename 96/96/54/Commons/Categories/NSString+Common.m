@@ -99,4 +99,25 @@
 }
 
 
+
+
+-(NSMutableAttributedString*)AttributedWithRange:(NSInteger)location length:(NSInteger)length  fontSize:(CGFloat)fontSize{
+    NSMutableAttributedString *AttributedStr = [[NSMutableAttributedString alloc]initWithString: self];
+    
+    [AttributedStr addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:fontSize] range:NSMakeRange(location, length)];
+    
+    [AttributedStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSMakeRange(location, length)];
+    
+    
+    return AttributedStr;
+}
+
+
+
+
+
+
+
+
+
 @end

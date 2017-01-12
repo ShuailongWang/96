@@ -107,6 +107,13 @@
 		78EA7D671E22934100C0E423 /* HYUploadMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78EA7D661E22934100C0E423 /* HYUploadMainCell.xib */; };
 		78EA7D6B1E229BA500C0E423 /* HYTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EA7D6A1E229BA500C0E423 /* HYTypeCell.m */; };
 		78EA7D6D1E229D3600C0E423 /* HomeType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78EA7D6C1E229D3600C0E423 /* HomeType.plist */; };
+		845005AE1E2746A700C57D0A /* HYPartTimeJobController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005AD1E2746A700C57D0A /* HYPartTimeJobController.m */; };
+		845005B21E2746F900C57D0A /* HYPartTimeJobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005B11E2746F900C57D0A /* HYPartTimeJobCell.m */; };
+		845005B41E27470900C57D0A /* HYPartTimeJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845005B31E27470900C57D0A /* HYPartTimeJobCell.xib */; };
+		849514931E275EDB00220F8C /* HYCyclesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514921E275EDB00220F8C /* HYCyclesCell.m */; };
+		849514961E2762BB00220F8C /* HYTableToCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514951E2762BB00220F8C /* HYTableToCollectionCell.m */; };
+		849514991E2762FD00220F8C /* HYToCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514981E2762FD00220F8C /* HYToCollectionCell.m */; };
+		8495149B1E27630400220F8C /* HYToCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8495149A1E27630400220F8C /* HYToCollectionCell.xib */; };
 		84DD79B71E2605E9006C2624 /* HYJobsOSectonOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79B61E2605E9006C2624 /* HYJobsOSectonOneCell.m */; };
 		84DD79B91E2606C3006C2624 /* MyJob.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DD79B81E2606C3006C2624 /* MyJob.plist */; };
 		84DD79BC1E260A7D006C2624 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79BB1E260A7D006C2624 /* UIViewController+BackButtonHandler.m */; };
@@ -337,6 +344,18 @@
 		78EA7D6A1E229BA500C0E423 /* HYTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTypeCell.m; sourceTree = "<group>"; };
 		78EA7D6C1E229D3600C0E423 /* HomeType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeType.plist; sourceTree = "<group>"; };
 		7F7389E39939CC84EB207F85 /* Pods-96.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-96.debug.xcconfig"; path = "Pods/Target Support Files/Pods-96/Pods-96.debug.xcconfig"; sourceTree = "<group>"; };
+		845005AC1E2746A700C57D0A /* HYPartTimeJobController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPartTimeJobController.h; sourceTree = "<group>"; };
+		845005AD1E2746A700C57D0A /* HYPartTimeJobController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPartTimeJobController.m; sourceTree = "<group>"; };
+		845005B01E2746F900C57D0A /* HYPartTimeJobCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPartTimeJobCell.h; sourceTree = "<group>"; };
+		845005B11E2746F900C57D0A /* HYPartTimeJobCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPartTimeJobCell.m; sourceTree = "<group>"; };
+		845005B31E27470900C57D0A /* HYPartTimeJobCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYPartTimeJobCell.xib; sourceTree = "<group>"; };
+		849514911E275EDB00220F8C /* HYCyclesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCyclesCell.h; sourceTree = "<group>"; };
+		849514921E275EDB00220F8C /* HYCyclesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCyclesCell.m; sourceTree = "<group>"; };
+		849514941E2762BB00220F8C /* HYTableToCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableToCollectionCell.h; sourceTree = "<group>"; };
+		849514951E2762BB00220F8C /* HYTableToCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTableToCollectionCell.m; sourceTree = "<group>"; };
+		849514971E2762FD00220F8C /* HYToCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYToCollectionCell.h; sourceTree = "<group>"; };
+		849514981E2762FD00220F8C /* HYToCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYToCollectionCell.m; sourceTree = "<group>"; };
+		8495149A1E27630400220F8C /* HYToCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYToCollectionCell.xib; sourceTree = "<group>"; };
 		84DD79B51E2605E9006C2624 /* HYJobsOSectonOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsOSectonOneCell.h; sourceTree = "<group>"; };
 		84DD79B61E2605E9006C2624 /* HYJobsOSectonOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsOSectonOneCell.m; sourceTree = "<group>"; };
 		84DD79B81E2606C3006C2624 /* MyJob.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyJob.plist; sourceTree = "<group>"; };
@@ -412,6 +431,13 @@
 				785308C11E25118E00E6D71D /* HYSectionHeadView.m */,
 				785308BD1E25112E00E6D71D /* HYSectionFootView.h */,
 				785308BE1E25112E00E6D71D /* HYSectionFootView.m */,
+				849514911E275EDB00220F8C /* HYCyclesCell.h */,
+				849514921E275EDB00220F8C /* HYCyclesCell.m */,
+				849514941E2762BB00220F8C /* HYTableToCollectionCell.h */,
+				849514951E2762BB00220F8C /* HYTableToCollectionCell.m */,
+				849514971E2762FD00220F8C /* HYToCollectionCell.h */,
+				849514981E2762FD00220F8C /* HYToCollectionCell.m */,
+				8495149A1E27630400220F8C /* HYToCollectionCell.xib */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -656,6 +682,8 @@
 				78EA7D3E1E227EE000C0E423 /* HYHomeController.m */,
 				785308F11E25342F00E6D71D /* HYJobsController.h */,
 				785308F21E25342F00E6D71D /* HYJobsController.m */,
+				845005AC1E2746A700C57D0A /* HYPartTimeJobController.h */,
+				845005AD1E2746A700C57D0A /* HYPartTimeJobController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -840,6 +868,7 @@
 		78EA7D0E1E227CF800C0E423 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				845005AF1E2746E500C57D0A /* PartTimeJob */,
 				78AFD68D1E2681E0006C1D2F /* House */,
 				78AFD6801E266D71006C1D2F /* JobsType */,
 				785308FB1E25350200E6D71D /* Details */,
@@ -951,6 +980,16 @@
 				6B7AB61317EEFBBA80991126 /* libPods-96UITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845005AF1E2746E500C57D0A /* PartTimeJob */ = {
+			isa = PBXGroup;
+			children = (
+				845005B01E2746F900C57D0A /* HYPartTimeJobCell.h */,
+				845005B11E2746F900C57D0A /* HYPartTimeJobCell.m */,
+				845005B31E27470900C57D0A /* HYPartTimeJobCell.xib */,
+			);
+			path = PartTimeJob;
 			sourceTree = "<group>";
 		};
 		84DD79CC1E263792006C2624 /* SDPhotoBrowser */ = {
@@ -1101,7 +1140,9 @@
 				78EA7CA11E227C1E00C0E423 /* LaunchScreen.storyboard in Resources */,
 				84E8B6961E247C8E00630C4C /* Jianli.plist in Resources */,
 				785308D41E251C6200E6D71D /* job_post_bigcate_http.json in Resources */,
+				845005B41E27470900C57D0A /* HYPartTimeJobCell.xib in Resources */,
 				84DD79C61E26297F006C2624 /* HYJonsDetailsFourCell.xib in Resources */,
+				8495149B1E27630400220F8C /* HYToCollectionCell.xib in Resources */,
 				7804324F1E23E8BA00EBE4E7 /* HYHomeImageCell.xib in Resources */,
 				78EA7D5B1E22828500C0E423 /* HYNewsCell.xib in Resources */,
 				785308E11E2522BB00E6D71D /* HYJobsOSectonToOneCell.xib in Resources */,
@@ -1297,13 +1338,16 @@
 				78EA7D391E227DFA00C0E423 /* HYRegistersController.m in Sources */,
 				78AFD6831E266D8E006C1D2F /* HYJobsTypeCell.m in Sources */,
 				78EA7D511E227F3E00C0E423 /* HYMineController.m in Sources */,
+				849514931E275EDB00220F8C /* HYCyclesCell.m in Sources */,
 				78EA7D361E227DFA00C0E423 /* HYLoginController.m in Sources */,
 				785308BF1E25112E00E6D71D /* HYSectionFootView.m in Sources */,
 				84DD79D91E2638F0006C2624 /* HYJonsDetailsSixCell.m in Sources */,
 				84DD79B71E2605E9006C2624 /* HYJobsOSectonOneCell.m in Sources */,
+				849514961E2762BB00220F8C /* HYTableToCollectionCell.m in Sources */,
 				785308C91E25166F00E6D71D /* HYHomeSectionThreeCell.m in Sources */,
 				785308E41E25270D00E6D71D /* HYJobsTSectionThreeCell.m in Sources */,
 				7804324D1E23E8AE00EBE4E7 /* HYHomeImageCell.m in Sources */,
+				845005AE1E2746A700C57D0A /* HYPartTimeJobController.m in Sources */,
 				785308F71E25345900E6D71D /* HYHouseDetailsController.m in Sources */,
 				78EA7D151E227CF800C0E423 /* UIView+Extension.m in Sources */,
 				78EA7D171E227CF800C0E423 /* DLCustomSlideView.m in Sources */,
@@ -1345,6 +1389,7 @@
 				78EA7D4A1E227F0700C0E423 /* HYScoreController.m in Sources */,
 				78EA7D161E227CF800C0E423 /* DLLRUCache.m in Sources */,
 				84DD79D61E263792006C2624 /* SDWaitingView.m in Sources */,
+				845005B21E2746F900C57D0A /* HYPartTimeJobCell.m in Sources */,
 				84DD79BC1E260A7D006C2624 /* UIViewController+BackButtonHandler.m in Sources */,
 				78EA7D481E227F0700C0E423 /* HYBackPassController.m in Sources */,
 				78EA7D2B1E227D4500C0E423 /* HYMainNavController.m in Sources */,
@@ -1375,6 +1420,7 @@
 				78EA7D191E227CF800C0E423 /* DLFixedTabbarView.m in Sources */,
 				78EA7D651E22933800C0E423 /* HYUploadMainCell.m in Sources */,
 				78EA7D1D1E227CF800C0E423 /* UITableView+CacheHeight.m in Sources */,
+				849514991E2762FD00220F8C /* HYToCollectionCell.m in Sources */,
 				78EA7D3F1E227EE000C0E423 /* HYHomeController.m in Sources */,
 				78EA7D251E227CF800C0E423 /* UIView+PYExtension.m in Sources */,
 			);

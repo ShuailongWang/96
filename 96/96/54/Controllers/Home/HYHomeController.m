@@ -18,6 +18,7 @@
 #import "HYHomeSectionThreeCell.h"
 #import "HYHouseDetailsController.h"
 #import "HYJobsController.h"
+#import "HYPartTimeJobController.h"
 
 @interface HYHomeController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -67,6 +68,8 @@
             if (nil == cell) {
                 cell = [[HYTypeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYTypeCellID"];
             }
+            
+            //点击最上方的item
             cell.myBlock = ^(NSInteger index){
                 switch (index) {
                     case 3:{
@@ -74,7 +77,11 @@
                         [self.navigationController pushViewController:jobsVC animated:YES];
                     }
                         break;
-                        
+                    case 4:{
+                        HYPartTimeJobController *partTimeVC = [[HYPartTimeJobController alloc]init];
+                        [self.navigationController pushViewController:partTimeVC animated:YES];
+                    }
+                        break;
                     default:
                         break;
                 }
