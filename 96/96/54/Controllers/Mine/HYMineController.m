@@ -7,31 +7,76 @@
 //
 
 #import "HYMineController.h"
+#import "HYMineHeadCell.h"
+#import "HYEditUserController.h"
 
-@interface HYMineController ()
+@interface HYMineController ()<UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) UITableView *myTableView;
 
 @end
+
+static NSString *UITableViewcellID = @"UITableViewcellID";
 
 @implementation HYMineController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setupUI];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setupUI{
+    if (nil == _myTableView) {
+        _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+        _myTableView.delegate = self;
+        _myTableView.dataSource = self;
+        _myTableView.backgroundColor = kClearColor;
+        
+        [self.view addSubview:_myTableView];
+    }
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 3;
 }
-*/
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    if (section == 1) {
+        return 2;
+    }
+    return 1;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        HYMineHeadCell *cell = [HYMineHeadCell cellWithTableView:tableView NSIndexPath:indexPath];
+        cell.myBlock = ^{
+            HYEditUserController *editVC = [[HYEditUserController alloc]init];
+            editVC.title = @"个人信息";
+            [self.navigationController pushViewController:editVC animated:YES];
+        };
+        return cell;
+    }
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:UITableViewcellID];
+    if (nil == cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:UITableViewcellID];
+    }
+    
+    return cell;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        return 190;
+    }
+    return 50;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    if (section == 0) {
+        return 0.001;
+    }
+    return 20;
+}
+
 
 @end

@@ -37,8 +37,8 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="job_detail_rightGray_icon" translatesAutoresizingMaskIntoConstraints="NO" id="byz-QF-mVc">
                             <rect key="frame" x="374" y="13.5" width="8" height="14"/>
                         </imageView>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="占位文字" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z37-je-gRy">
-                            <rect key="frame" x="86" y="13" width="283" height="17"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="占位文字" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Z37-je-gRy">
+                            <rect key="frame" x="86" y="12" width="283" height="19"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
@@ -69,6 +69,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="bgView" destination="DcB-K1-Fv0" id="0eD-GY-kya"/>
+                <outlet property="lineView" destination="RaU-MC-l96" id="HhI-MQ-n7f"/>
                 <outlet property="rightImageView" destination="byz-QF-mVc" id="DMN-Sl-Wtb"/>
                 <outlet property="subText" destination="Z37-je-gRy" id="g09-Qs-XSX"/>
                 <outlet property="titleLabel" destination="nBQ-5i-dcq" id="0vu-b4-3hb"/>

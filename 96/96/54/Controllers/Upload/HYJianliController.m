@@ -145,9 +145,9 @@
 
 -(UIView *)headView{
     if (nil == _headView) {
-        _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 180)];
+        _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 200)];
         
-        UIImageView *bgImage = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 170)];
+        UIImageView *bgImage = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 190)];
         bgImage.image = [UIImage imageNamed:@"headImage"];
         [_headView addSubview:bgImage];
         

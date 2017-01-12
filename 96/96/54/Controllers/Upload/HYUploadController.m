@@ -8,6 +8,7 @@
 
 #import "HYUploadController.h"
 #import "HYUploadMainCell.h"
+#import "HYErShouController.h"
 #import "HYHouseController.h"
 #import "HYJobController.h"
 #import "HYJianliController.h"
@@ -67,13 +68,16 @@ static NSString *HYUploadControllerCellID = @"HYUploadControllerCellID";
     return cell;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == 1) {
+    if (indexPath.item == 0) {
+        HYErShouController *erShouVC = [[HYErShouController alloc]init];
+        [self.navigationController pushViewController:erShouVC animated:YES];
+    }else if (indexPath.row == 1) {
         HYHouseController *houseVC = [[HYHouseController alloc]init];
         [self.navigationController pushViewController:houseVC animated:YES];
-    }else if (indexPath.row == 4) {
+    }else if (indexPath.item == 4) {
         HYJobController *jobVC = [[HYJobController alloc]init];
         [self.navigationController pushViewController:jobVC animated:YES];
-    } else if (indexPath.row == 5) {
+    } else if (indexPath.item == 5) {
         HYJianliController *jianliVC = [[HYJianliController alloc]init];
         [self.navigationController pushViewController:jianliVC animated:YES];
     }
