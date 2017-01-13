@@ -17,6 +17,7 @@
 #import "HYHomeSectionTwoCell.h"
 #import "HYHomeSectionThreeCell.h"
 #import "HYHouseDetailsController.h"
+#import "HYHomeNewController.h"
 #import "HYJobsController.h"
 #import "HYPartTimeJobController.h"
 
@@ -24,6 +25,8 @@
 
 @property (strong,nonatomic) UITableView *myTableView;
 @property (strong,nonatomic) NSArray *typeCellData;
+
+@property (nonatomic, strong) NSArray *threeData;
 
 @end
 
@@ -113,6 +116,7 @@
         return cell;
     }
     HYHomeSectionThreeCell *cell = [HYHomeSectionThreeCell cellWithTableView:tableView NSIndexPath:indexPath];
+    cell.dict = self.threeData[indexPath.row];
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -120,7 +124,12 @@
     if (indexPath.section == 1) {
         HYHouseDetailsController *detailsVC = [[HYHouseDetailsController alloc]init];
         [self.navigationController pushViewController:detailsVC animated:YES];
+    }else if(indexPath.section == 2){
+        HYHomeNewController *homeNewVC = [[HYHomeNewController alloc]init];
+        homeNewVC.array = self.threeData;
+        [self.navigationController pushViewController:homeNewVC animated:YES];
     }
+    
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
@@ -178,5 +187,12 @@
     }
     return _typeCellData;
 }
-
+-(NSArray *)threeData{
+    if (nil == _threeData) {
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"news" ofType:@"json"];
+        NSData *data = [NSData dataWithContentsOfFile:path];
+        _threeData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    }
+    return _threeData;
+}
 @end

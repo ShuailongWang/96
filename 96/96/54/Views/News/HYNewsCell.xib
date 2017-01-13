@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -16,21 +13,18 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_badgeValue_back" translatesAutoresizingMaskIntoConstraints="NO" id="OO9-gn-yhr">
-                    <rect key="frame" x="51" y="10" width="13" height="13"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="13" id="cHA-at-ZHY"/>
                         <constraint firstAttribute="width" constant="13" id="nlB-YJ-Jot"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_message_system" translatesAutoresizingMaskIntoConstraints="NO" id="CqA-HG-Pva">
-                    <rect key="frame" x="20" y="20" width="44" height="44"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tab_badgeValue_back-1" translatesAutoresizingMaskIntoConstraints="NO" id="CqA-HG-Pva">
                     <constraints>
                         <constraint firstAttribute="width" constant="44" id="WU1-i1-aLp"/>
                         <constraint firstAttribute="height" constant="44" id="o8Q-EJ-Dlz"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="96--54" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wkf-24-9Hw">
-                    <rect key="frame" x="74" y="20" width="54" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="hGb-tg-pSE"/>
                     </constraints>
@@ -39,7 +33,6 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22:21" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OM7-nx-7aL">
-                    <rect key="frame" x="388" y="20" width="50" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="NXF-yl-jXe"/>
                         <constraint firstAttribute="width" constant="50" id="QCJ-U3-AId"/>
@@ -49,7 +42,6 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="还没有收到新消息哟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQB-he-P3F">
-                    <rect key="frame" x="74" y="43" width="364" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="spl-bm-Hot"/>
                     </constraints>
@@ -58,7 +50,6 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jV9-Oi-TdG">
-                    <rect key="frame" x="133" y="20" width="30" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="XaI-Gq-8Kh"/>
                     </constraints>
@@ -99,7 +90,7 @@
         </view>
     </objects>
     <resources>
-        <image name="icon_message_system" width="44" height="44"/>
         <image name="tab_badgeValue_back" width="18" height="18"/>
+        <image name="tab_badgeValue_back-1" width="44" height="44"/>
     </resources>
 </document>

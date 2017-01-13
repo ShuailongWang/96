@@ -34,4 +34,13 @@
     return cell;
 }
 
+-(void)setDict:(NSDictionary *)dict{
+    _dict = dict;
+    
+    self.titleLabel.text = dict[@"title"];
+    NSString *strUrl = [dict[@"firstImg"] stringByReplacingOccurrencesOfString:@" " withString:@""];
+    [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:strUrl] placeholderImage:[UIImage imageNamed:@"ad_123"]];
+    self.numberLabel.text = dict[@"source"];
+}
+
 @end

@@ -10,6 +10,8 @@
 
 @interface HYHomeSectionThreeCell : UITableViewCell
 
+@property (nonatomic, strong) NSDictionary *dict;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 
 @end

@@ -7,8 +7,12 @@
 //
 
 #import "HYNewsDetailsController.h"
+#import "HYNewsGuanCell.h"
 
-@interface HYNewsDetailsController ()
+@interface HYNewsDetailsController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (strong,nonatomic) UITableView *myTableView;
+@property (strong,nonatomic) NSMutableArray *newsData;
 
 @end
 
@@ -17,21 +21,49 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setupUI];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)setupUI{
+    if (nil == _myTableView) {
+        _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _myTableView.delegate = self;
+        _myTableView.dataSource = self;
+        _myTableView.bounces = NO;
+        _myTableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
+        _myTableView.backgroundColor = kClearColor;
+        [self.view addSubview:_myTableView];
+    }
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+#pragma mark - UITableViewDelegate
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 3;
 }
-*/
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    HYNewsGuanCell *cell = [HYNewsGuanCell cellWithTableView:tableView NSIndexPath:indexPath];
+    //选中后没有颜色
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    return cell;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    //判断是否有图片,没有的话,删除80
+    return 250;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+}
+
+
+-(NSMutableArray *)newsData{
+    if (nil == _newsData) {
+        _newsData = [NSMutableArray array];
+    }
+    return _newsData;
+}
 
 @end

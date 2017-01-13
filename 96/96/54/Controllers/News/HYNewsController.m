@@ -61,7 +61,6 @@
     HYNewsCell *cell = [HYNewsCell cellWithTableView:tableView NSIndexPath:indexPath];
     
     
-    
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -74,6 +73,17 @@
     
     [self.navigationController pushViewController:detailsVC animated:YES];
 }
+//左滑删除
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        [NSObject showErrorMsg:@"官方消息无法删除"];
+    }
+    if (editingStyle == UITableViewCellEditingStyleDelete && indexPath.row != 0) {
+        
+        
+    }
+}
+
 
 -(NSMutableArray *)newsData{
     if (nil == _newsData) {

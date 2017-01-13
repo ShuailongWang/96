@@ -8,7 +8,7 @@
 
 #import "HYErShouController.h"
 #import "HYSectionHeadView.h"
-#import "HYUserHeadCell.h"
+#import "HYHeadImageCell.h"
 #import "HYCommonCell.h"
 #import "HYErShouTypeCell.h"
 
@@ -16,6 +16,7 @@
 
 @property (strong,nonatomic) UITableView *myTableView;
 @property (strong,nonatomic) UITextView *textView;
+@property (nonatomic, strong) NSArray<ZLSelectPhotoModel *> *lastSelectMoldels;
 
 @end
 
@@ -72,8 +73,25 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
-        HYUserHeadCell *cell = [HYUserHeadCell cellWithTableView:tableView NSIndexPath:indexPath];
-        
+        HYHeadImageCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYHeadImageCellID"];
+        if (nil == cell) {
+            cell = [[HYHeadImageCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYHeadImageCellID"];
+        }
+        //weakSelf
+        __weak typeof(cell) weakCell = cell;
+        cell.myBlock = ^{
+            ZLPhotoActionSheet *actionSheet = [[ZLPhotoActionSheet alloc] init];
+            //设置照片最大选择数
+            actionSheet.maxSelectCount = 5;
+            //设置照片最大预览数
+            actionSheet.maxPreviewCount = 20;
+            //weakSelf
+            __weak typeof(self) weakSelf = self;
+            [actionSheet showPreviewPhotoWithSender:self animate:YES lastSelectPhotoModels:self.lastSelectMoldels completion:^(NSArray<UIImage *> * _Nonnull selectPhotos, NSArray<ZLSelectPhotoModel *> * _Nonnull selectPhotoModels) {
+                weakSelf.lastSelectMoldels = selectPhotoModels;     //model数组
+                weakCell.photoArr = selectPhotos;                   //显示的图片数组
+            }];
+        };
         return cell;
     }else if(indexPath.section == 1 && indexPath.row == 1){
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellID"];
