@@ -32,7 +32,7 @@ static NSString *UITableViewcellID = @"UITableViewcellID";
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
         _myTableView.backgroundColor = kClearColor;
-        
+        _myTableView.bounces = NO;
         [self.view addSubview:_myTableView];
     }
 }

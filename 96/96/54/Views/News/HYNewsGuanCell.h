@@ -10,6 +10,8 @@
 
 @interface HYNewsGuanCell : UITableViewCell
 
+@property (strong,nonatomic) NSDictionary *dict;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 
 @end

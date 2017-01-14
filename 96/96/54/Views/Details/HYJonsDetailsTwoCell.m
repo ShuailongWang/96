@@ -9,14 +9,11 @@
 #import "HYJonsDetailsTwoCell.h"
 
 @interface HYJonsDetailsTwoCell()
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *berfLabel;
-@property (weak, nonatomic) IBOutlet UILabel *fuliOne;
-@property (weak, nonatomic) IBOutlet UILabel *fuliTwo;
 
 
 
 @end
+
 @implementation HYJonsDetailsTwoCell
 
 - (void)awakeFromNib {

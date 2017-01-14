@@ -10,6 +10,11 @@
 
 @interface HYJonsDetailsTwoCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *berfLabel;
+@property (weak, nonatomic) IBOutlet UILabel *fuliOne;
+@property (weak, nonatomic) IBOutlet UILabel *fuliTwo;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 
 @end

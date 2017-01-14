@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class HYZhaoPinModel;
 @interface HYHomeSectionTwoCell : UITableViewCell
+
+@property (strong,nonatomic) HYZhaoPinModel *model;
 
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 

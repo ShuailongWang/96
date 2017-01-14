@@ -20,12 +20,16 @@
 #import "HYHomeNewController.h"
 #import "HYJobsController.h"
 #import "HYPartTimeJobController.h"
+#import "HYZhaoPinModel.h"
+#import "HYHomeCompListController.h"
+#import "HYWebController.h"
 
 @interface HYHomeController ()<UITableViewDelegate, UITableViewDataSource>
 
-@property (strong,nonatomic) UITableView *myTableView;
-@property (strong,nonatomic) NSArray *typeCellData;
+@property (strong, nonatomic) UITableView *myTableView;
+@property (strong, nonatomic) NSArray *typeCellData;
 
+@property (strong, nonatomic) NSArray *zpData;
 @property (nonatomic, strong) NSArray *threeData;
 
 @end
@@ -113,6 +117,7 @@
         }
     } else if (indexPath.section == 1){
         HYHomeSectionTwoCell *cell = [HYHomeSectionTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
+        cell.model = self.zpData[indexPath.row];
         return cell;
     }
     HYHomeSectionThreeCell *cell = [HYHomeSectionThreeCell cellWithTableView:tableView NSIndexPath:indexPath];
@@ -121,13 +126,21 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     if (indexPath.section == 1) {
+        
         HYHouseDetailsController *detailsVC = [[HYHouseDetailsController alloc]init];
+        detailsVC.model = self.zpData[indexPath.row];
         [self.navigationController pushViewController:detailsVC animated:YES];
+        
     }else if(indexPath.section == 2){
-        HYHomeNewController *homeNewVC = [[HYHomeNewController alloc]init];
-        homeNewVC.array = self.threeData;
-        [self.navigationController pushViewController:homeNewVC animated:YES];
+        
+        NSDictionary *dict = self.threeData[indexPath.row];
+        NSString *strUrl = [dict[@"url"] stringByReplacingOccurrencesOfString:@" " withString:@""];
+        
+        HYWebController *webVC = [[HYWebController alloc]init];
+        webVC.strUrl = strUrl;
+        [self.navigationController pushViewController:webVC animated:YES];
     }
     
 }
@@ -142,8 +155,10 @@
         } else if (indexPath.row == 4){
             return HYHomeTypeThreeCellHeight;
         }
+    }else if(indexPath.section == 1){
+        return 100;
     }
-    return 85;
+    return 90;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 50;
@@ -174,7 +189,15 @@
     [footView.footButton setTitle:@"查看更多" forState:UIControlStateNormal];
     [footView.footButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     footView.myBlock = ^{
-        
+        if (section == 1) {
+            HYHomeCompListController *compListVC = [[HYHomeCompListController alloc]init];
+            compListVC.companyArr = self.zpData;
+            [self.navigationController pushViewController:compListVC animated:YES];
+        }else if(section == 2){
+            HYHomeNewController *homeNewVC = [[HYHomeNewController alloc]init];
+            homeNewVC.array = self.threeData;
+            [self.navigationController pushViewController:homeNewVC animated:YES];
+        }
     };
     return footView;
 }
@@ -186,6 +209,13 @@
         _typeCellData = [NSArray arrayWithContentsOfFile:dataPath];
     }
     return _typeCellData;
+}
+
+-(NSArray *)zpData{
+    if (nil == _zpData) {
+        _zpData = [HYZhaoPinModel ZhaoPinModelWithArray];
+    }
+    return _zpData;
 }
 -(NSArray *)threeData{
     if (nil == _threeData) {

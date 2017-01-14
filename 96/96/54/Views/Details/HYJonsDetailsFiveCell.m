@@ -10,10 +10,7 @@
 
 @interface HYJonsDetailsFiveCell()
 
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UIButton *renZBtn;
-@property (weak, nonatomic) IBOutlet UILabel *comapType;
-@property (weak, nonatomic) IBOutlet UILabel *comapZL;
+
 
 
 @end

@@ -8,6 +8,9 @@
 
 #import "HYBaseController.h"
 
+@class HYZhaoPinModel;
 @interface HYHouseDetailsController : HYBaseController
+
+@property (strong,nonatomic) HYZhaoPinModel *model;
 
 @end

@@ -15,6 +15,8 @@
 @property (strong,nonatomic) UITableView *myTableView;
 @property (strong,nonatomic) NSMutableArray *newsData;
 
+@property (strong,nonatomic) NSArray *array;
+
 @end
 
 @implementation HYNewsController
@@ -60,6 +62,11 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     HYNewsCell *cell = [HYNewsCell cellWithTableView:tableView NSIndexPath:indexPath];
     
+    if (indexPath.row == 0) {
+        cell.titleLabel.text = @"5496";
+        cell.subTitle.text = @"显示消息内部的标题";
+        cell.iconView.image = [UIImage imageNamed:@"tab_badgeValue_back-1"];
+    }
     
     return cell;
 }
@@ -90,6 +97,12 @@
         _newsData = [NSMutableArray array];
     }
     return _newsData;
+}
+-(NSArray *)array{
+    if (nil == _array) {
+        
+    }
+    return _array;
 }
 
 @end

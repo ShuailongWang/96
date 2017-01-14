@@ -10,6 +10,11 @@
 
 @interface HYJonsDetailsFiveCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UIButton *renZBtn;
+@property (weak, nonatomic) IBOutlet UILabel *comapType;
+@property (weak, nonatomic) IBOutlet UILabel *comapZL;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 
 @end

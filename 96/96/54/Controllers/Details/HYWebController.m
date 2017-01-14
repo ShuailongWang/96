@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.title = @"详情";
     _wkWebView = [[WKWebView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:_wkWebView];
     

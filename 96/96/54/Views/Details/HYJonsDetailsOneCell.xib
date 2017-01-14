@@ -96,7 +96,7 @@
                 <outlet property="titleLabel" destination="uxL-O8-Oet" id="obu-Gm-4sk"/>
                 <outlet property="totalLabel" destination="stG-Pb-jXd" id="VMq-TY-ubA"/>
             </connections>
-            <point key="canvasLocation" x="-50" y="-145.5"/>
+            <point key="canvasLocation" x="-19" y="-103"/>
         </view>
     </objects>
 </document>

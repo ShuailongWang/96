@@ -31,6 +31,13 @@
 		780A5AAC1E27D7260086B152 /* HYMineHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 780A5AAA1E27D7260086B152 /* HYMineHeadCell.xib */; };
 		780A5AAF1E27D72E0086B152 /* HYEditUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A5AAE1E27D72E0086B152 /* HYEditUserCell.m */; };
 		780A5AB21E27D7540086B152 /* HYEditUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 780A5AB11E27D7540086B152 /* HYEditUserController.m */; };
+		7811CCE61E2903D200CE39C9 /* company.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCE51E2903D200CE39C9 /* company.json */; };
+		7811CCE81E29087B00CE39C9 /* youErYuan.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCE71E29087B00CE39C9 /* youErYuan.json */; };
+		7811CCEA1E2909FA00CE39C9 /* caipu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCE91E2909FA00CE39C9 /* caipu.json */; };
+		7811CCEC1E290D1400CE39C9 /* zhaoPin.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCEB1E290D1400CE39C9 /* zhaoPin.json */; };
+		7811CCEF1E290D6700CE39C9 /* HYZhaoPinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811CCEE1E290D6700CE39C9 /* HYZhaoPinModel.m */; };
+		7811CCF21E29152900CE39C9 /* HYHomeCompListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811CCF11E29152900CE39C9 /* HYHomeCompListController.m */; };
+		7811CCF41E2A28D000CE39C9 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCF31E2A28D000CE39C9 /* city.json */; };
 		785308B91E250C8700E6D71D /* HYHomeSectionTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308B81E250C8700E6D71D /* HYHomeSectionTwoCell.m */; };
 		785308BB1E250C9200E6D71D /* HYHomeSectionTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785308BA1E250C9200E6D71D /* HYHomeSectionTwoCell.xib */; };
 		785308BF1E25112E00E6D71D /* HYSectionFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308BE1E25112E00E6D71D /* HYSectionFootView.m */; };
@@ -267,6 +274,15 @@
 		780A5AAE1E27D72E0086B152 /* HYEditUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYEditUserCell.m; sourceTree = "<group>"; };
 		780A5AB01E27D7540086B152 /* HYEditUserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYEditUserController.h; sourceTree = "<group>"; };
 		780A5AB11E27D7540086B152 /* HYEditUserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYEditUserController.m; sourceTree = "<group>"; };
+		7811CCE51E2903D200CE39C9 /* company.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = company.json; sourceTree = "<group>"; };
+		7811CCE71E29087B00CE39C9 /* youErYuan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = youErYuan.json; sourceTree = "<group>"; };
+		7811CCE91E2909FA00CE39C9 /* caipu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = caipu.json; sourceTree = "<group>"; };
+		7811CCEB1E290D1400CE39C9 /* zhaoPin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zhaoPin.json; sourceTree = "<group>"; };
+		7811CCED1E290D6700CE39C9 /* HYZhaoPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZhaoPinModel.h; sourceTree = "<group>"; };
+		7811CCEE1E290D6700CE39C9 /* HYZhaoPinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZhaoPinModel.m; sourceTree = "<group>"; };
+		7811CCF01E29152900CE39C9 /* HYHomeCompListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeCompListController.h; sourceTree = "<group>"; };
+		7811CCF11E29152900CE39C9 /* HYHomeCompListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeCompListController.m; sourceTree = "<group>"; };
+		7811CCF31E2A28D000CE39C9 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 		785308B71E250C8700E6D71D /* HYHomeSectionTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeSectionTwoCell.h; sourceTree = "<group>"; };
 		785308B81E250C8700E6D71D /* HYHomeSectionTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeSectionTwoCell.m; sourceTree = "<group>"; };
 		785308BA1E250C9200E6D71D /* HYHomeSectionTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYHomeSectionTwoCell.xib; sourceTree = "<group>"; };
@@ -642,6 +658,8 @@
 			children = (
 				785308F51E25345900E6D71D /* HYHouseDetailsController.h */,
 				785308F61E25345900E6D71D /* HYHouseDetailsController.m */,
+				7811CCF01E29152900CE39C9 /* HYHomeCompListController.h */,
+				7811CCF11E29152900CE39C9 /* HYHomeCompListController.m */,
 				844A78311E28D2970069606D /* HYHomeNewController.h */,
 				844A78321E28D2970069606D /* HYHomeNewController.m */,
 				78AFD67D1E266B5E006C1D2F /* HYJobsTypeController.h */,
@@ -1065,6 +1083,8 @@
 			children = (
 				84E8B69C1E248C4F00630C4C /* HYJianLiModel.h */,
 				84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */,
+				7811CCED1E290D6700CE39C9 /* HYZhaoPinModel.h */,
+				7811CCEE1E290D6700CE39C9 /* HYZhaoPinModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1127,9 +1147,14 @@
 				84E8B6951E247C8E00630C4C /* Jianli.plist */,
 				84E8B6AC1E24AE6D00630C4C /* HomeTypeCol.plist */,
 				84DD79B81E2606C3006C2624 /* MyJob.plist */,
+				7811CCF31E2A28D000CE39C9 /* city.json */,
 				785308D31E251C6200E6D71D /* job_post_bigcate_http.json */,
 				785308D51E251CA400E6D71D /* job_resume_bigcate_http.json */,
 				844A782F1E28CE260069606D /* news.json */,
+				7811CCE51E2903D200CE39C9 /* company.json */,
+				7811CCE71E29087B00CE39C9 /* youErYuan.json */,
+				7811CCE91E2909FA00CE39C9 /* caipu.json */,
+				7811CCEB1E290D1400CE39C9 /* zhaoPin.json */,
 			);
 			name = Plist;
 			sourceTree = "<group>";
@@ -1477,10 +1502,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7811CCE81E29087B00CE39C9 /* youErYuan.json in Resources */,
 				78AFD6921E26820C006C1D2F /* HYHouseSectionCell.xib in Resources */,
+				7811CCE61E2903D200CE39C9 /* company.json in Resources */,
 				78EA7CA11E227C1E00C0E423 /* LaunchScreen.storyboard in Resources */,
+				7811CCEA1E2909FA00CE39C9 /* caipu.json in Resources */,
 				844A780E1E2887C60069606D /* defaultphoto.png in Resources */,
 				84E8B6961E247C8E00630C4C /* Jianli.plist in Resources */,
+				7811CCEC1E290D1400CE39C9 /* zhaoPin.json in Resources */,
 				785308D41E251C6200E6D71D /* job_post_bigcate_http.json in Resources */,
 				845005B41E27470900C57D0A /* HYPartTimeJobCell.xib in Resources */,
 				780A5AA11E27C64E0086B152 /* HYCommonCell.xib in Resources */,
@@ -1519,6 +1548,7 @@
 				78EA7D6D1E229D3600C0E423 /* HomeType.plist in Resources */,
 				780432381E23CC9500EBE4E7 /* HYJianliCell.xib in Resources */,
 				844A782E1E28C5080069606D /* HYNewsGuanCell.xib in Resources */,
+				7811CCF41E2A28D000CE39C9 /* city.json in Resources */,
 				780432451E23E0CE00EBE4E7 /* HYTypeHeadCell.xib in Resources */,
 				780A5AAC1E27D7260086B152 /* HYMineHeadCell.xib in Resources */,
 				785308D61E251CA400E6D71D /* job_resume_bigcate_http.json in Resources */,
@@ -1737,6 +1767,7 @@
 				78EA7D171E227CF800C0E423 /* DLCustomSlideView.m in Sources */,
 				78EA7D0F1E227CF800C0E423 /* NSObject+Common.m in Sources */,
 				780432481E23E24F00EBE4E7 /* HYHomeCycleCell.m in Sources */,
+				7811CCF21E29152900CE39C9 /* HYHomeCompListController.m in Sources */,
 				78EA7D141E227CF800C0E423 /* UITextView+Extension.m in Sources */,
 				78EA7D1F1E227CF800C0E423 /* YBPopupMenu.m in Sources */,
 				780A5AAB1E27D7260086B152 /* HYMineHeadCell.m in Sources */,
@@ -1774,6 +1805,7 @@
 				785308B91E250C8700E6D71D /* HYHomeSectionTwoCell.m in Sources */,
 				78EA7D4E1E227F1700C0E423 /* HYNewsController.m in Sources */,
 				84787F841E287FEE00C1CB80 /* SQSelectAddressTransitioning.m in Sources */,
+				7811CCEF1E290D6700CE39C9 /* HYZhaoPinModel.m in Sources */,
 				78AFD67F1E266B5E006C1D2F /* HYJobsTypeController.m in Sources */,
 				78EA7D551E2280F600C0E423 /* HYUploadController.m in Sources */,
 				780432431E23E0C700EBE4E7 /* HYTypeHeadCell.m in Sources */,

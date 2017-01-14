@@ -7,12 +7,16 @@
 //
 
 #import "HYHomeSectionTwoCell.h"
+#import "HYZhaoPinModel.h"
 
 @interface HYHomeSectionTwoCell()
 @property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *numberLabel;
 @property (weak, nonatomic) IBOutlet UILabel *placeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *educationLabel;
+@property (weak, nonatomic) IBOutlet UILabel *companyName;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 
 
 @end
@@ -32,6 +36,19 @@
         cell = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:nil options:nil] lastObject];
     }
     return cell;
+}
+
+-(void)setModel:(HYZhaoPinModel *)model{
+    _model = model;
+    
+    
+    [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:model.companyLogo] placeholderImage:[UIImage imageNamed:@""]];
+    self.titleLabel.text = model.Name;
+    self.numberLabel.text = model.Salary60;
+    self.placeLabel.text = model.WorkCity;
+    self.companyName.text = model.CompanyName;
+    self.educationLabel.text = model.Education;
+    self.timeLabel.text = model.PublishTime;
 }
 
 @end

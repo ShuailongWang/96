@@ -10,6 +10,14 @@
 
 @interface HYNewsCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *iconView;
+@property (weak, nonatomic) IBOutlet UIImageView *redImageView;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subTitle;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+
+
 -(void)showRedImage;
 -(void)hideRedImage;
 

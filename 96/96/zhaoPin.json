@@ -1,0 +1,3743 @@
+ [
+  {
+  "id": 31186498421,
+  "PositionID": 31186498421,
+  "Number": "CC368740281J90250018000",
+  "Name": "文字编辑",
+  "CompanyNumber": "CC368740281",
+  "CompanyAutoID": 36874028,
+  "CompanyName": "北京哈福尔网络科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "2001-4000元/月",
+  "Salary60": "2千-4千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "行政/后勤/文秘",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "弹性工作"
+                 },
+                 {
+                 "1": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/368740281250018.htm"
+  },
+  {
+  "id": 31175915031,
+  "PositionID": 31175915031,
+  "Number": "CC283088830J90250016000",
+  "Name": "急聘文案编辑",
+  "CompanyNumber": "CC283088830",
+  "CompanyAutoID": 28308883,
+  "CompanyName": "北京敏尧家电子商务有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "大专",
+  "CityDistrict": "丰台区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "广告/会展",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "绩效奖金"
+                 },
+                 {
+                 "1": "全勤奖"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "房补"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "补充医疗保险"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "121400",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160303/C0DB6ABC6A5A42F6884228301B2FB3FE.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/283088830250016.htm"
+  },
+  {
+  "id": 31186369641,
+  "PositionID": 31186369641,
+  "Number": "CC402298239J90250135000",
+  "Name": "新媒体美容/医美方向内容编辑",
+  "CompanyNumber": "CC402298239",
+  "CompanyAutoID": 40229823,
+  "CompanyName": "北京英才昊德信息技术有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "大专",
+  "CityDistrict": "通州区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "影视/媒体/出版/印刷",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "1年以下",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500,200302,210300",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/402298239250135.htm"
+  },
+  {
+  "id": 31198177900,
+  "PositionID": 31198177900,
+  "Number": "CC181809527J90250326000",
+  "Name": "教材研发编辑 双休",
+  "CompanyNumber": "CC181809527",
+  "CompanyAutoID": 18180952,
+  "CompanyName": "中青创想教育科技(北京)有限责任公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "教育/培训",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "加班补助"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "通讯补贴"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100",
+  "companyLogo": "http://campusimage.zhaopin.com/pic/cimg/Company/A//661788941607_100x100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/181809527250326.htm"
+  },
+  {
+  "id": 30031430134,
+  "PositionID": 30031430134,
+  "Number": "CC309892214J90250000000",
+  "Name": "音频编辑",
+  "CompanyNumber": "CC309892214",
+  "CompanyAutoID": 30989221,
+  "CompanyName": "北京世纪维克多文化发展有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "3000-5000元/月",
+  "Salary60": "3千-5千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "影视/媒体/出版/印刷",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "加班补助"
+                 },
+                 {
+                 "2": "弹性工作"
+                 },
+                 {
+                 "3": "带薪年假"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100,210300",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/309892214250000.htm"
+  },
+  {
+  "id": 31180270123,
+  "PositionID": 31180270123,
+  "Number": "CC279482118J90250112000",
+  "Name": "会计助理/文员可做（无需经验）",
+  "CompanyNumber": "CC279482118",
+  "CompanyAutoID": 27948211,
+  "CompanyName": "成都艾科诺斯科技有限责任公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "崇文区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "年终分红"
+                 },
+                 {
+                 "3": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "100000,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/100000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/279482118250112.htm"
+  },
+  {
+  "id": 31180303273,
+  "PositionID": 31180303273,
+  "Number": "CC279482118J90250151000",
+  "Name": "会计助理/文员可以尝试的APP试玩",
+  "CompanyNumber": "CC279482118",
+  "CompanyAutoID": 27948211,
+  "CompanyName": "成都艾科诺斯科技有限责任公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "年终分红"
+                 },
+                 {
+                 "3": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "100000,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/100000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/279482118250151.htm"
+  },
+  {
+  "id": 31198115920,
+  "PositionID": 31198115920,
+  "Number": "CC174661725J90253145000",
+  "Name": "央企特聘 财务顾问 会计助理 文员 底薪8000元",
+  "CompanyNumber": "CC174661725",
+  "CompanyAutoID": 113060590,
+  "CompanyName": "北京灿荣投资咨询有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "弹性工作"
+                 },
+                 {
+                 "5": "补充医疗保险"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100,170500,121000,121400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/174661725253145.htm"
+  },
+  {
+  "id": 31193939960,
+  "PositionID": 31193939960,
+  "Number": "CC303446781J90250048000",
+  "Name": "会计",
+  "CompanyNumber": "CC303446781",
+  "CompanyAutoID": 30344678,
+  "CompanyName": "智行联芳科技",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "交通补助"
+                 },
+                 {
+                 "5": "餐补"
+                 },
+                 {
+                 "6": "房补"
+                 },
+                 {
+                 "7": "通讯补贴"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500,200302",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/303446781250048.htm"
+  },
+  {
+  "id": 31197289280,
+  "PositionID": 31197289280,
+  "Number": "CC303446781J90250227000",
+  "Name": "会计助理",
+  "CompanyNumber": "CC303446781",
+  "CompanyAutoID": 30344678,
+  "CompanyName": "智行联芳科技",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "交通补助"
+                 },
+                 {
+                 "5": "餐补"
+                 },
+                 {
+                 "6": "房补"
+                 },
+                 {
+                 "7": "通讯补贴"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500,200302",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/303446781250227.htm"
+  },
+  {
+  "id": 31192111560,
+  "PositionID": 31192111560,
+  "Number": "CC331832138J90250047000",
+  "Name": "采购",
+  "CompanyNumber": "CC331832138",
+  "CompanyAutoID": 33183213,
+  "CompanyName": "北京大辛瑞泰科技发展有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "采购/贸易",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500,160500,300100,160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/331832138250047.htm"
+  },
+  {
+  "id": 31179132231,
+  "PositionID": 31179132231,
+  "Number": "CC252631283J90250110000",
+  "Name": "行业采购主管",
+  "CompanyNumber": "CC252631283",
+  "CompanyAutoID": 25263128,
+  "CompanyName": "北京蓝拓开元科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "采购/贸易",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/252631283250110.htm"
+  },
+  {
+  "id": 31178434591,
+  "PositionID": 31178434591,
+  "Number": "CC252631283J90250020000",
+  "Name": "采购",
+  "CompanyNumber": "CC252631283",
+  "CompanyAutoID": 25263128,
+  "CompanyName": "北京蓝拓开元科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "采购/贸易",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/252631283250020.htm"
+  },
+  {
+  "id": 31180454081,
+  "PositionID": 31180454081,
+  "Number": "CC252631283J90250237000",
+  "Name": "采购",
+  "CompanyNumber": "CC252631283",
+  "CompanyAutoID": 25263128,
+  "CompanyName": "北京蓝拓开元科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "WorkAddress": "北京市朝阳区朝阳路67号财满街财经中心9-2-801",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "采购/贸易",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/252631283250237.htm"
+  },
+  {
+  "id": 31179514361,
+  "PositionID": 31179514361,
+  "Number": "CC252631283J90250173000",
+  "Name": "采购",
+  "CompanyNumber": "CC252631283",
+  "CompanyAutoID": 25263128,
+  "CompanyName": "北京蓝拓开元科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "采购/贸易",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/252631283250173.htm"
+  },
+  {
+  "id": 31188353620,
+  "PositionID": 31188353620,
+  "Number": "CC145929312J90250295000",
+  "Name": "计算机文员/系统管理员/网络管理员",
+  "CompanyNumber": "CC145929312",
+  "CompanyAutoID": 14592931,
+  "CompanyName": "北京豪威大厦有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "3500-4500元/月",
+  "Salary60": "3.5千-4.5千",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "IT运维/技术支持",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "全勤奖"
+                 },
+                 {
+                 "2": "包吃"
+                 },
+                 {
+                 "3": "餐补"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "高温补贴"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "200600,140200",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/200600.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/145929312250295.htm"
+  },
+  {
+  "id": 31192251120,
+  "PositionID": 31192251120,
+  "Number": "CC133056528J90254632000",
+  "Name": "文员",
+  "CompanyNumber": "CC133056528",
+  "CompanyAutoID": 112995900,
+  "CompanyName": "中国太平洋人寿保险股份有限公司北京售后服务部",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "行政/后勤/文秘",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "1年以下",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "180000,160200,180100,201400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/180000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/133056528254632.htm"
+  },
+  {
+  "id": 31180303273,
+  "PositionID": 31180303273,
+  "Number": "CC279482118J90250151000",
+  "Name": "会计助理/文员可以尝试的APP试玩",
+  "CompanyNumber": "CC279482118",
+  "CompanyAutoID": 27948211,
+  "CompanyName": "成都艾科诺斯科技有限责任公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "年终分红"
+                 },
+                 {
+                 "3": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "100000,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/100000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/279482118250151.htm"
+  },
+  {
+  "id": 31180270123,
+  "PositionID": 31180270123,
+  "Number": "CC279482118J90250112000",
+  "Name": "会计助理/文员可做（无需经验）",
+  "CompanyNumber": "CC279482118",
+  "CompanyAutoID": 27948211,
+  "CompanyName": "成都艾科诺斯科技有限责任公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "崇文区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "财务/审计/税务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "年终分红"
+                 },
+                 {
+                 "3": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "100000,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/100000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/279482118250112.htm"
+  },
+  {
+  "id": 31231699914,
+  "PositionID": 31231699914,
+  "Number": "CC382135789J90250116000",
+  "Name": "品牌部文员",
+  "CompanyNumber": "CC382135789",
+  "CompanyAutoID": 38213578,
+  "CompanyName": "智通驰达商贸有限责任公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "市场",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "全勤奖"
+                 },
+                 {
+                 "5": "带薪年假"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "170500,120800,121500,200600",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/170500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/382135789250116.htm"
+  },
+  {
+  "id": 31198412830,
+  "PositionID": 31198412830,
+  "Number": "CC256039736J90250148000",
+  "Name": "产品运营经理",
+  "CompanyNumber": "CC256039736",
+  "CompanyAutoID": 25603973,
+  "CompanyName": "亿人帮互联网科技(北京)有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-20000元/月",
+  "Salary60": "1万-2万",
+  "Education": "本科",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "互联网产品/运营管理",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "餐补"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/256039736250148.htm"
+  },
+  {
+  "id": 31047258636,
+  "PositionID": 31047258636,
+  "Number": "CC568655520J90250055000",
+  "Name": "网络产品经理",
+  "CompanyNumber": "CC568655520",
+  "CompanyAutoID": 56865552,
+  "CompanyName": "北京炫舞人生文化发展中心",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "互联网产品/运营管理",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "通讯补贴"
+                 },
+                 {
+                 "5": "房补"
+                 },
+                 {
+                 "6": "餐补"
+                 },
+                 {
+                 "7": "交通补助"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "200302,201100,180000,200700",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/200302.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/568655520250055.htm"
+  },
+  {
+  "id": 31047209176,
+  "PositionID": 31047209176,
+  "Number": "CC568655520J90250031000",
+  "Name": "产品经理",
+  "CompanyNumber": "CC568655520",
+  "CompanyAutoID": 56865552,
+  "CompanyName": "北京炫舞人生文化发展中心",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "市场",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "交通补助"
+                 },
+                 {
+                 "5": "餐补"
+                 },
+                 {
+                 "6": "房补"
+                 },
+                 {
+                 "7": "通讯补贴"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "200302,201100,180000,200700",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/200302.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/568655520250031.htm"
+  },
+  {
+  "id": 31047209121,
+  "PositionID": 31047209121,
+  "Number": "CC568655520J90250020000",
+  "Name": "线上产品经理",
+  "CompanyNumber": "CC568655520",
+  "CompanyAutoID": 56865552,
+  "CompanyName": "北京炫舞人生文化发展中心",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "互联网产品/运营管理",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "通讯补贴"
+                 },
+                 {
+                 "5": "房补"
+                 },
+                 {
+                 "6": "餐补"
+                 },
+                 {
+                 "7": "交通补助"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "200302,201100,180000,200700",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/200302.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/568655520250020.htm"
+  },
+  {
+  "id": 31186411581,
+  "PositionID": 31186411581,
+  "Number": "CC537911028J90250476000",
+  "Name": "西城区学大教育诚聘人事专员",
+  "CompanyNumber": "CC537911028",
+  "CompanyAutoID": 53791102,
+  "CompanyName": "北京市海淀区学大教育培训学校",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "2001-4000元/月",
+  "Salary60": "2千-4千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "人力资源",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "定期体检"
+                 },
+                 {
+                 "4": "高温补贴"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20151027/4129C19E69534FB1A083CFFCA24EAE51.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/537911028250476.htm"
+  },
+  {
+  "id": 31176134451,
+  "PositionID": 31176134451,
+  "Number": "CC667057423J90250277000",
+  "Name": "人事主管",
+  "CompanyNumber": "CC667057423",
+  "CompanyAutoID": 66705742,
+  "CompanyName": "北京初见科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "人力资源",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "年终分红"
+                 },
+                 {
+                 "4": "全勤奖"
+                 },
+                 {
+                 "5": "餐补"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "160600,160000,210500,160400",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150527/B7FE4B4A453D45C6B035020DCD71110B.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/667057423250277.htm"
+  },
+  {
+  "id": 31194299610,
+  "PositionID": 31194299610,
+  "Number": "CC133056528J90254801000",
+  "Name": "人事主管",
+  "CompanyNumber": "CC133056528",
+  "CompanyAutoID": 112995910,
+  "CompanyName": "中国太平洋人寿保险股份有限公司北京售后服务部",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "大专",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "人力资源",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "绩效奖金"
+                 },
+                 {
+                 "1": "全勤奖"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "补充医疗保险"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "180000,160200,180100,201400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/180000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/133056528254801.htm"
+  },
+  {
+  "id": 31194303190,
+  "PositionID": 31194303190,
+  "Number": "CC133056528J90254802000",
+  "Name": "人事主管",
+  "CompanyNumber": "CC133056528",
+  "CompanyAutoID": 112995920,
+  "CompanyName": "中国太平洋人寿保险股份有限公司北京售后服务部",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "大专",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "人力资源",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "绩效奖金"
+                 },
+                 {
+                 "1": "全勤奖"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "补充医疗保险"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "180000,160200,180100,201400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/180000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/133056528254802.htm"
+  },
+  {
+  "id": 31255156672,
+  "PositionID": 31255156672,
+  "Number": "CC341874833J90250006000",
+  "Name": "电话催收/电话客服",
+  "CompanyNumber": "CC341874833",
+  "CompanyAutoID": 34187483,
+  "CompanyName": "上海浚汰商务咨询有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "15001-20000元/月",
+  "Salary60": "1.5万-2万",
+  "Education": "中专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "证券/期货/投资管理/服务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "员工旅游"
+                 }
+                 ],
+  "WorkingExp": "1年以下",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "300300",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160805/FBFCC3737DE44C12AD473D529EFC42A1.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/341874833250006.htm"
+  },
+  {
+  "id": 31185999731,
+  "PositionID": 31185999731,
+  "Number": "CC674653228J90250117000",
+  "Name": "客服专员",
+  "CompanyNumber": "CC674653228",
+  "CompanyAutoID": 112853131,
+  "CompanyName": "北京全融信息服务有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "大专",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "客服/售前/售后技术支持",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "加班补助"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "员工旅游"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/674653228250117.htm"
+  },
+  {
+  "id": 31186313781,
+  "PositionID": 31186313781,
+  "Number": "CC566964221J90250108000",
+  "Name": "客服专员",
+  "CompanyNumber": "CC566964221",
+  "CompanyAutoID": 56696422,
+  "CompanyName": "北京银库国际教育",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "客服/售前/售后技术支持",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "股票期权"
+                 },
+                 {
+                 "3": "加班补助"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "补充医疗保险"
+                 },
+                 {
+                 "7": "员工旅游"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100,210500,180000",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160128/0B762EA507474720AA7081BEC52814C8.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/566964221250108.htm"
+  },
+  {
+  "id": 31196663870,
+  "PositionID": 31196663870,
+  "Number": "CC260083983J90250271000",
+  "Name": "电商客服 售后",
+  "CompanyNumber": "CC260083983",
+  "CompanyAutoID": 112917320,
+  "CompanyName": "北京乐纯悠品商贸有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "5000-10000元/月",
+  "Salary60": "5千-1万",
+  "Education": "中专",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "客服/售前/售后技术支持",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "带薪年假"
+                 },
+                 {
+                 "2": "补充医疗保险"
+                 },
+                 {
+                 "3": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "210500,120400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/260083983250271.htm"
+  },
+  {
+  "id": 31196213900,
+  "PositionID": 31196213900,
+  "Number": "CC148965342J90252039000",
+  "Name": "电话销售【精准资源+高提成绩效奖金】",
+  "CompanyNumber": "CC148965342",
+  "CompanyAutoID": 113077500,
+  "CompanyName": "北京雄鹰教育科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "销售业务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100,210500,160000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/148965342252039.htm"
+  },
+  {
+  "id": 31196157870,
+  "PositionID": 31196157870,
+  "Number": "CC148965342J90252036000",
+  "Name": "电话销售【五险一金】",
+  "CompanyNumber": "CC148965342",
+  "CompanyAutoID": 113077500,
+  "CompanyName": "北京雄鹰教育科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "销售业务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "全勤奖"
+                 },
+                 {
+                 "4": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100,210500,160000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/148965342252036.htm"
+  },
+  {
+  "id": 31198413160,
+  "PositionID": 31198413160,
+  "Number": "CC236253714J90278970000",
+  "Name": "LIANJIA★销售顾问【集团总部直聘+底薪4000+师徒制+五险一金】★",
+  "CompanyNumber": "CC236253714",
+  "CompanyAutoID": 112946030,
+  "CompanyName": "北京链家房地产经纪有限公司看丹桥店",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "8001-10000元/月",
+  "Salary60": "8千-1万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "销售管理",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "补充医疗保险"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201400",
+  "companyLogo": "http://campusimage.zhaopin.com/pic/cimg/Company/A//671089218212_100x100.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/236253714278970.htm"
+  },
+  {
+  "id": 31185927491,
+  "PositionID": 31185927491,
+  "Number": "CC135508479J90250133000",
+  "Name": "渠道销售经理",
+  "CompanyNumber": "CC135508479",
+  "CompanyAutoID": 13550847,
+  "CompanyName": "北京凯米特科技发展有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "销售业务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "通讯补贴"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "定期体检"
+                 },
+                 {
+                 "7": "免费班车"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "170500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/170500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/135508479250133.htm"
+  },
+  {
+  "id": 31197791100,
+  "PositionID": 31197791100,
+  "Number": "CC165044528J90250930000",
+  "Name": "高级平面设计师",
+  "CompanyNumber": "CC165044528",
+  "CompanyAutoID": 16504452,
+  "CompanyName": "北京盛邦新业科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "8000-15000元/月",
+  "Salary60": "8千-1.5万",
+  "Education": "学历不限",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "艺术/设计",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "员工旅游"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "200302,140100,160400,160200",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150130/FF814B97311B4DEC83954462D2384826.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/165044528250930.htm"
+  },
+  {
+  "id": 31186165371,
+  "PositionID": 31186165371,
+  "Number": "CC456182688J90250083000",
+  "Name": "零基础ui/平面设计实习生+岗前实训",
+  "CompanyNumber": "CC456182688",
+  "CompanyAutoID": 45618268,
+  "CompanyName": "北京北云时代教育科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "5000-7000元/月",
+  "Salary60": "5千-7千",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "艺术/设计",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "无经验",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "160400,210500,300100,201100",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20161207/3E61F37F1F9F434E896953A5EBF8C4D8.jpg",
+  "emplType": "实习",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/456182688250083.htm"
+  },
+  {
+  "id": 31197980190,
+  "PositionID": 31197980190,
+  "Number": "CC174661725J90253113000",
+  "Name": "金领工程 多媒体 平面设计 底薪8000元 清华培训",
+  "CompanyNumber": "CC174661725",
+  "CompanyAutoID": 113060590,
+  "CompanyName": "北京灿荣投资咨询有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6001-8000元/月",
+  "Salary60": "6千-8千",
+  "Education": "学历不限",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "艺术/设计",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年底双薪"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "弹性工作"
+                 },
+                 {
+                 "5": "补充医疗保险"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "201100,170500,121000,121400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/174661725253113.htm"
+  },
+  {
+  "id": 31196456170,
+  "PositionID": 31196456170,
+  "Number": "CC426402736J90250191000",
+  "Name": "平面设计助理/实习生/双休",
+  "CompanyNumber": "CC426402736",
+  "CompanyAutoID": 42640273,
+  "CompanyName": "北京汇瑞安网络科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:00",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "4001-6000元/月",
+  "Salary60": "4千-6千",
+  "Education": "中专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "销售业务",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "餐补"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "员工旅游"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 1,
+  "industry": "160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/426402736250191.htm"
+  },
+  {
+  "id": 31195787850,
+  "PositionID": 31195787850,
+  "Number": "CC251336784J90250071000",
+  "Name": "ios应用开发工程师",
+  "CompanyNumber": "CC251336784",
+  "CompanyAutoID": 25133678,
+  "CompanyName": "水无沙(北京)科技有限公司",
+  "PublishTime": "12-14",
+  "PublishTimeDt": "2016-12-14T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "定期体检"
+                 },
+                 {
+                 "5": "员工旅游"
+                 },
+                 {
+                 "6": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,160400,160000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/251336784250071.htm"
+  },
+  {
+  "id": 31190379240,
+  "PositionID": 31190379240,
+  "Number": "CC695892924J90250038000",
+  "Name": "iOS高级开发工程师",
+  "CompanyNumber": "CC695892924",
+  "CompanyAutoID": 69589292,
+  "CompanyName": "北京和远科技有限公司",
+  "PublishTime": "11-28",
+  "PublishTimeDt": "2016-11-28T14:07:13",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-20000元/月",
+  "Salary60": "1万-2万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "年终分红"
+                 },
+                 {
+                 "3": "全勤奖"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/695892924250038.htm"
+  },
+  {
+  "id": 31189421510,
+  "PositionID": 31189421510,
+  "Number": "CC367975184J90250010000",
+  "Name": "IOS工程师",
+  "CompanyNumber": "CC367975184",
+  "CompanyAutoID": 36797518,
+  "CompanyName": "北京国能环科环保科技有限公司",
+  "PublishTime": "01-10",
+  "PublishTimeDt": "2017-01-10T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-20000元/月",
+  "Salary60": "1万-2万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "绩效奖金"
+                 },
+                 {
+                 "1": "带薪年假"
+                 },
+                 {
+                 "2": "弹性工作"
+                 },
+                 {
+                 "3": "五险一金"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "201200",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160624/7221FEF9C35D4F16BC53AA0835ABE1B2.JPG",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/36797518490250010000.htm"
+  },
+  {
+  "id": 31175819961,
+  "PositionID": 31175819961,
+  "Number": "CC312271484J90250117000",
+  "Name": "IOS高级工程师",
+  "CompanyNumber": "CC312271484",
+  "CompanyAutoID": 31227148,
+  "CompanyName": "美域国际健康管理(北京)有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "交通补助"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "121400,210500,121500,121300",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160921/3B68F624041941AA81DE06AE89B38CC4.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/312271484250117.htm"
+  },
+  {
+  "id": 31198345560,
+  "PositionID": 31198345560,
+  "Number": "CC484424321J90250441000",
+  "Name": "IOS开发工程师",
+  "CompanyNumber": "CC484424321",
+  "CompanyAutoID": 48442432,
+  "CompanyName": "北京巨龙伟业投资管理有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "加班补助"
+                 },
+                 {
+                 "1": "包吃"
+                 },
+                 {
+                 "2": "带薪年假"
+                 },
+                 {
+                 "3": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,160400,121400,200302",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/484424321250441.htm"
+  },
+  {
+  "id": 31198449580,
+  "PositionID": 31198449580,
+  "Number": "CC428370132J90250007000",
+  "Name": "IOS APP开发工程师",
+  "CompanyNumber": "CC428370132",
+  "CompanyAutoID": 42837013,
+  "CompanyName": "中观国学(北京)文化传播有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-20000元/月",
+  "Salary60": "1万-2万",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "年终分红"
+                 },
+                 {
+                 "1": "带薪年假"
+                 },
+                 {
+                 "2": "弹性工作"
+                 },
+                 {
+                 "3": "节日福利"
+                 },
+                 {
+                 "4": "五险一金"
+                 },
+                 {
+                 "5": "绩效奖金"
+                 },
+                 {
+                 "6": "股票期权"
+                 },
+                 {
+                 "7": "员工旅游"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0.47,
+  "industry": "201100,200300",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160819/E49EE2EC222F4AB687D2942F6E9593E8.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/428370132250007.htm"
+  },
+  {
+  "id": 31198292350,
+  "PositionID": 31198292350,
+  "Number": "CC278655785J90250177000",
+  "Name": "IOS开发工程师",
+  "CompanyNumber": "CC278655785",
+  "CompanyAutoID": 27865578,
+  "CompanyName": "北京全盛丰联投资管理有限公司",
+  "PublishTime": "01-09",
+  "PublishTimeDt": "2017-01-09T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "加班补助"
+                 },
+                 {
+                 "3": "餐补"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "员工旅游"
+                 },
+                 {
+                 "6": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "180000,300900,180100",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/180000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/278655785250177.htm"
+  },
+  {
+  "id": 31198139150,
+  "PositionID": 31198139150,
+  "Number": "CC459688331J90250001000",
+  "Name": "iOS技术经理",
+  "CompanyNumber": "CC459688331",
+  "CompanyAutoID": 45968833,
+  "CompanyName": "北京幸福良育科技有限公司",
+  "PublishTime": "01-03",
+  "PublishTimeDt": "2017-01-03T18:08:58",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "12000-20000元/月",
+  "Salary60": "1.2万-2万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "加班补助"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "201100,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/459688331250001.htm"
+  },
+  {
+  "id": 31241752116,
+  "PositionID": 31241752116,
+  "Number": "CC407340480J90250010000",
+  "Name": "iOS开发工程师（应届硕士生）",
+  "CompanyNumber": "CC407340480",
+  "CompanyAutoID": 40734048,
+  "CompanyName": "中电科(天津)网络信息安全有限公司",
+  "PublishTime": "01-12",
+  "PublishTimeDt": "2017-01-12T00:00:20",
+  "CityId": "531",
+  "WorkCity": "天津",
+  "Salary": "8000-15000元/月",
+  "Salary60": "8千-1.5万",
+  "Education": "本科",
+  "CityDistrict": "南开区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "加班补助"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "补充医疗保险"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400,160000,210500,300100",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/407340480250010.htm"
+  },
+  {
+  "id": 31198375390,
+  "PositionID": 31198375390,
+  "Number": "CC704578529J90250103000",
+  "Name": "iOS开发工程师",
+  "CompanyNumber": "CC704578529",
+  "CompanyAutoID": 70457852,
+  "CompanyName": "北京叩富网络科技有限公司",
+  "PublishTime": "01-12",
+  "PublishTimeDt": "2017-01-12T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "12000-20000元/月",
+  "Salary60": "1.2万-2万",
+  "Education": "本科",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "加班补助"
+                 },
+                 {
+                 "4": "全勤奖"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "带薪年假"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,180000,160000",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20161123/FE5F1D5C87304CB99164063ED7B0FDFE.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/704578529250103.htm"
+  },
+  {
+  "id": 31133704151,
+  "PositionID": 31133704151,
+  "Number": "CC691745623J90250010000",
+  "Name": "Android/IOS手机客户端开发工程师",
+  "CompanyNumber": "CC691745623",
+  "CompanyAutoID": 69174562,
+  "CompanyName": "北京中天明睿科技有限公司",
+  "PublishTime": "12-30",
+  "PublishTimeDt": "2016-12-30T03:12:13",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/691745623250010.htm"
+  },
+  {
+  "id": 31186815361,
+  "PositionID": 31186815361,
+  "Number": "CC368330880J90250056000",
+  "Name": "高级iOS工程师",
+  "CompanyNumber": "CC368330880",
+  "CompanyAutoID": 36833088,
+  "CompanyName": "投融在线(北京)股权投资服务有限公司",
+  "PublishTime": "01-09",
+  "PublishTimeDt": "2017-01-09T14:34:16",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "15000-25000元/月",
+  "Salary60": "1.5万-2.5万",
+  "Education": "大专",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,180000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/368330880250056.htm"
+  },
+  {
+  "id": 31196195760,
+  "PositionID": 31196195760,
+  "Number": "CC280209937J90250042000",
+  "Name": "ios开发工程师",
+  "CompanyNumber": "CC280209937",
+  "CompanyAutoID": 28020993,
+  "CompanyName": "北京中恒昆仑投资管理有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-12000元/月",
+  "Salary60": "1万-1.2万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "180000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/180000.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/280209937250042.htm"
+  },
+  {
+  "id": 31238566772,
+  "PositionID": 31238566772,
+  "Number": "CC584804421J90251212000",
+  "Name": "IOS研发工程师（底薪4500+绩效+奖金） 上五休二",
+  "CompanyNumber": "CC584804421",
+  "CompanyAutoID": 113049722,
+  "CompanyName": "耀姚贸易(上海)有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "年终分红"
+                 },
+                 {
+                 "3": "加班补助"
+                 },
+                 {
+                 "4": "餐补"
+                 },
+                 {
+                 "5": "房补"
+                 },
+                 {
+                 "6": "带薪年假"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0.89,
+  "industry": "170500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/170500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/584804421251212.htm"
+  },
+  {
+  "id": 31194618200,
+  "PositionID": 31194618200,
+  "Number": "CC406213381J90250001000",
+  "Name": "IOS工程师",
+  "CompanyNumber": "CC406213381",
+  "CompanyAutoID": 40621338,
+  "CompanyName": "福建中金在线信息科技有限公司北京分公司",
+  "PublishTime": "12-21",
+  "PublishTimeDt": "2016-12-21T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-18000元/月",
+  "Salary60": "1万-1.8万",
+  "Education": "本科",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "股票期权"
+                 },
+                 {
+                 "2": "弹性工作"
+                 },
+                 {
+                 "3": "定期体检"
+                 },
+                 {
+                 "4": "员工旅游"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/406213381250001.htm"
+  },
+  {
+  "id": 31180650181,
+  "PositionID": 31180650181,
+  "Number": "CC120564482J90250378000",
+  "Name": "IOS研发工程师",
+  "CompanyNumber": "CC120564482",
+  "CompanyAutoID": 12056448,
+  "CompanyName": "北京大陆康腾科技有限公司",
+  "PublishTime": "01-10",
+  "PublishTimeDt": "2017-01-10T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "8000-15000元/月",
+  "Salary60": "8千-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "定期体检"
+                 },
+                 {
+                 "4": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400,160200,200100,100000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/120564482250378.htm"
+  },
+  {
+  "id": 31178803663,
+  "PositionID": 31178803663,
+  "Number": "CC417203036J90250001000",
+  "Name": "IOS软件工程师",
+  "CompanyNumber": "CC417203036",
+  "CompanyAutoID": 41720303,
+  "CompanyName": "北京超信科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-20000元/月",
+  "Salary60": "1万-2万",
+  "Education": "本科",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "股票期权"
+                 },
+                 {
+                 "3": "交通补助"
+                 },
+                 {
+                 "4": "餐补"
+                 },
+                 {
+                 "5": "采暖补贴"
+                 },
+                 {
+                 "6": "带薪年假"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/417203036250001.htm"
+  },
+  {
+  "id": 3015312,
+  "PositionID": 3015312,
+  "Number": "CZ759577870J00003015312",
+  "Name": "ios开发工程师",
+  "CompanyNumber": "CC759577871",
+  "CompanyAutoID": 75957787,
+  "CompanyName": "北京欧罗班科技有限公司",
+  "PublishTime": "01-05",
+  "PublishTimeDt": "2017-01-05T10:53:08",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/CZ759577870J00003015312.htm"
+  },
+  {
+  "id": 31247916094,
+  "PositionID": 31247916094,
+  "Number": "CC239706620J90253419000",
+  "Name": "IOS前端开发工程师",
+  "CompanyNumber": "CC239706620",
+  "CompanyAutoID": 23970662,
+  "CompanyName": "大地影院",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "大专",
+  "CityDistrict": "大兴区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "交通补助"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "定期体检"
+                 },
+                 {
+                 "4": "带薪年假"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210300,140000,160400",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20151214/B9EF3F982824435B921C1D73507A2401.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/239706620253419.htm"
+  },
+  {
+  "id": 31186456961,
+  "PositionID": 31186456961,
+  "Number": "CC680472826J90250130000",
+  "Name": "移动端开发工程师 （ IOS 方向）",
+  "CompanyNumber": "CC680472826",
+  "CompanyAutoID": 68047282,
+  "CompanyName": "证联支付有限责任公司北京分公司",
+  "PublishTime": "01-10",
+  "PublishTimeDt": "2017-01-10T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10000-20000元/月",
+  "Salary60": "1万-2万",
+  "Education": "大专",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年终分红"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "通讯补贴"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "弹性工作"
+                 },
+                 {
+                 "6": "补充医疗保险"
+                 },
+                 {
+                 "7": "定期体检"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,160400,180000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/680472826250130.htm"
+  },
+  {
+  "id": 31198295230,
+  "PositionID": 31198295230,
+  "Number": "CC344993389J90250041000",
+  "Name": "ios程序员/工程师/苹果开发",
+  "CompanyNumber": "CC344993389",
+  "CompanyAutoID": 34499338,
+  "CompanyName": "北京法智科技有限公司",
+  "PublishTime": "01-12",
+  "PublishTimeDt": "2017-01-12T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6000-12000元/月",
+  "Salary60": "6千-1.2万",
+  "Education": "学历不限",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "201100,210500,160200,180000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/201100.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/344993389250041.htm"
+  },
+  {
+  "id": 31264065782,
+  "PositionID": 31264065782,
+  "Number": "CC535985228J90250076000",
+  "Name": "iOS开发工程师",
+  "CompanyNumber": "CC535985228",
+  "CompanyAutoID": 53598522,
+  "CompanyName": "亮风台(上海)信息科技有限公司",
+  "PublishTime": "01-12",
+  "PublishTimeDt": "2017-01-12T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "定期体检"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400,160000,210500",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150610/0B1E122676E244CC9466AE728A55BF34.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/535985228250076.htm"
+  },
+  {
+  "id": 31192749490,
+  "PositionID": 31192749490,
+  "Number": "CC302981984J90250041000",
+  "Name": "IOS开发工程师",
+  "CompanyNumber": "CC302981984",
+  "CompanyAutoID": 30298198,
+  "CompanyName": "新疆野马电子商务有限公司北京办事处",
+  "PublishTime": "01-12",
+  "PublishTimeDt": "2017-01-12T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "15000-25000元/月",
+  "Salary60": "1.5万-2.5万",
+  "Education": "本科",
+  "CityDistrict": "东城区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "加班补助"
+                 },
+                 {
+                 "3": "交通补助"
+                 },
+                 {
+                 "4": "餐补"
+                 },
+                 {
+                 "5": "带薪年假"
+                 },
+                 {
+                 "6": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160523/82D1C4F3E332421293E0DD6A9CE3B17B.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/302981984250041.htm"
+  },
+  {
+  "id": 31169990041,
+  "PositionID": 31169990041,
+  "Number": "CC366553888J90250011000",
+  "Name": "ios软件开发工程师",
+  "CompanyNumber": "CC366553888",
+  "CompanyAutoID": 36655388,
+  "CompanyName": "大连信雅达软件有限公司北京办事处",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "加班补助"
+                 },
+                 {
+                 "2": "交通补助"
+                 },
+                 {
+                 "3": "餐补"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/366553888250011.htm"
+  },
+  {
+  "id": 31185998521,
+  "PositionID": 31185998521,
+  "Number": "CC401520011J90250603000",
+  "Name": "IOS开发工程师",
+  "CompanyNumber": "CC401520011",
+  "CompanyAutoID": 40152001,
+  "CompanyName": "北京中广上洋科技股份有限公司",
+  "PublishTime": "01-04",
+  "PublishTimeDt": "2017-01-04T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "股票期权"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "补充医疗保险"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "高温补贴"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400,160000,160500,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/401520011250603.htm"
+  },
+  {
+  "id": 31179593011,
+  "PositionID": 31179593011,
+  "Number": "CC608869229J90250664000",
+  "Name": "Android/IOS开发工程师-504",
+  "CompanyNumber": "CC608869229",
+  "CompanyAutoID": 60886922,
+  "CompanyName": "北京金山云网络技术有限公司",
+  "PublishTime": "01-11",
+  "PublishTimeDt": "2017-01-11T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "股票期权"
+                 },
+                 {
+                 "2": "包吃"
+                 },
+                 {
+                 "3": "弹性工作"
+                 },
+                 {
+                 "4": "补充医疗保险"
+                 },
+                 {
+                 "5": "免费班车"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/608869229250664.htm"
+  },
+  {
+  "id": 31186828991,
+  "PositionID": 31186828991,
+  "Number": "CC443393485J90250033000",
+  "Name": "ios开发工程师",
+  "CompanyNumber": "CC443393485",
+  "CompanyAutoID": 44339348,
+  "CompanyName": "北京鼎阅原创科技发展有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "12000-15000元/月",
+  "Salary60": "1.2万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "弹性工作"
+                 },
+                 {
+                 "5": "员工旅游"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20170108/2EFFF7DB8EA548F6AD85CF721444B563.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/443393485250033.htm"
+  },
+  {
+  "id": 31232012256,
+  "PositionID": 31232012256,
+  "Number": "CC606196320J90251041000",
+  "Name": "IOS软件工程师",
+  "CompanyNumber": "CC606196320",
+  "CompanyAutoID": 112512086,
+  "CompanyName": "广誉远中药股份有限公司",
+  "PublishTime": "01-03",
+  "PublishTimeDt": "2017-01-03T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "8000-12000元/月",
+  "Salary60": "8千-1.2万",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "高温补贴"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "121300",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/121300.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/606196320251041.htm"
+  },
+  {
+  "id": 31186708491,
+  "PositionID": 31186708491,
+  "Number": "CC366418081J90250078000",
+  "Name": "ios开发工程师",
+  "CompanyNumber": "CC366418081",
+  "CompanyAutoID": 113062361,
+  "CompanyName": "北京酷车易美网络科技有限公司",
+  "PublishTime": "01-05",
+  "PublishTimeDt": "2017-01-05T12:31:07",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "大兴区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,121000",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160711/30C9F47F729C46A69D29738EF5301782.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/366418081250078.htm"
+  },
+  {
+  "id": 31185364831,
+  "PositionID": 31185364831,
+  "Number": "CC185072823J90250488000",
+  "Name": "ios开发工程师",
+  "CompanyNumber": "CC185072823",
+  "CompanyAutoID": 18507282,
+  "CompanyName": "北京品驰医疗设备有限公司",
+  "PublishTime": "01-09",
+  "PublishTimeDt": "2017-01-09T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "6000-12000元/月",
+  "Salary60": "6千-1.2万",
+  "Education": "学历不限",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "补充医疗保险"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "121500",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150605/3B7FBC09C0504723B7A2C7FBBEFA92F0.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/185072823250488.htm"
+  },
+  {
+  "id": 31197796030,
+  "PositionID": 31197796030,
+  "Number": "CC434930530J90250002000",
+  "Name": "iOS开发工程师",
+  "CompanyNumber": "CC434930530",
+  "CompanyAutoID": 43493053,
+  "CompanyName": "北京云众汇聚科技有限公司",
+  "PublishTime": "01-07",
+  "PublishTimeDt": "2017-01-07T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "朝阳区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "带薪年假"
+                 },
+                 {
+                 "2": "弹性工作"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/434930530250002.htm"
+  },
+  {
+  "id": 31185613761,
+  "PositionID": 31185613761,
+  "Number": "CC397896685J90250008000",
+  "Name": "高级IOS开发工程师",
+  "CompanyNumber": "CC397896685",
+  "CompanyAutoID": 39789668,
+  "CompanyName": "北京德生科技有限责任公司",
+  "PublishTime": "12-22",
+  "PublishTimeDt": "2016-12-22T10:43:40",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "15000-25000元/月",
+  "Salary60": "1.5万-2.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,160400",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210500.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/397896685250008.htm"
+  },
+  {
+  "id": 31195580680,
+  "PositionID": 31195580680,
+  "Number": "CC626034121J90251773000",
+  "Name": "资深iOS开发",
+  "CompanyNumber": "CC626034121",
+  "CompanyAutoID": 62603412,
+  "CompanyName": "北京画时代教育科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "15000-30000元/月",
+  "Salary60": "1.5万-3万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "全勤奖"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "员工旅游"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "201100,140100,200302,120800",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150608/131FEED77A2F4393AAFDD24A2113333D.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/626034121251773.htm"
+  },
+  {
+  "id": 31167310224,
+  "PositionID": 31167310224,
+  "Number": "CC542363627J90250099000",
+  "Name": "ios兼web开发工程师",
+  "CompanyNumber": "CC542363627",
+  "CompanyAutoID": 54236362,
+  "CompanyName": "北京盛威时代科技有限公司",
+  "PublishTime": "01-12",
+  "PublishTimeDt": "2017-01-12T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "学历不限",
+  "CityDistrict": "海淀区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [],
+  "WorkingExp": "不限",
+  "Distance": 0,
+  "feedbackRation": 0.62,
+  "industry": "160400,160000,160200,210500",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/542363627250099.htm"
+  },
+  {
+  "id": 31197786310,
+  "PositionID": 31197786310,
+  "Number": "CC269974934J90250364000",
+  "Name": "ios开发工程师",
+  "CompanyNumber": "CC269974934",
+  "CompanyAutoID": 26997493,
+  "CompanyName": "北京世纪天尚文化传媒有限公司",
+  "PublishTime": "01-11",
+  "PublishTimeDt": "2017-01-11T20:48:30",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "加班补助"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "带薪年假"
+                 },
+                 {
+                 "4": "员工旅游"
+                 },
+                 {
+                 "5": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210300",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/210300.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/269974934250364.htm"
+  },
+  {
+  "id": 31170500151,
+  "PositionID": 31170500151,
+  "Number": "CC650718022J90250059000",
+  "Name": "IOS软件开发工程师",
+  "CompanyNumber": "CC650718022",
+  "CompanyAutoID": 65071802,
+  "CompanyName": "北京淘金者科技有限公司",
+  "PublishTime": "01-05",
+  "PublishTimeDt": "2017-01-05T15:35:53",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "股票期权"
+                 },
+                 {
+                 "2": "弹性工作"
+                 },
+                 {
+                 "3": "补充医疗保险"
+                 },
+                 {
+                 "4": "定期体检"
+                 },
+                 {
+                 "5": "员工旅游"
+                 },
+                 {
+                 "6": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160400,210300,121000,210500",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150630/E03A45FFF2A34E4BA971C60A3BE27500.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/65071802290250059000.htm"
+  },
+  {
+  "id": 31122952040,
+  "PositionID": 31122952040,
+  "Number": "CC564679921J90250122000",
+  "Name": "IOS移动端开发工程师",
+  "CompanyNumber": "CC564679921",
+  "CompanyAutoID": 56467992,
+  "CompanyName": "泓华国际医疗控股有限公司",
+  "PublishTime": "01-10",
+  "PublishTimeDt": "2017-01-10T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "电信/通信技术开发及应用",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "年底双薪"
+                 },
+                 {
+                 "2": "绩效奖金"
+                 },
+                 {
+                 "3": "股票期权"
+                 },
+                 {
+                 "4": "加班补助"
+                 },
+                 {
+                 "5": "带薪年假"
+                 },
+                 {
+                 "6": "定期体检"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "1-3年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "121400,201100,180000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/121400.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/564679921250122.htm"
+  },
+  {
+  "id": 31226679244,
+  "PositionID": 31226679244,
+  "Number": "CC000140069J90253110000",
+  "Name": "IOS开发工程师",
+  "CompanyNumber": "CC000140069",
+  "CompanyAutoID": 101083092,
+  "CompanyName": "哈尔滨新中新电子股份有限公司",
+  "PublishTime": "12-22",
+  "PublishTimeDt": "2016-12-22T16:24:44",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "大专",
+  "CityDistrict": "丰台区",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "交通补助"
+                 },
+                 {
+                 "3": "餐补"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "160200,160500,990000",
+  "companyLogo": "http://img09.zhaopin.com/2012/other/mobile/mi/companyLogo/01/160200.png",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/000140069253110.htm"
+  },
+  {
+  "id": 31249938904,
+  "PositionID": 31249938904,
+  "Number": "CC194119719J90250265000",
+  "Name": "IOS开发工程师（APP端开发）",
+  "CompanyNumber": "CC194119719",
+  "CompanyAutoID": 19411971,
+  "CompanyName": "北京瀚海新创科技有限公司",
+  "PublishTime": "01-13",
+  "PublishTimeDt": "2017-01-13T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "本科",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "绩效奖金"
+                 },
+                 {
+                 "2": "股票期权"
+                 },
+                 {
+                 "3": "员工旅游"
+                 },
+                 {
+                 "4": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0,
+  "industry": "210500,160400,160000",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20150611/B1C2A4967F504154AC530F2B88F846A8.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/194119719250265.htm"
+  },
+  {
+  "id": 31184439331,
+  "PositionID": 31184439331,
+  "Number": "CC559552624J90250394000",
+  "Name": "IOS工程师",
+  "CompanyNumber": "CC559552624",
+  "CompanyAutoID": 55955262,
+  "CompanyName": "北京量子信诺科技有限公司",
+  "PublishTime": "12-22",
+  "PublishTimeDt": "2016-12-22T00:00:20",
+  "CityId": "530",
+  "WorkCity": "北京",
+  "Salary": "10001-15000元/月",
+  "Salary60": "1万-1.5万",
+  "Education": "大专",
+  "CityDistrict": "",
+  "HasAppliedPosition": false,
+  "IsFastPosition": false,
+  "JobType": "软件/互联网开发/系统集成",
+  "isFeedback": false,
+  "WelfareTab": [
+                 {
+                 "0": "五险一金"
+                 },
+                 {
+                 "1": "交通补助"
+                 },
+                 {
+                 "2": "餐补"
+                 },
+                 {
+                 "3": "通讯补贴"
+                 },
+                 {
+                 "4": "带薪年假"
+                 },
+                 {
+                 "5": "定期体检"
+                 },
+                 {
+                 "6": "员工旅游"
+                 },
+                 {
+                 "7": "节日福利"
+                 }
+                 ],
+  "WorkingExp": "3-5年",
+  "Distance": 0,
+  "feedbackRation": 0.93,
+  "industry": "160400,160000,210500,300300",
+  "companyLogo": "http://company.zhaopin.com/CompanyLogo/20160819/251D9105C13D42A0930F3A8997053D59.jpg",
+  "emplType": "全职",
+  "applyType": "1",
+  "positionURL": "http://jobs.zhaopin.com/559552624250394.htm"
+  }
+  ]

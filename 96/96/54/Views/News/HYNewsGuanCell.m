@@ -50,4 +50,13 @@
     return cell;
 }
 
+-(void)setDict:(NSDictionary *)dict{
+    _dict = dict;
+    
+    self.titleLabel.text = dict[@"date"];
+    [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:dict[@"thumbnail_pic_s"]] placeholderImage:[UIImage imageNamed:@""]];
+    self.titleLabel.text = dict[@"title"];
+    
+}
+
 @end
