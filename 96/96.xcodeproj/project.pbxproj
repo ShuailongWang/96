@@ -61,6 +61,8 @@
 		785309001E25352A00E6D71D /* HYJonsDetailsOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785308FF1E25352A00E6D71D /* HYJonsDetailsOneCell.xib */; };
 		785309031E25392F00E6D71D /* HYJonsDetailsTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785309021E25392F00E6D71D /* HYJonsDetailsTwoCell.m */; };
 		785309051E25393700E6D71D /* HYJonsDetailsTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785309041E25393700E6D71D /* HYJonsDetailsTwoCell.xib */; };
+		789741061E2D08C1009D1C0A /* HYFreshTwoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */; };
+		7897410A1E2D0CD6009D1C0A /* HYFreshDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */; };
 		78AFD67C1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD67B1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m */; };
 		78AFD67F1E266B5E006C1D2F /* HYJobsTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD67E1E266B5E006C1D2F /* HYJobsTypeController.m */; };
 		78AFD6831E266D8E006C1D2F /* HYJobsTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD6821E266D8E006C1D2F /* HYJobsTypeCell.m */; };
@@ -328,6 +330,10 @@
 		785309011E25392F00E6D71D /* HYJonsDetailsTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsTwoCell.h; sourceTree = "<group>"; };
 		785309021E25392F00E6D71D /* HYJonsDetailsTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsTwoCell.m; sourceTree = "<group>"; };
 		785309041E25393700E6D71D /* HYJonsDetailsTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJonsDetailsTwoCell.xib; sourceTree = "<group>"; };
+		789741041E2D08C1009D1C0A /* HYFreshTwoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshTwoListController.h; sourceTree = "<group>"; };
+		789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshTwoListController.m; sourceTree = "<group>"; };
+		789741081E2D0CD6009D1C0A /* HYFreshDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshDetailsController.h; sourceTree = "<group>"; };
+		789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshDetailsController.m; sourceTree = "<group>"; };
 		78AFD67A1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsSixCollectionCell.h; sourceTree = "<group>"; };
 		78AFD67B1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsSixCollectionCell.m; sourceTree = "<group>"; };
 		78AFD67D1E266B5E006C1D2F /* HYJobsTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsTypeController.h; sourceTree = "<group>"; };
@@ -742,6 +748,15 @@
 			path = Details;
 			sourceTree = "<group>";
 		};
+		789741071E2D0CC7009D1C0A /* FreshDetails */ = {
+			isa = PBXGroup;
+			children = (
+				789741081E2D0CD6009D1C0A /* HYFreshDetailsController.h */,
+				789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */,
+			);
+			path = FreshDetails;
+			sourceTree = "<group>";
+		};
 		78AFD6801E266D71006C1D2F /* JobsType */ = {
 			isa = PBXGroup;
 			children = (
@@ -896,6 +911,7 @@
 				78EA7CDC1E227CF700C0E423 /* Main */,
 				78EA7CDA1E227CF700C0E423 /* Home */,
 				849C86921E2CA1BB00C7EF50 /* Two */,
+				789741071E2D0CC7009D1C0A /* FreshDetails */,
 				785308C31E2513E000E6D71D /* Details */,
 				78EA7CDD1E227CF700C0E423 /* Mine */,
 				78EA7D521E2280EA00C0E423 /* Upload */,
@@ -1393,6 +1409,8 @@
 			children = (
 				849C86931E2CA1E800C7EF50 /* HYPartTimeListController.h */,
 				849C86941E2CA1E800C7EF50 /* HYPartTimeListController.m */,
+				789741041E2D08C1009D1C0A /* HYFreshTwoListController.h */,
+				789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -1816,6 +1834,7 @@
 				845005AE1E2746A700C57D0A /* HYPartTimeJobController.m in Sources */,
 				844A78211E2887C60069606D /* ZLShowBigImgViewController.m in Sources */,
 				785308F71E25345900E6D71D /* HYHouseDetailsController.m in Sources */,
+				789741061E2D08C1009D1C0A /* HYFreshTwoListController.m in Sources */,
 				780A5AAF1E27D72E0086B152 /* HYEditUserCell.m in Sources */,
 				78EA7D151E227CF800C0E423 /* UIView+Extension.m in Sources */,
 				78EA7D171E227CF800C0E423 /* DLCustomSlideView.m in Sources */,
@@ -1835,6 +1854,7 @@
 				78EA7D241E227CF800C0E423 /* UIColor+PYExtension.m in Sources */,
 				780432331E23C88700EBE4E7 /* HYJianliController.m in Sources */,
 				785308EC1E252CBB00E6D71D /* HYJobsToSectonOneToOneCell.m in Sources */,
+				7897410A1E2D0CD6009D1C0A /* HYFreshDetailsController.m in Sources */,
 				780432361E23CC8B00EBE4E7 /* HYJianliCell.m in Sources */,
 				78EA7D261E227CF800C0E423 /* NSString+Hash.m in Sources */,
 				78EA7D1A1E227CF800C0E423 /* DLScrollTabbarView.m in Sources */,
@@ -2071,7 +2091,7 @@
 				INFOPLIST_FILE = 96/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.96;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.96.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2086,7 +2106,7 @@
 				INFOPLIST_FILE = 96/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.96;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.96.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

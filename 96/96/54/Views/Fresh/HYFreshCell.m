@@ -8,6 +8,15 @@
 
 #import "HYFreshCell.h"
 
+@interface HYFreshCell()
+
+@property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *subLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numberLabel;
+
+
+@end
 @implementation HYFreshCell
 
 - (void)awakeFromNib {
@@ -24,5 +33,11 @@
     }
     return cell;
 }
+
+//点击购物车
+- (IBAction)addGouwuche {
+    
+}
+
 
 @end

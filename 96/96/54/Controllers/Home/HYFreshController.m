@@ -11,6 +11,7 @@
 #import "HYTableToCollectionCell.h"
 #import "HYFreshCell.h"
 #import "HYFreshHeadCell.h"
+#import "HYFreshTwoListController.h"
 
 @interface HYFreshController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -44,7 +45,7 @@
 
 #pragma mark - UitableViewdelegate
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return 6;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
@@ -65,7 +66,7 @@
             };
             return cell;
         }
-        //MARK: 新鲜水果
+        //MARK: 水果海鲜
         HYTableToCollectionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYTableToCollectionCellID"];
         if (nil == cell) {
             cell = [[HYTableToCollectionCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYTableToCollectionCellID"];
@@ -75,7 +76,9 @@
         
         //MARK: 点击item
         cell.myBlock = ^(NSInteger index, NSString *itemTitle){
-            
+            HYFreshTwoListController *freshTwoListVC = [[HYFreshTwoListController alloc]init];
+            freshTwoListVC.title = itemTitle;
+            [self.navigationController pushViewController:freshTwoListVC animated:YES];
         };
         return cell;
     }
@@ -91,6 +94,11 @@
     HYFreshCell *cell = [HYFreshCell cellWithTableView:tableView NSIndexPath:indexPath];
     return cell;
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    
+}
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
@@ -99,7 +107,7 @@
     if (indexPath.row == 0) {
         return 45;
     }
-    return 150;
+    return 140;
 }
 
 
