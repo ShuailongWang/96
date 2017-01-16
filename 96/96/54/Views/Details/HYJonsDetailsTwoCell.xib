@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYJonsDetailsTwoCell">
-            <rect key="frame" x="0.0" y="0.0" width="467" height="104"/>
+            <rect key="frame" x="0.0" y="0.0" width="467" height="70"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="职位:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYj-fJ-8k5">
-                    <rect key="frame" x="10" y="10" width="50" height="18"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="50" id="gI2-mc-y6R"/>
                     </constraints>
@@ -25,39 +21,18 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="要求:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Taf-BB-Y1d">
-                    <rect key="frame" x="10" y="43" width="50" height="18"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <color key="textColor" red="0.37095126989999999" green="0.37746421590000001" blue="0.40781250000000002" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="福利:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tif-g1-0cW">
-                    <rect key="frame" x="10" y="76" width="50" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="0.37095126989999999" green="0.37746421590000001" blue="0.40781250000000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="足疗师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JCQ-Qw-daq">
-                    <rect key="frame" x="70" y="10" width="387" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="招6人/经验不限/学历不限, 可接受应届生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZw-zO-3Ze">
-                    <rect key="frame" x="70" y="43" width="387" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="包吃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xe-GK-pTe">
-                    <rect key="frame" x="70" y="76" width="31" height="18"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <color key="textColor" red="0.98431372549999996" green="0.0" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="包住" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIs-Vl-tkj">
-                    <rect key="frame" x="111" y="76" width="31" height="18"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <color key="textColor" red="0.98431372549999996" green="0.0" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
@@ -65,34 +40,23 @@
             <constraints>
                 <constraint firstItem="xZw-zO-3Ze" firstAttribute="leading" secondItem="Taf-BB-Y1d" secondAttribute="trailing" constant="10" id="2d2-tg-JrR"/>
                 <constraint firstItem="xZw-zO-3Ze" firstAttribute="centerY" secondItem="Taf-BB-Y1d" secondAttribute="centerY" id="44B-1w-PfL"/>
-                <constraint firstItem="7xe-GK-pTe" firstAttribute="leading" secondItem="tif-g1-0cW" secondAttribute="trailing" constant="10" id="4T8-A2-4WL"/>
                 <constraint firstItem="JCQ-Qw-daq" firstAttribute="leading" secondItem="pYj-fJ-8k5" secondAttribute="trailing" constant="10" id="4lM-Pn-bre"/>
                 <constraint firstItem="Taf-BB-Y1d" firstAttribute="height" secondItem="pYj-fJ-8k5" secondAttribute="height" id="6ja-L5-GEO"/>
-                <constraint firstItem="tif-g1-0cW" firstAttribute="width" secondItem="Taf-BB-Y1d" secondAttribute="width" id="BjA-vl-2sS"/>
-                <constraint firstItem="tif-g1-0cW" firstAttribute="top" secondItem="Taf-BB-Y1d" secondAttribute="bottom" constant="15" id="GVF-xr-khf"/>
                 <constraint firstAttribute="trailing" secondItem="JCQ-Qw-daq" secondAttribute="trailing" constant="10" id="IO0-x9-muw"/>
                 <constraint firstItem="Taf-BB-Y1d" firstAttribute="width" secondItem="pYj-fJ-8k5" secondAttribute="width" id="KCU-t7-31H"/>
-                <constraint firstItem="tif-g1-0cW" firstAttribute="trailing" secondItem="Taf-BB-Y1d" secondAttribute="trailing" id="NOZ-hy-iBd"/>
                 <constraint firstItem="JCQ-Qw-daq" firstAttribute="centerY" secondItem="pYj-fJ-8k5" secondAttribute="centerY" id="TnO-EG-EVc"/>
-                <constraint firstItem="aIs-Vl-tkj" firstAttribute="centerY" secondItem="7xe-GK-pTe" secondAttribute="centerY" id="ZK3-TF-DcO"/>
                 <constraint firstItem="Taf-BB-Y1d" firstAttribute="leading" secondItem="pYj-fJ-8k5" secondAttribute="leading" id="ZX8-j9-Q8n"/>
-                <constraint firstItem="tif-g1-0cW" firstAttribute="leading" secondItem="Taf-BB-Y1d" secondAttribute="leading" id="eh7-KC-fDG"/>
-                <constraint firstItem="tif-g1-0cW" firstAttribute="height" secondItem="Taf-BB-Y1d" secondAttribute="height" id="lmV-zJ-IOB"/>
                 <constraint firstItem="pYj-fJ-8k5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="mXY-Le-hJf"/>
-                <constraint firstItem="aIs-Vl-tkj" firstAttribute="leading" secondItem="7xe-GK-pTe" secondAttribute="trailing" constant="10" id="oNs-jN-dyd"/>
                 <constraint firstItem="Taf-BB-Y1d" firstAttribute="top" secondItem="pYj-fJ-8k5" secondAttribute="bottom" constant="15" id="rSm-fd-T9k"/>
                 <constraint firstAttribute="trailing" secondItem="xZw-zO-3Ze" secondAttribute="trailing" constant="10" id="tbt-Pu-ooh"/>
-                <constraint firstItem="7xe-GK-pTe" firstAttribute="centerY" secondItem="tif-g1-0cW" secondAttribute="centerY" id="wcl-0w-F72"/>
                 <constraint firstItem="pYj-fJ-8k5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="xn5-Wd-RAU"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="berfLabel" destination="xZw-zO-3Ze" id="6Qu-Sc-hGf"/>
-                <outlet property="fuliOne" destination="7xe-GK-pTe" id="sBJ-hu-7c7"/>
-                <outlet property="fuliTwo" destination="aIs-Vl-tkj" id="qAv-N7-egk"/>
                 <outlet property="titleLabel" destination="JCQ-Qw-daq" id="YCK-Kl-Oub"/>
             </connections>
-            <point key="canvasLocation" x="79.5" y="-72"/>
+            <point key="canvasLocation" x="79.5" y="-55"/>
         </view>
     </objects>
 </document>

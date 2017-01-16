@@ -1,43 +1,42 @@
 //
-//  HYPartTimeJobController.m
+//  HYFreshController.m
 //  96
 //
-//  Created by admin on 17/1/12.
+//  Created by admin on 17/1/16.
 //  Copyright © 2017年 王帅龙. All rights reserved.
-//
+//  生鲜
 
-#import "HYPartTimeJobController.h"
-#import "HYSectionHeadView.h"
+#import "HYFreshController.h"
 #import "HYCyclesCell.h"
 #import "HYTableToCollectionCell.h"
-#import "HYPartTimeJobCell.h"
-#import "HYPartTimeListController.h"
-#import "HYJonsDetailsController.h"
+#import "HYFreshCell.h"
+#import "HYFreshHeadCell.h"
 
-
-@interface HYPartTimeJobController ()<UITableViewDataSource, UITableViewDelegate>
+@interface HYFreshController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (strong,nonatomic) UITableView *myTableView;
-@property (strong,nonatomic) NSArray *typeArr;
+@property (nonatomic, strong) NSArray *typeArr;
+@property (nonatomic, strong) NSArray *headArr;
 
 @end
 
-@implementation HYPartTimeJobController
+@implementation HYFreshController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"兼职";
+    self.title = @"生鲜";
     [self setupUI];
 }
 
 -(void)setupUI{
     if (nil == _myTableView) {
-        _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+        _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
         _myTableView.bounces = NO;
+        _myTableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
         [self.view addSubview:_myTableView];
     }
 }
@@ -51,7 +50,7 @@
     if (section == 0) {
         return 2;
     }
-    return 20;
+    return 5 + 1;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
@@ -66,6 +65,7 @@
             };
             return cell;
         }
+        //MARK: 新鲜水果
         HYTableToCollectionCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYTableToCollectionCellID"];
         if (nil == cell) {
             cell = [[HYTableToCollectionCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYTableToCollectionCellID"];
@@ -75,55 +75,58 @@
         
         //MARK: 点击item
         cell.myBlock = ^(NSInteger index, NSString *itemTitle){
-            HYPartTimeListController *partTimeListVC = [[HYPartTimeListController alloc]init];
-            partTimeListVC.title = itemTitle;
-            [self.navigationController pushViewController:partTimeListVC animated:YES];
+            
         };
         return cell;
     }
-    HYPartTimeJobCell *cell = [HYPartTimeJobCell cellWithTableView:tableView NSIndexPath:indexPath];
-    
+    //MARK: 组头
+    if (indexPath.row == 0) {
+        HYFreshHeadCell *cell = [HYFreshHeadCell cellWithTableView:tableView NSIndexPath:indexPath];
+        NSDictionary *dict = self.headArr[indexPath.row];
+        cell.titleStr = dict[@"Title"];
+        cell.iconImage = [UIImage imageNamed: dict[@"Icon"]];
+        return cell;
+    }
+    //MARK: 内容列表
+    HYFreshCell *cell = [HYFreshCell cellWithTableView:tableView NSIndexPath:indexPath];
     return cell;
 }
+
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 100;
-}
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    if (section == 0) {
-        return 0.01;
+    if (indexPath.section == 0) {
+        return 100;
     }
-    return 50;
-}
--(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 10;
-}
--(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-    HYSectionHeadView *headView = [[HYSectionHeadView alloc]initWithFrame:CGRectMake(10, 0, KScreen_Width - 20, 50)];
-    if (section == 1){
-        headView.nameLabel.text = @"兼职岗位";
+    if (indexPath.row == 0) {
+        return 45;
     }
-    return headView;
-}
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    //MARK: 点击列表
-    if (indexPath.section == 1) {
-        HYJonsDetailsController *detailsVC = [[HYJonsDetailsController alloc]init];
-        [self.navigationController pushViewController:detailsVC animated:YES];
-    }
+    return 150;
 }
 
 
+#pragma mark - 懒加载
 -(NSArray *)typeArr{
     if (nil == _typeArr) {
         _typeArr = @[
-                   @{@"Title":@"日结", @"Icon":@"pt_rijie_icon"},
-                   @{@"Title":@"附近", @"Icon":@"pt_fujin_icon"},
-                   @{@"Title":@"最新", @"Icon":@"pt_zuixin_icon"}
-                   ];
+                     @{@"Title":@"新鲜水果", @"Icon":@"fruit"},
+                     @{@"Title":@"蔬菜蛋类", @"Icon":@"vegetables"},
+                     @{@"Title":@"精品肉类", @"Icon":@"meat"},
+                     @{@"Title":@"海鲜水产", @"Icon":@"seafood"},
+                     @{@"Title":@"冰饮冻食", @"Icon":@"frozenFood"}
+                     ];
     }
     return _typeArr;
+}
+-(NSArray *)headArr{
+    if (nil == _headArr) {
+        _headArr = @[
+                     @{@"Title":@"水果", @"Icon":@"sea"},
+                     @{@"Title":@"蔬菜", @"Icon":@"vegetables"},
+                     @{@"Title":@"肉", @"Icon":@"meat"},
+                     @{@"Title":@"海鲜", @"Icon":@"sea"},
+                     @{@"Title":@"冻食", @"Icon":@"frozenFood"}
+                     ];
+    }
+    return _headArr;
 }
 
 @end

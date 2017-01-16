@@ -14,7 +14,7 @@
 #import "HYJonsDetailsFourCell.h"
 #import "HYJonsDetailsFiveCell.h"
 #import "HYJonsDetailsSixCell.h"
-
+#import "HYReleaseRecruitTypesCell.h"
 #import "HYZhaoPinModel.h"
 
 @interface HYHouseDetailsController ()<UITableViewDataSource, UITableViewDelegate>
@@ -73,7 +73,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
-        return 2;
+        return 3;
     }else if(section == 3){
         if (self.sectionCheck) {
             return 3;
@@ -90,16 +90,24 @@
             cell.titleLabel.text = self.model.Name;
             cell.numberLabel.text = self.model.Salary;
             return cell;
+        }else if(indexPath.row == 1){
+            HYJonsDetailsTwoCell *cell = [HYJonsDetailsTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
+            
+            cell.titleLabel.text = self.model.Name;
+            cell.berfLabel.text = self.model.WorkingExp;
+            return cell;
         }
-        HYJonsDetailsTwoCell *cell = [HYJonsDetailsTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
-        
-        cell.titleLabel.text = self.model.Name;
-        cell.berfLabel.text = self.model.WorkingExp;
-        
-        if (self.model.WelfareTab.count > 0) {
-            NSArray *arr = self.model.WelfareTab;
-            cell.fuliOne.text = arr[0][@"0"];
-            cell.fuliTwo.text = arr[0][@"1"];
+        HYReleaseRecruitTypesCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYReleaseRecruitTypesCellID"];
+        if (nil == cell) {
+            cell = [[HYReleaseRecruitTypesCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYReleaseRecruitTypesCellID"];
+        }
+        if (self.model.WelfareTab > 0) {
+            NSMutableArray *arrM = [NSMutableArray array];
+            [self.model.WelfareTab enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                [arrM addObject:obj[[NSString stringWithFormat:@"%zd", idx]]];
+            }];
+            
+            cell.typeData = arrM;
         }
         
         return cell;
@@ -147,7 +155,13 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
-        return 105;
+        if (indexPath.row == 0) {
+            return 105;
+        }else if(indexPath.row == 1){
+            return 70;
+        }else if (indexPath.row == 2) {
+            return [HYReleaseRecruitTypesCell cellHeight];
+        }
     }else if (indexPath.section == 1){
         return 50;
     }else if (indexPath.section == 2){

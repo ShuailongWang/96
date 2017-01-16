@@ -10,10 +10,9 @@
 #import "HYToCollectionCell.h"
 
 
-@interface HYTableToCollectionCell()<UICollectionViewDelegate, UICollectionViewDataSource>
+@interface HYTableToCollectionCell()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (nonatomic, strong) UICollectionView *myCollectionView;
-@property (nonatomic, strong) NSArray *array;
 
 @end
 
@@ -31,7 +30,6 @@ static NSString *HYToCollectionCellID = @"HYToCollectionCellID";
             UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
             flowLayout.minimumLineSpacing = 0;
             flowLayout.minimumInteritemSpacing = 0;
-            flowLayout.itemSize = CGSizeMake( KScreen_Width/3, HYTableToCollectionCellHeight);
             
             _myCollectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, HYTableToCollectionCellHeight) collectionViewLayout:flowLayout];
             _myCollectionView.delegate = self;
@@ -46,30 +44,33 @@ static NSString *HYToCollectionCellID = @"HYToCollectionCellID";
 
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return self.array.count;
+    return self.typeArr.count;
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     HYToCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:HYToCollectionCellID forIndexPath:indexPath];
-    NSDictionary *dict = self.array[indexPath.item];
+    NSDictionary *dict = self.typeArr[indexPath.item];
     cell.titleLabel.text = dict[@"Title"];
     cell.iconView.image = [UIImage imageNamed: dict[@"Icon"]];
     return cell;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    //
+    NSDictionary *dict = self.typeArr[indexPath.item];
+    
     if (self.myBlock) {
-        self.myBlock(indexPath.item);
+        self.myBlock(indexPath.item, dict[@"Title"]);
     }
+}
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return CGSizeMake( KScreen_Width/self.typeArr.count, HYTableToCollectionCellHeight);
 }
 
--(NSArray *)array{
-    if (nil == _array) {
-        _array = @[
-                   @{@"Title":@"日结", @"Icon":@"pt_rijie_icon"},
-                   @{@"Title":@"附近", @"Icon":@"pt_fujin_icon"},
-                   @{@"Title":@"最新", @"Icon":@"pt_zuixin_icon"}
-                   ];
-    }
-    return _array;
+-(void)setTypeArr:(NSArray *)typeArr{
+    _typeArr = typeArr;
+    
+    [self.myCollectionView reloadData];
 }
+
 
 @end

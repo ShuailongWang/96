@@ -4,7 +4,7 @@
 //
 //  Created by WSL on 17/1/8.
 //  Copyright © 2017年 王帅龙. All rights reserved.
-//
+//  首页
 
 #import "HYHomeController.h"
 #import "HYTypeCell.h"
@@ -23,6 +23,8 @@
 #import "HYZhaoPinModel.h"
 #import "HYHomeCompListController.h"
 #import "HYWebController.h"
+#import "HYGoodsController.h"
+#import "HYFreshController.h"
 
 @interface HYHomeController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -63,10 +65,12 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
         return 5;
-    }else if (section == 1){
-        return 20;
+    }else if (section == 1 && self.zpData.count > 0){
+        return [[self.zpData subarrayWithRange:NSMakeRange(0, 10)] count];
+    }else if (section == 2 && self.threeData.count > 0) {
+        return [[self.threeData subarrayWithRange:NSMakeRange(0, 10)] count];
     }
-    return 10;
+    return 0;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
@@ -76,15 +80,29 @@
                 cell = [[HYTypeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYTypeCellID"];
             }
             
-            //点击最上方的item
+            //MARK: 点击最上方的item
             cell.myBlock = ^(NSInteger index){
                 switch (index) {
+                    case 0:{
+                        //MARK: 商品
+                        HYGoodsController *goodsVC = [[HYGoodsController alloc]init];
+                        [self.navigationController pushViewController:goodsVC animated:YES];
+                    }
+                        break;
+                    case 1:{
+                        //MARK: 全职招聘
+                        HYFreshController *freshVC = [[HYFreshController alloc]init];
+                        [self.navigationController pushViewController:freshVC animated:YES];
+                    }
+                        break;
                     case 3:{
+                        //MARK: 全职招聘
                         HYJobsController *jobsVC = [[HYJobsController alloc]init];
                         [self.navigationController pushViewController:jobsVC animated:YES];
                     }
                         break;
                     case 4:{
+                        //MARK: 兼职
                         HYPartTimeJobController *partTimeVC = [[HYPartTimeJobController alloc]init];
                         [self.navigationController pushViewController:partTimeVC animated:YES];
                     }
@@ -127,14 +145,14 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    //MARK: 点击招聘
     if (indexPath.section == 1) {
-        
         HYHouseDetailsController *detailsVC = [[HYHouseDetailsController alloc]init];
         detailsVC.model = self.zpData[indexPath.row];
         [self.navigationController pushViewController:detailsVC animated:YES];
         
     }else if(indexPath.section == 2){
-        
+        //MARK: 点击新闻
         NSDictionary *dict = self.threeData[indexPath.row];
         NSString *strUrl = [dict[@"url"] stringByReplacingOccurrencesOfString:@" " withString:@""];
         
@@ -161,13 +179,19 @@
     return 90;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 50;
+    if (section == 0 || (self.zpData.count > 0 && section == 1) || (self.threeData.count > 0 && section == 2)) {
+        return 50;
+    }
+    return 0;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     if (section == 0) {
         return 10;
     }
-    return 50;
+    if ((self.zpData.count > 0 && section == 1) || (self.threeData.count > 0 && section == 2)) {
+        return 50;
+    }
+    return 0.01;
 }
 // 组的头视图
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
@@ -175,16 +199,23 @@
     if (section == 0) {
         headView.nameLabel.text = @"足迹";
     }else if (section == 1){
+        //判断是否有数据
         headView.nameLabel.text = @"猜你喜欢";
     }else if (section == 2){
+        //判断是否有数据
         headView.nameLabel.text = @"您可能还想看";
     }
-    return headView;
+    if (section == 0 || (self.zpData.count > 0 && section == 1) || (self.threeData.count > 0 && section == 2)) {
+        return headView;
+    }
+    return nil;
 }
 -(UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
     if (section == 0) {
         return nil;
     }
+    //判断是否有数据
+    
     HYSectionFootView *footView = [[HYSectionFootView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 50)];
     [footView.footButton setTitle:@"查看更多" forState:UIControlStateNormal];
     [footView.footButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -199,7 +230,10 @@
             [self.navigationController pushViewController:homeNewVC animated:YES];
         }
     };
-    return footView;
+    if ((self.zpData.count > 0 && section == 1) || (self.threeData.count > 0 && section == 2)) {
+        return footView;
+    }
+    return nil;
 }
 
 

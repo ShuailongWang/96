@@ -11,6 +11,8 @@
 #define HYTableToCollectionCellHeight   100
 @interface HYTableToCollectionCell : UITableViewCell
 
-@property (copy,nonatomic) void(^myBlock)(NSInteger index);
+@property (nonatomic, strong) NSArray *typeArr;
+
+@property (copy,nonatomic) void(^myBlock)(NSInteger index, NSString *itemTitle);
 
 @end

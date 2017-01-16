@@ -19,9 +19,6 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    
-    [self addBord:self.fuliOne];
-    [self addBord:self.fuliTwo];
 }
 
 -(void)addBord:(UILabel*)label{

@@ -188,6 +188,14 @@
 		849514961E2762BB00220F8C /* HYTableToCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514951E2762BB00220F8C /* HYTableToCollectionCell.m */; };
 		849514991E2762FD00220F8C /* HYToCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514981E2762FD00220F8C /* HYToCollectionCell.m */; };
 		8495149B1E27630400220F8C /* HYToCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8495149A1E27630400220F8C /* HYToCollectionCell.xib */; };
+		849C86911E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C86901E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.m */; };
+		849C86951E2CA1E800C7EF50 /* HYPartTimeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C86941E2CA1E800C7EF50 /* HYPartTimeListController.m */; };
+		849C86991E2CB9E000C7EF50 /* HYGoodsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C86981E2CB9E000C7EF50 /* HYGoodsController.m */; };
+		849C869C1E2CBC5E00C7EF50 /* HYFreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C869B1E2CBC5E00C7EF50 /* HYFreshController.m */; };
+		849C86A01E2CC73800C7EF50 /* HYFreshCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C869F1E2CC73800C7EF50 /* HYFreshCell.m */; };
+		849C86A21E2CC73F00C7EF50 /* HYFreshCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849C86A11E2CC73F00C7EF50 /* HYFreshCell.xib */; };
+		849C86A51E2CC80D00C7EF50 /* HYFreshHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C86A41E2CC80D00C7EF50 /* HYFreshHeadCell.m */; };
+		849C86A71E2CC83000C7EF50 /* HYFreshHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849C86A61E2CC83000C7EF50 /* HYFreshHeadCell.xib */; };
 		84DD79B71E2605E9006C2624 /* HYJobsOSectonOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79B61E2605E9006C2624 /* HYJobsOSectonOneCell.m */; };
 		84DD79B91E2606C3006C2624 /* MyJob.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DD79B81E2606C3006C2624 /* MyJob.plist */; };
 		84DD79BC1E260A7D006C2624 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79BB1E260A7D006C2624 /* UIViewController+BackButtonHandler.m */; };
@@ -540,6 +548,20 @@
 		849514971E2762FD00220F8C /* HYToCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYToCollectionCell.h; sourceTree = "<group>"; };
 		849514981E2762FD00220F8C /* HYToCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYToCollectionCell.m; sourceTree = "<group>"; };
 		8495149A1E27630400220F8C /* HYToCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYToCollectionCell.xib; sourceTree = "<group>"; };
+		849C868F1E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYReleaseRecruitTypesCell.h; sourceTree = "<group>"; };
+		849C86901E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYReleaseRecruitTypesCell.m; sourceTree = "<group>"; };
+		849C86931E2CA1E800C7EF50 /* HYPartTimeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPartTimeListController.h; sourceTree = "<group>"; };
+		849C86941E2CA1E800C7EF50 /* HYPartTimeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPartTimeListController.m; sourceTree = "<group>"; };
+		849C86971E2CB9E000C7EF50 /* HYGoodsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGoodsController.h; sourceTree = "<group>"; };
+		849C86981E2CB9E000C7EF50 /* HYGoodsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGoodsController.m; sourceTree = "<group>"; };
+		849C869A1E2CBC5E00C7EF50 /* HYFreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshController.h; sourceTree = "<group>"; };
+		849C869B1E2CBC5E00C7EF50 /* HYFreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshController.m; sourceTree = "<group>"; };
+		849C869E1E2CC73800C7EF50 /* HYFreshCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshCell.h; sourceTree = "<group>"; };
+		849C869F1E2CC73800C7EF50 /* HYFreshCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshCell.m; sourceTree = "<group>"; };
+		849C86A11E2CC73F00C7EF50 /* HYFreshCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFreshCell.xib; sourceTree = "<group>"; };
+		849C86A31E2CC80D00C7EF50 /* HYFreshHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshHeadCell.h; sourceTree = "<group>"; };
+		849C86A41E2CC80D00C7EF50 /* HYFreshHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshHeadCell.m; sourceTree = "<group>"; };
+		849C86A61E2CC83000C7EF50 /* HYFreshHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYFreshHeadCell.xib; sourceTree = "<group>"; };
 		84DD79B51E2605E9006C2624 /* HYJobsOSectonOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsOSectonOneCell.h; sourceTree = "<group>"; };
 		84DD79B61E2605E9006C2624 /* HYJobsOSectonOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsOSectonOneCell.m; sourceTree = "<group>"; };
 		84DD79B81E2606C3006C2624 /* MyJob.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyJob.plist; sourceTree = "<group>"; };
@@ -633,6 +655,8 @@
 		785308BC1E25111500E6D71D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				849C868F1E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.h */,
+				849C86901E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.m */,
 				844A78231E28A93F0069606D /* HYHeadImageCell.h */,
 				844A78241E28A93F0069606D /* HYHeadImageCell.m */,
 				780A5A9D1E27C6430086B152 /* HYCommonCell.h */,
@@ -871,6 +895,7 @@
 				78EA7CDB1E227CF700C0E423 /* Login */,
 				78EA7CDC1E227CF700C0E423 /* Main */,
 				78EA7CDA1E227CF700C0E423 /* Home */,
+				849C86921E2CA1BB00C7EF50 /* Two */,
 				785308C31E2513E000E6D71D /* Details */,
 				78EA7CDD1E227CF700C0E423 /* Mine */,
 				78EA7D521E2280EA00C0E423 /* Upload */,
@@ -895,6 +920,10 @@
 			children = (
 				78EA7D3D1E227EE000C0E423 /* HYHomeController.h */,
 				78EA7D3E1E227EE000C0E423 /* HYHomeController.m */,
+				849C86971E2CB9E000C7EF50 /* HYGoodsController.h */,
+				849C86981E2CB9E000C7EF50 /* HYGoodsController.m */,
+				849C869A1E2CBC5E00C7EF50 /* HYFreshController.h */,
+				849C869B1E2CBC5E00C7EF50 /* HYFreshController.m */,
 				785308F11E25342F00E6D71D /* HYJobsController.h */,
 				785308F21E25342F00E6D71D /* HYJobsController.m */,
 				845005AC1E2746A700C57D0A /* HYPartTimeJobController.h */,
@@ -1092,6 +1121,7 @@
 		78EA7D0E1E227CF800C0E423 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				849C869D1E2CC72400C7EF50 /* Fresh */,
 				780A5AA71E27D6ED0086B152 /* Mine */,
 				780A5A971E27BB980086B152 /* ErShou */,
 				845005AF1E2746E500C57D0A /* PartTimeJob */,
@@ -1358,6 +1388,28 @@
 			path = SQSelectAddressModel;
 			sourceTree = "<group>";
 		};
+		849C86921E2CA1BB00C7EF50 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				849C86931E2CA1E800C7EF50 /* HYPartTimeListController.h */,
+				849C86941E2CA1E800C7EF50 /* HYPartTimeListController.m */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		849C869D1E2CC72400C7EF50 /* Fresh */ = {
+			isa = PBXGroup;
+			children = (
+				849C86A31E2CC80D00C7EF50 /* HYFreshHeadCell.h */,
+				849C86A41E2CC80D00C7EF50 /* HYFreshHeadCell.m */,
+				849C86A61E2CC83000C7EF50 /* HYFreshHeadCell.xib */,
+				849C869E1E2CC73800C7EF50 /* HYFreshCell.h */,
+				849C869F1E2CC73800C7EF50 /* HYFreshCell.m */,
+				849C86A11E2CC73F00C7EF50 /* HYFreshCell.xib */,
+			);
+			path = Fresh;
+			sourceTree = "<group>";
+		};
 		84DD79CC1E263792006C2624 /* SDPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -1505,6 +1557,7 @@
 				7811CCE81E29087B00CE39C9 /* youErYuan.json in Resources */,
 				78AFD6921E26820C006C1D2F /* HYHouseSectionCell.xib in Resources */,
 				7811CCE61E2903D200CE39C9 /* company.json in Resources */,
+				849C86A71E2CC83000C7EF50 /* HYFreshHeadCell.xib in Resources */,
 				78EA7CA11E227C1E00C0E423 /* LaunchScreen.storyboard in Resources */,
 				7811CCEA1E2909FA00CE39C9 /* caipu.json in Resources */,
 				844A780E1E2887C60069606D /* defaultphoto.png in Resources */,
@@ -1541,6 +1594,7 @@
 				84E8B6A31E24A89600630C4C /* HYTextFieldCell.xib in Resources */,
 				844A78041E2887C50069606D /* btn_circle@3x.png in Resources */,
 				84787F751E287FEE00C1CB80 /* address_select_close@3x.png in Resources */,
+				849C86A21E2CC73F00C7EF50 /* HYFreshCell.xib in Resources */,
 				844A78091E2887C60069606D /* btn_selected@2x.png in Resources */,
 				844A78301E28CE260069606D /* news.json in Resources */,
 				785308CB1E25167800E6D71D /* HYHomeSectionThreeCell.xib in Resources */,
@@ -1768,6 +1822,7 @@
 				78EA7D0F1E227CF800C0E423 /* NSObject+Common.m in Sources */,
 				780432481E23E24F00EBE4E7 /* HYHomeCycleCell.m in Sources */,
 				7811CCF21E29152900CE39C9 /* HYHomeCompListController.m in Sources */,
+				849C869C1E2CBC5E00C7EF50 /* HYFreshController.m in Sources */,
 				78EA7D141E227CF800C0E423 /* UITextView+Extension.m in Sources */,
 				78EA7D1F1E227CF800C0E423 /* YBPopupMenu.m in Sources */,
 				780A5AAB1E27D7260086B152 /* HYMineHeadCell.m in Sources */,
@@ -1811,6 +1866,8 @@
 				780432431E23E0C700EBE4E7 /* HYTypeHeadCell.m in Sources */,
 				84787F7E1E287FEE00C1CB80 /* SQChinaCity.m in Sources */,
 				844A781C1E2887C60069606D /* ZLPhotoBrowser.m in Sources */,
+				849C86951E2CA1E800C7EF50 /* HYPartTimeListController.m in Sources */,
+				849C86911E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.m in Sources */,
 				84E8B69E1E248C4F00630C4C /* HYJianLiModel.m in Sources */,
 				844A78191E2887C60069606D /* ZLCollectionCell.m in Sources */,
 				780432271E23B60800EBE4E7 /* HYJobController.m in Sources */,
@@ -1828,6 +1885,7 @@
 				78EA7D1B1E227CF800C0E423 /* DLTabedSlideView.m in Sources */,
 				785309031E25392F00E6D71D /* HYJonsDetailsTwoCell.m in Sources */,
 				78EA7C961E227C1E00C0E423 /* AppDelegate.m in Sources */,
+				849C86A01E2CC73800C7EF50 /* HYFreshCell.m in Sources */,
 				78EA7C931E227C1E00C0E423 /* main.m in Sources */,
 				844A78361E28D3800069606D /* HYWebController.m in Sources */,
 				844A781A1E2887C60069606D /* ZLNoAuthorityViewController.m in Sources */,
@@ -1847,9 +1905,11 @@
 				78EA7D101E227CF800C0E423 /* NSString+Common.m in Sources */,
 				78EA7D221E227CF800C0E423 /* PYSearchSuggestionViewController.m in Sources */,
 				78EA7D4B1E227F0700C0E423 /* HYSettingController.m in Sources */,
+				849C86991E2CB9E000C7EF50 /* HYGoodsController.m in Sources */,
 				78EA7D591E22827500C0E423 /* HYNewsCell.m in Sources */,
 				78AFD68C1E267D74006C1D2F /* HYHouseController.m in Sources */,
 				78EA7D491E227F0700C0E423 /* HYOpinionController.m in Sources */,
+				849C86A51E2CC80D00C7EF50 /* HYFreshHeadCell.m in Sources */,
 				78EA7D1E1E227CF800C0E423 /* UITableViewCell+CacheHeight.m in Sources */,
 				780A5A9F1E27C6430086B152 /* HYCommonCell.m in Sources */,
 				844A78221E2887C60069606D /* ZLThumbnailViewController.m in Sources */,

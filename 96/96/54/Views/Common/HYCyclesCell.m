@@ -50,8 +50,8 @@
     if (nil == _iconUrlArr) {
         _iconUrlArr = @[
                         @"http://i4.piimg.com/11340/7f638e192b9079e6.jpg",
-                        @"http://img0.imgtn.bdimg.com/it/u=739881251,3741351359&fm=23&gp=0.jpg",
-                        @"http://img0.imgtn.bdimg.com/it/u=32030805,1499990709&fm=23&gp=0.jpg",
+                        @"http://pic.58pic.com/58pic/13/75/13/01e58PICgPY_1024.jpg",
+                        @"http://img1.3lian.com/2015/a1/113/d/10.jpg",
                         @"http://img.taopic.com/uploads/allimg/120828/214833-120RQ5521568.jpg"
                         ];
     }

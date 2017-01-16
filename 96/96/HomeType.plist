@@ -6,13 +6,13 @@
 		<key>Icon</key>
 		<string>sale_maincate</string>
 		<key>Title</key>
-		<string>二手物品</string>
+		<string>商品</string>
 	</dict>
 	<dict>
 		<key>Icon</key>
 		<string>zufang_maincate</string>
 		<key>Title</key>
-		<string>租房</string>
+		<string>生鲜</string>
 	</dict>
 	<dict>
 		<key>Icon</key>

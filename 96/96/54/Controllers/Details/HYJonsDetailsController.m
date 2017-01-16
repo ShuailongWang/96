@@ -9,6 +9,7 @@
 #import "HYJonsDetailsController.h"
 #import "HYSectionHeadView.h"
 #import "HYJonsDetailsOneCell.h"
+#import "HYReleaseRecruitTypesCell.h"
 #import "HYJonsDetailsTwoCell.h"
 #import "HYJobsDetailsPlaceCell.h"
 #import "HYJonsDetailsFourCell.h"
@@ -66,7 +67,7 @@
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     if (section == 0) {
-        return 2;
+        return 3;
     }else if(section == 3){
         if (self.sectionCheck) {
             return 3;
@@ -81,8 +82,17 @@
         if (indexPath.row == 0) {
             HYJonsDetailsOneCell *cell = [HYJonsDetailsOneCell cellWithTableView:tableView NSIndexPath:indexPath];
             return cell;
+        }else if(indexPath.row == 1){
+            HYJonsDetailsTwoCell *cell = [HYJonsDetailsTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
+            return cell;
         }
-        HYJonsDetailsTwoCell *cell = [HYJonsDetailsTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
+        HYReleaseRecruitTypesCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYReleaseRecruitTypesCellID"];
+        if (nil == cell) {
+            cell = [[HYReleaseRecruitTypesCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYReleaseRecruitTypesCellID"];
+        }
+        NSArray *arr = @[@"待遇好", @"好的",@"待遇好", @"好的",@"待遇好", @"好的",@"待遇好", @"好的"];
+        cell.typeData = arr;
+        
         return cell;
     }else if(indexPath.section == 1){
         HYJobsDetailsPlaceCell *cell = [HYJobsDetailsPlaceCell cellWithTableView:tableView NSIndexPath:indexPath];
@@ -124,7 +134,13 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
-        return 105;
+        if (indexPath.row == 0) {
+            return 105;
+        }else if(indexPath.row == 1){
+            return 70;
+        }else if (indexPath.row == 2) {
+            return MAX([HYReleaseRecruitTypesCell cellHeight], 40);
+        }
     }else if (indexPath.section == 1){
         return 50;
     }else if (indexPath.section == 2){
