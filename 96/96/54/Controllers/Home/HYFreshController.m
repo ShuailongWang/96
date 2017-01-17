@@ -85,7 +85,7 @@
     //MARK: 组头
     if (indexPath.row == 0) {
         HYFreshHeadCell *cell = [HYFreshHeadCell cellWithTableView:tableView NSIndexPath:indexPath];
-        NSDictionary *dict = self.headArr[indexPath.row];
+        NSDictionary *dict = self.headArr[indexPath.section - 1];
         cell.titleStr = dict[@"Title"];
         cell.iconImage = [UIImage imageNamed: dict[@"Icon"]];
         return cell;
@@ -127,11 +127,11 @@
 -(NSArray *)headArr{
     if (nil == _headArr) {
         _headArr = @[
-                     @{@"Title":@"水果", @"Icon":@"sea"},
-                     @{@"Title":@"蔬菜", @"Icon":@"vegetables"},
-                     @{@"Title":@"肉", @"Icon":@"meat"},
-                     @{@"Title":@"海鲜", @"Icon":@"sea"},
-                     @{@"Title":@"冻食", @"Icon":@"frozenFood"}
+                     @{@"Title":@"水果", @"Icon":@"fruitSmal"},
+                     @{@"Title":@"蔬菜", @"Icon":@"vegetableSmal"},
+                     @{@"Title":@"肉", @"Icon":@"meatSmal"},
+                     @{@"Title":@"海鲜", @"Icon":@"seaSmal"},
+                     @{@"Title":@"冻食", @"Icon":@"frozenSmal"}
                      ];
     }
     return _headArr;
