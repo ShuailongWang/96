@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,15 +12,13 @@
             <rect key="frame" x="0.0" y="0.0" width="493" height="190"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_list_noMsg" translatesAutoresizingMaskIntoConstraints="NO" id="oyd-BX-XcL">
-                    <rect key="frame" x="196.5" y="10" width="100" height="100"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="404" translatesAutoresizingMaskIntoConstraints="NO" id="oyd-BX-XcL">
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="Ref-qc-tOo"/>
                         <constraint firstAttribute="height" constant="100" id="sHe-cZ-rj9"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歪脖子" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEY-MY-YwF">
-                    <rect key="frame" x="220.5" y="120" width="52" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="g9Z-fT-3q7"/>
                     </constraints>
@@ -32,7 +27,6 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海贼王" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="It5-11-DWp">
-                    <rect key="frame" x="10" y="150" width="473" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="yng-gr-lik"/>
                     </constraints>
@@ -41,7 +35,6 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWm-RS-ZBR">
-                    <rect key="frame" x="277.5" y="125" width="20" height="20"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="20" id="4Cg-zM-ZQa"/>
                         <constraint firstAttribute="height" constant="20" id="X2t-j4-7F8"/>
@@ -74,7 +67,7 @@
         </view>
     </objects>
     <resources>
+        <image name="404" width="86" height="40"/>
         <image name="pen" width="24" height="24"/>
-        <image name="search_list_noMsg" width="90" height="90"/>
     </resources>
 </document>

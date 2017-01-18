@@ -12,6 +12,8 @@
 #import "HYFreshCell.h"
 #import "HYFreshHeadCell.h"
 #import "HYFreshTwoListController.h"
+#import "HYFreshDetailsController.h"
+#import "ProductNewDetailViewController.h"
 
 @interface HYFreshController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -96,7 +98,16 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+    if (indexPath.section == 0 ||
+        (indexPath.section == 1 && indexPath.section == 0)||
+        (indexPath.section == 2 && indexPath.section == 0)||
+        (indexPath.section == 3 && indexPath.section == 0)||
+        (indexPath.section == 4 && indexPath.section == 0)||
+        (indexPath.section == 5 && indexPath.section == 0)) {
+        return;
+    }
+    ProductNewDetailViewController *detailsVC = [[ProductNewDetailViewController alloc]init];
+    [self.navigationController pushViewController:detailsVC animated:YES];
     
 }
 

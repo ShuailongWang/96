@@ -1,5 +1,5 @@
 //
-//  HYJonsDetailsSixCell.h
+//  ProductNewDetailViewController.h
 //  96
 //
 //  Created by admin on 17/1/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#define HYJonsDetailsSixCellHeight 150
-
-@interface HYJonsDetailsSixCell : UITableViewCell
+@interface ProductNewDetailViewController : UIViewController
 
 @end

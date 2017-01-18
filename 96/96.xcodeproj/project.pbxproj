@@ -63,7 +63,6 @@
 		785309051E25393700E6D71D /* HYJonsDetailsTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785309041E25393700E6D71D /* HYJonsDetailsTwoCell.xib */; };
 		789741061E2D08C1009D1C0A /* HYFreshTwoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */; };
 		7897410A1E2D0CD6009D1C0A /* HYFreshDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */; };
-		78AFD67C1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD67B1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m */; };
 		78AFD67F1E266B5E006C1D2F /* HYJobsTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD67E1E266B5E006C1D2F /* HYJobsTypeController.m */; };
 		78AFD6831E266D8E006C1D2F /* HYJobsTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD6821E266D8E006C1D2F /* HYJobsTypeCell.m */; };
 		78AFD6851E266D96006C1D2F /* HYJobsTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78AFD6841E266D96006C1D2F /* HYJobsTypeCell.xib */; };
@@ -125,6 +124,10 @@
 		78EA7D671E22934100C0E423 /* HYUploadMainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78EA7D661E22934100C0E423 /* HYUploadMainCell.xib */; };
 		78EA7D6B1E229BA500C0E423 /* HYTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EA7D6A1E229BA500C0E423 /* HYTypeCell.m */; };
 		78EA7D6D1E229D3600C0E423 /* HomeType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78EA7D6C1E229D3600C0E423 /* HomeType.plist */; };
+		841D3D281E2EE8FF0066C7AF /* HYJonsDetailsSixCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D3D271E2EE8FF0066C7AF /* HYJonsDetailsSixCell.m */; };
+		841D3D2A1E2EF12D0066C7AF /* shengXian.json in Resources */ = {isa = PBXBuildFile; fileRef = 841D3D291E2EF12D0066C7AF /* shengXian.json */; };
+		841D3D2D1E2EF1590066C7AF /* HYFreshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D3D2C1E2EF1590066C7AF /* HYFreshModel.m */; };
+		841D3D301E2EF44A0066C7AF /* ProductNewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D3D2F1E2EF44A0066C7AF /* ProductNewDetailViewController.m */; };
 		844A78021E2887C50069606D /* NSBundle+ZLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A77D31E2887C50069606D /* NSBundle+ZLPhotoBrowser.m */; };
 		844A78031E2887C50069606D /* btn_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A77D51E2887C50069606D /* btn_circle@2x.png */; };
 		844A78041E2887C50069606D /* btn_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A77D61E2887C50069606D /* btn_circle@3x.png */; };
@@ -210,7 +213,6 @@
 		84DD79D41E263792006C2624 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79CE1E263792006C2624 /* SDBrowserImageView.m */; };
 		84DD79D51E263792006C2624 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79D01E263792006C2624 /* SDPhotoBrowser.m */; };
 		84DD79D61E263792006C2624 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79D31E263792006C2624 /* SDWaitingView.m */; };
-		84DD79D91E2638F0006C2624 /* HYJonsDetailsSixCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79D81E2638F0006C2624 /* HYJonsDetailsSixCell.m */; };
 		84E8B6961E247C8E00630C4C /* Jianli.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E8B6951E247C8E00630C4C /* Jianli.plist */; };
 		84E8B69E1E248C4F00630C4C /* HYJianLiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */; };
 		84E8B6A11E24A89000630C4C /* HYTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8B6A01E24A89000630C4C /* HYTextFieldCell.m */; };
@@ -334,8 +336,6 @@
 		789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshTwoListController.m; sourceTree = "<group>"; };
 		789741081E2D0CD6009D1C0A /* HYFreshDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshDetailsController.h; sourceTree = "<group>"; };
 		789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshDetailsController.m; sourceTree = "<group>"; };
-		78AFD67A1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsSixCollectionCell.h; sourceTree = "<group>"; };
-		78AFD67B1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsSixCollectionCell.m; sourceTree = "<group>"; };
 		78AFD67D1E266B5E006C1D2F /* HYJobsTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsTypeController.h; sourceTree = "<group>"; };
 		78AFD67E1E266B5E006C1D2F /* HYJobsTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsTypeController.m; sourceTree = "<group>"; };
 		78AFD6811E266D8E006C1D2F /* HYJobsTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsTypeCell.h; sourceTree = "<group>"; };
@@ -456,6 +456,13 @@
 		78EA7D6A1E229BA500C0E423 /* HYTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTypeCell.m; sourceTree = "<group>"; };
 		78EA7D6C1E229D3600C0E423 /* HomeType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeType.plist; sourceTree = "<group>"; };
 		7F7389E39939CC84EB207F85 /* Pods-96.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-96.debug.xcconfig"; path = "Pods/Target Support Files/Pods-96/Pods-96.debug.xcconfig"; sourceTree = "<group>"; };
+		841D3D261E2EE8FF0066C7AF /* HYJonsDetailsSixCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsSixCell.h; sourceTree = "<group>"; };
+		841D3D271E2EE8FF0066C7AF /* HYJonsDetailsSixCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsSixCell.m; sourceTree = "<group>"; };
+		841D3D291E2EF12D0066C7AF /* shengXian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shengXian.json; sourceTree = "<group>"; };
+		841D3D2B1E2EF1590066C7AF /* HYFreshModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshModel.h; sourceTree = "<group>"; };
+		841D3D2C1E2EF1590066C7AF /* HYFreshModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshModel.m; sourceTree = "<group>"; };
+		841D3D2E1E2EF44A0066C7AF /* ProductNewDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductNewDetailViewController.h; sourceTree = "<group>"; };
+		841D3D2F1E2EF44A0066C7AF /* ProductNewDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductNewDetailViewController.m; sourceTree = "<group>"; };
 		844A77D21E2887C50069606D /* NSBundle+ZLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZLPhotoBrowser.h"; sourceTree = "<group>"; };
 		844A77D31E2887C50069606D /* NSBundle+ZLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZLPhotoBrowser.m"; sourceTree = "<group>"; };
 		844A77D51E2887C50069606D /* btn_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_circle@2x.png"; sourceTree = "<group>"; };
@@ -589,8 +596,6 @@
 		84DD79D11E263792006C2624 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
 		84DD79D21E263792006C2624 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
 		84DD79D31E263792006C2624 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
-		84DD79D71E2638F0006C2624 /* HYJonsDetailsSixCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsSixCell.h; sourceTree = "<group>"; };
-		84DD79D81E2638F0006C2624 /* HYJonsDetailsSixCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsSixCell.m; sourceTree = "<group>"; };
 		84E8B6951E247C8E00630C4C /* Jianli.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Jianli.plist; sourceTree = "<group>"; };
 		84E8B69C1E248C4F00630C4C /* HYJianLiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYJianLiModel.h; path = 96/54/Views/Upload/HYJianLiModel.h; sourceTree = SOURCE_ROOT; };
 		84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYJianLiModel.m; path = 96/54/Views/Upload/HYJianLiModel.m; sourceTree = SOURCE_ROOT; };
@@ -661,6 +666,10 @@
 		785308BC1E25111500E6D71D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				841D3D2E1E2EF44A0066C7AF /* ProductNewDetailViewController.h */,
+				841D3D2F1E2EF44A0066C7AF /* ProductNewDetailViewController.m */,
+				841D3D261E2EE8FF0066C7AF /* HYJonsDetailsSixCell.h */,
+				841D3D271E2EE8FF0066C7AF /* HYJonsDetailsSixCell.m */,
 				849C868F1E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.h */,
 				849C86901E2C75AC00C7EF50 /* HYReleaseRecruitTypesCell.m */,
 				844A78231E28A93F0069606D /* HYHeadImageCell.h */,
@@ -740,10 +749,6 @@
 				84DD79C71E262BDB006C2624 /* HYJonsDetailsFiveCell.h */,
 				84DD79C81E262BDB006C2624 /* HYJonsDetailsFiveCell.m */,
 				84DD79CA1E262BE2006C2624 /* HYJonsDetailsFiveCell.xib */,
-				84DD79D71E2638F0006C2624 /* HYJonsDetailsSixCell.h */,
-				84DD79D81E2638F0006C2624 /* HYJonsDetailsSixCell.m */,
-				78AFD67A1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.h */,
-				78AFD67B1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -1130,6 +1135,8 @@
 				84E8B69D1E248C4F00630C4C /* HYJianLiModel.m */,
 				7811CCED1E290D6700CE39C9 /* HYZhaoPinModel.h */,
 				7811CCEE1E290D6700CE39C9 /* HYZhaoPinModel.m */,
+				841D3D2B1E2EF1590066C7AF /* HYFreshModel.h */,
+				841D3D2C1E2EF1590066C7AF /* HYFreshModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1201,6 +1208,7 @@
 				7811CCE71E29087B00CE39C9 /* youErYuan.json */,
 				7811CCE91E2909FA00CE39C9 /* caipu.json */,
 				7811CCEB1E290D1400CE39C9 /* zhaoPin.json */,
+				841D3D291E2EF12D0066C7AF /* shengXian.json */,
 			);
 			name = Plist;
 			sourceTree = "<group>";
@@ -1630,6 +1638,7 @@
 				844A78081E2887C60069606D /* btn_selected.png in Resources */,
 				84DD79C11E262728006C2624 /* HYJobsDetailsPlaceCell.xib in Resources */,
 				78EA7D201E227CF800C0E423 /* PYSearch.bundle in Resources */,
+				841D3D2A1E2EF12D0066C7AF /* shengXian.json in Resources */,
 				84787F791E287FEE00C1CB80 /* radiobox_default@3x.png in Resources */,
 				844A78131E2887C60069606D /* ZLPhotoActionSheet.xib in Resources */,
 				844A780B1E2887C60069606D /* btn_unselected.png in Resources */,
@@ -1824,7 +1833,6 @@
 				785308BF1E25112E00E6D71D /* HYSectionFootView.m in Sources */,
 				844A78331E28D2970069606D /* HYHomeNewController.m in Sources */,
 				84787F851E287FEE00C1CB80 /* SQSelectAddressViewController.m in Sources */,
-				84DD79D91E2638F0006C2624 /* HYJonsDetailsSixCell.m in Sources */,
 				84DD79B71E2605E9006C2624 /* HYJobsOSectonOneCell.m in Sources */,
 				844A78201E2887C60069606D /* ZLSelectPhotoModel.m in Sources */,
 				849514961E2762BB00220F8C /* HYTableToCollectionCell.m in Sources */,
@@ -1862,7 +1870,6 @@
 				78EA7D381E227DFA00C0E423 /* HYRegisterBtn.m in Sources */,
 				84DD79C41E262973006C2624 /* HYJonsDetailsFourCell.m in Sources */,
 				84787F7F1E287FEE00C1CB80 /* SQCity.m in Sources */,
-				78AFD67C1E265DD8006C1D2F /* HYJonsDetailsSixCollectionCell.m in Sources */,
 				785308FA1E25346F00E6D71D /* HYJonsDetailsController.m in Sources */,
 				844A781E1E2887C60069606D /* ZLPhotoTool.m in Sources */,
 				78EA7D371E227DFA00C0E423 /* HYLoginHomeController.m in Sources */,
@@ -1870,6 +1877,7 @@
 				7804322E1E23BB4900EBE4E7 /* HYJobCell.m in Sources */,
 				84E8B6A91E24ABAF00630C4C /* HYTypeCollectionCell.m in Sources */,
 				785308C21E25118E00E6D71D /* HYSectionHeadView.m in Sources */,
+				841D3D281E2EE8FF0066C7AF /* HYJonsDetailsSixCell.m in Sources */,
 				785308DC1E25227900E6D71D /* HYJobsOSectonToCell.m in Sources */,
 				84787F7C1E287FEE00C1CB80 /* SQChinaCitiesController.m in Sources */,
 				780A5A961E27BB740086B152 /* HYErShouController.m in Sources */,
@@ -1893,6 +1901,7 @@
 				780432271E23B60800EBE4E7 /* HYJobController.m in Sources */,
 				78EA7D4A1E227F0700C0E423 /* HYScoreController.m in Sources */,
 				844A78291E28B3320069606D /* ZLShowBigImage.m in Sources */,
+				841D3D301E2EF44A0066C7AF /* ProductNewDetailViewController.m in Sources */,
 				844A78171E2887C60069606D /* ToastUtils.m in Sources */,
 				78EA7D161E227CF800C0E423 /* DLLRUCache.m in Sources */,
 				84DD79D61E263792006C2624 /* SDWaitingView.m in Sources */,
@@ -1930,6 +1939,7 @@
 				78AFD68C1E267D74006C1D2F /* HYHouseController.m in Sources */,
 				78EA7D491E227F0700C0E423 /* HYOpinionController.m in Sources */,
 				849C86A51E2CC80D00C7EF50 /* HYFreshHeadCell.m in Sources */,
+				841D3D2D1E2EF1590066C7AF /* HYFreshModel.m in Sources */,
 				78EA7D1E1E227CF800C0E423 /* UITableViewCell+CacheHeight.m in Sources */,
 				780A5A9F1E27C6430086B152 /* HYCommonCell.m in Sources */,
 				844A78221E2887C60069606D /* ZLThumbnailViewController.m in Sources */,

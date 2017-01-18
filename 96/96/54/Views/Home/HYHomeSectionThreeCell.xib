@@ -12,7 +12,7 @@
             <rect key="frame" x="0.0" y="0.0" width="442" height="85"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad_123" translatesAutoresizingMaskIntoConstraints="NO" id="yzI-DR-8JX">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="404" translatesAutoresizingMaskIntoConstraints="NO" id="yzI-DR-8JX">
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="dyu-67-ojs"/>
                     </constraints>
@@ -51,6 +51,6 @@
         </view>
     </objects>
     <resources>
-        <image name="ad_123" width="1024" height="402"/>
+        <image name="404" width="86" height="40"/>
     </resources>
 </document>

@@ -12,7 +12,7 @@
             <rect key="frame" x="0.0" y="0.0" width="466" height="125"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ad_123" translatesAutoresizingMaskIntoConstraints="NO" id="alg-vd-V7o"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="404" translatesAutoresizingMaskIntoConstraints="NO" id="alg-vd-V7o"/>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -26,6 +26,6 @@
         </view>
     </objects>
     <resources>
-        <image name="ad_123" width="1024" height="402"/>
+        <image name="404" width="86" height="40"/>
     </resources>
 </document>

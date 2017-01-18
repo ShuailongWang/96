@@ -7,7 +7,6 @@
 //
 
 #import "HYJonsDetailsSixCell.h"
-#import "HYJonsDetailsSixCollectionCell.h"
 
 @interface HYJonsDetailsSixCell()<UICollectionViewDataSource, UICollectionViewDelegate, SDPhotoBrowserDelegate>
 
@@ -65,11 +64,14 @@ static NSString *HYJonsDetailsSixCellID = @"HYJonsDetailsSixCellID";
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     HYJonsDetailsSixCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:HYJonsDetailsSixCellID forIndexPath:indexPath];
+    //加载图片
     NSURL *url = [NSURL URLWithString:self.iconArr[indexPath.item]];
-    [cell.iconView sd_setImageWithURL:url];
+    [cell.iconView sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"404"]];
+    
     return cell;
 }
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    //显示放大的图片
     SDPhotoBrowser *photoVc = [[SDPhotoBrowser alloc]init];
     photoVc.sourceImagesContainerView = self.myCollectionView;
     photoVc.imageCount = self.iconArr.count;
@@ -104,4 +106,25 @@ static NSString *HYJonsDetailsSixCellID = @"HYJonsDetailsSixCellID";
     }
     return _iconArr;
 }
+@end
+
+
+
+
+
+
+
+#pragma mark - HYJonsDetailsSixCollectionCell
+@implementation HYJonsDetailsSixCollectionCell
+
+-(instancetype)initWithFrame:(CGRect)frame{
+    if (self = [super initWithFrame:frame]) {
+        if (nil == _iconView) {
+            _iconView = [[UIImageView alloc]initWithFrame:self.bounds];
+            [self.contentView addSubview:_iconView];
+        }
+    }
+    return self;
+}
+
 @end
