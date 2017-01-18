@@ -8,7 +8,10 @@
 
 #import "HYFreshDetailsController.h"
 
-@interface HYFreshDetailsController ()
+@interface HYFreshDetailsController ()<UITableViewDataSource, UITableViewDelegate>
+
+@property (strong,nonatomic) UITableView *myTableView;
+@property (strong,nonatomic) NSArray *typeArr;
 
 @end
 
@@ -19,8 +22,40 @@
     // Do any additional setup after loading the view.
     
     self.title = @"详情";
-    
+    [self setupUI];
 }
+
+-(void)setupUI{
+    if (nil == _myTableView) {
+        _myTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+        _myTableView.delegate = self;
+        _myTableView.dataSource = self;
+        _myTableView.bounces = NO;
+        [self.view addSubview:_myTableView];
+    }
+}
+
+
+#pragma mark - UitableViewdelegate
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 2;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    if (section == 0) {
+        return 2;
+    }
+    return 20;
+}
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableviewCell"];
+    if (nil == cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableviewCell"];
+    }
+    
+    return cell;
+}
+
+
 
 
 

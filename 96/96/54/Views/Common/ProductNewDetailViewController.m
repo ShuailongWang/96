@@ -26,6 +26,7 @@
 {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.ScrollView addSubview:self.TopView];
     [self.ScrollView addSubview:self.BottomView];
     
@@ -101,6 +102,7 @@
         _ScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, KScreen_Width, KScreen_Height-64)];
         self.ScrollView.contentSize = CGSizeMake(KScreen_Width, self.BottomView.frame.origin.y+self.BottomView.frame.size.height);
         _ScrollView.scrollEnabled = NO;
+        
         [self.view addSubview:_ScrollView];
     }
     return _ScrollView;
@@ -110,7 +112,7 @@
 {
     if (!_TopView)
     {
-        _TopView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 64, KScreen_Width, KScreen_Height - 64)];
+        _TopView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, KScreen_Width, KScreen_Height - 64)];
         _TopView.contentSize = CGSizeMake(KScreen_Width, KScreen_Height-64+5);
         _TopView.backgroundColor = [UIColor blueColor];
         _TopView.delegate = self;

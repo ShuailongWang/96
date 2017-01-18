@@ -20,6 +20,7 @@
 
 @property (strong,nonatomic) UITableView *myTableView;
 @property (strong,nonatomic) NSArray *typeArr;
+
 @end
 
 @implementation HYJobsController
