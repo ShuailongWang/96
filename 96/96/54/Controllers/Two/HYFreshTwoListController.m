@@ -37,11 +37,12 @@
 
 #pragma mark - UitableViewdelegate
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return self.freshData.count;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     HYFreshCell *cell = [HYFreshCell cellWithTableView:tableView NSIndexPath:indexPath];
+    cell.model = self.freshData[indexPath.row];
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -52,6 +53,12 @@
     
     HYFreshDetailsController *detailsVC = [[HYFreshDetailsController alloc]init];
     [self.navigationController pushViewController:detailsVC animated:YES];
+}
+
+-(void)setFreshData:(NSArray *)freshData{
+    _freshData = freshData;
+    
+    [self.myTableView reloadData];
 }
 
 @end

@@ -10,4 +10,6 @@
 
 @interface HYFreshTwoListController : HYBaseController
 
+@property (nonatomic, strong) NSArray *freshData;
+
 @end

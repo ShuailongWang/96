@@ -10,4 +10,18 @@
 
 @implementation HYFreshModel
 
+
++(NSArray *)FreshModelWithArray{
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"shengXian.json" ofType:nil];
+    NSData *data = [NSData dataWithContentsOfFile:path];
+    NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+    NSMutableArray *arrayM = [NSMutableArray array];
+    for (NSDictionary *dict in array) {
+        [arrayM addObject:[HYFreshModel yy_modelWithDictionary:dict]];
+    }
+    return arrayM.copy;
+    
+}
+
 @end

@@ -10,4 +10,5 @@
 
 @interface HYFreshDetailsController : HYBaseController
 
+
 @end

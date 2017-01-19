@@ -14,12 +14,14 @@
 #import "HYFreshTwoListController.h"
 #import "HYFreshDetailsController.h"
 #import "ProductNewDetailViewController.h"
+#import "HYFreshModel.h"
 
 @interface HYFreshController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (strong,nonatomic) UITableView *myTableView;
 @property (nonatomic, strong) NSArray *typeArr;
 @property (nonatomic, strong) NSArray *headArr;
+@property (nonatomic, strong) NSArray *freshData;
 
 @end
 
@@ -80,6 +82,7 @@
         cell.myBlock = ^(NSInteger index, NSString *itemTitle){
             HYFreshTwoListController *freshTwoListVC = [[HYFreshTwoListController alloc]init];
             freshTwoListVC.title = itemTitle;
+            freshTwoListVC.freshData = self.freshData;
             [self.navigationController pushViewController:freshTwoListVC animated:YES];
         };
         return cell;
@@ -94,6 +97,7 @@
     }
     //MARK: 内容列表
     HYFreshCell *cell = [HYFreshCell cellWithTableView:tableView NSIndexPath:indexPath];
+    cell.model = self.freshData[indexPath.row * indexPath.section];
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -113,7 +117,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
-        return 100;
+        return HYCyclesCellHeight;
     }
     if (indexPath.row == 0) {
         return 45;
@@ -146,6 +150,12 @@
                      ];
     }
     return _headArr;
+}
+-(NSArray *)freshData{
+    if (nil == _freshData) {
+        _freshData = [HYFreshModel FreshModelWithArray];
+    }
+    return _freshData;
 }
 
 @end

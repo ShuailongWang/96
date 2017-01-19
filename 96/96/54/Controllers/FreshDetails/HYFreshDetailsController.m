@@ -31,6 +31,7 @@
         _myTableView.delegate = self;
         _myTableView.dataSource = self;
         _myTableView.bounces = NO;
+        _myTableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
         [self.view addSubview:_myTableView];
     }
 }

@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class HYFreshModel;
 @interface HYFreshCell : UITableViewCell
 
+@property (nonatomic, strong) HYFreshModel *model;
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 
 @end

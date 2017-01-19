@@ -43,12 +43,13 @@
 
 @interface HYFreshModel : NSObject
 
+@property (copy, nonatomic) NSString *img;
 @property (copy, nonatomic) NSString *name;
-@property (copy, nonatomic) NSString *store_nums;
-@property (copy, nonatomic) NSString *sort;
+@property (copy, nonatomic) NSString *specifics;
+@property (copy, nonatomic) NSString *market_price;
 @property (copy, nonatomic) NSString *brand_id;
 @property (copy, nonatomic) NSString *brand_name;
-@property (copy, nonatomic) NSString *specifics;
-@property (copy, nonatomic) NSString *img;
+
++(NSArray *)FreshModelWithArray;
 
 @end

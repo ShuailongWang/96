@@ -7,6 +7,7 @@
 //
 
 #import "HYFreshCell.h"
+#import "HYFreshModel.h"
 
 @interface HYFreshCell()
 
@@ -39,5 +40,12 @@
     
 }
 
+-(void)setModel:(HYFreshModel *)model{
+    _model = model;
+    [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:model.img] placeholderImage:[UIImage imageNamed:@"404"]];
+    self.titleLabel.text = model.name;
+    self.subLabel.text = model.brand_name;
+    self.numberLabel.text = model.market_price;
+}
 
 @end
