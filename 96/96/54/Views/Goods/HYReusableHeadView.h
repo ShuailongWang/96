@@ -13,6 +13,16 @@
 
 @property (nonatomic, copy) NSString *headName;
 
+@end
+
+
+
+
+
+@interface HYReusableFooterView : UICollectionReusableView
+
+@property (nonatomic, copy) NSString *footName;
+@property (copy,nonatomic) void(^myBlock)();
 
 -(void)hideLabel;
 -(void)showLabel;

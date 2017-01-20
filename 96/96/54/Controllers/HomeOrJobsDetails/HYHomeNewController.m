@@ -8,7 +8,7 @@
 
 #import "HYHomeNewController.h"
 #import "HYHomeSectionThreeCell.h"
-#import "HYWebController.h"
+#import "HYWebViewController.h"
 
 @interface HYHomeNewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -48,7 +48,7 @@
     NSDictionary *dict = self.array[indexPath.row];
     NSString *strUrl = [dict[@"url"] stringByReplacingOccurrencesOfString:@" " withString:@""];
     
-    HYWebController *webVC = [[HYWebController alloc]init];
+    HYWebViewController *webVC = [[HYWebViewController alloc]init];
     webVC.strUrl = strUrl;
     [self.navigationController pushViewController:webVC animated:YES];
 }

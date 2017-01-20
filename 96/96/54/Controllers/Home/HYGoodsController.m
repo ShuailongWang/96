@@ -12,6 +12,8 @@
 #import "HYGoodsThreeCell.h"
 #import "HYReusableHeadView.h"
 #import "HYFreshModel.h"
+#import "HYGoodsTwoListController.h"
+#import "HYGoodsDetailsController.h"
 
 @interface HYGoodsController ()<UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
@@ -34,7 +36,7 @@
     if (nil == _myCollectionView) {
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
         flowLayout.minimumLineSpacing = 10;
-        flowLayout.minimumInteritemSpacing = 10;
+        flowLayout.minimumInteritemSpacing = 0;
         flowLayout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);
         
         _myCollectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
@@ -47,6 +49,7 @@
         [_myCollectionView registerNib:[UINib nibWithNibName:@"HYGoodsThreeCell" bundle:nil] forCellWithReuseIdentifier:@"HYGoodsThreeCellID"];
         //头
         [_myCollectionView registerClass:[HYReusableHeadView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HYReusableHeadViewID"];
+        [_myCollectionView registerClass:[HYReusableFooterView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"HYReusableFooterViewID"];
         
         [self.view addSubview:_myCollectionView];
     }
@@ -84,7 +87,7 @@
         }
         return cell;
     }
-
+    //MARK: - 列表
     HYGoodsThreeCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"HYGoodsThreeCellID" forIndexPath:indexPath];
     
     cell.model = self.freshData[indexPath.row];
@@ -97,12 +100,25 @@
         HYReusableHeadView *headView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HYReusableHeadViewID" forIndexPath:indexPath];
         return headView;
     }
-    return nil;
+    
+    HYReusableFooterView *footerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"HYReusableFooterViewID" forIndexPath:indexPath];
+    if (indexPath.section == 1 && kind == UICollectionElementKindSectionFooter) {
+        [footerView showLabel];
+    }else{
+        [footerView hideLabel];
+    }
+    //回调
+    footerView.myBlock = ^{
+        HYGoodsTwoListController *goodsTwoVC = [[HYGoodsTwoListController alloc]init];
+        [self.navigationController pushViewController:goodsTwoVC animated:YES];
+    };
+    
+    return footerView;
 }
-
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 0) {
-        return CGSizeMake(KScreen_Width, 120);
+        CGSize itemSize = CGSizeMake(KScreen_Width - 20, 120);
+        return itemSize;
     }
     return CGSizeMake((KScreen_Width - 30) / 2, 240);
 }
@@ -112,10 +128,24 @@
     }
     return CGSizeZero;
 }
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForFooterInSection:(NSInteger)section{
+    if (section == 1) {
+        return CGSizeMake(KScreen_Width, 50);
+    }
+    return CGSizeZero;
+}
+//MARK: - 点击Item
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 1) {
+        HYGoodsDetailsController *detailsVC = [[HYGoodsDetailsController alloc]init];
+        detailsVC.model = self.freshData[indexPath.row];
+        [self.navigationController pushViewController:detailsVC animated:YES];
+    }
+}
 
 
 
-
+//MARK: - 数据
 -(NSArray *)freshData{
     if (nil == _freshData) {
         _freshData = [HYFreshModel FreshModelWithArray];

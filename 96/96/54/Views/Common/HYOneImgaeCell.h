@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define HYOneImgaeCellHeight 120
 @interface HYOneImgaeCell : UITableViewCell
 
 @property (nonatomic, strong) UIImageView *iconView;
+
 
 @end

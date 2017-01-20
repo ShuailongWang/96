@@ -4,7 +4,7 @@
 //
 //  Created by admin on 17/1/19.
 //  Copyright © 2017年 王帅龙. All rights reserved.
-//
+//  轮播图 - UICollectionView
 
 #import "HYCollectionCyclesCell.h"
 
@@ -23,7 +23,7 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         if (nil == _scrollView) {
-            _scrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, KScreen_Width, 120) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
+            _scrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, KScreen_Width - 20, 120) delegate:self placeholderImage:[UIImage imageNamed:@"placeholder"]];
             _scrollView.currentPageDotImage = [UIImage imageNamed:@"pageControlCurrentDot"];
             _scrollView.pageDotImage = [UIImage imageNamed:@"pageControlDot"];
             _scrollView.imageURLStringsGroup = self.iconUrlArr;

@@ -12,8 +12,7 @@
 #import "HYFreshCell.h"
 #import "HYFreshHeadCell.h"
 #import "HYFreshTwoListController.h"
-#import "HYFreshDetailsController.h"
-#import "ProductNewDetailViewController.h"
+#import "HYGoodsDetailsController.h"
 #import "HYFreshModel.h"
 
 @interface HYFreshController ()<UITableViewDataSource, UITableViewDelegate>
@@ -110,7 +109,8 @@
         (indexPath.section == 5 && indexPath.section == 0)) {
         return;
     }
-    ProductNewDetailViewController *detailsVC = [[ProductNewDetailViewController alloc]init];
+    HYGoodsDetailsController *detailsVC = [[HYGoodsDetailsController alloc]init];
+    detailsVC.model = self.freshData[indexPath.row];
     [self.navigationController pushViewController:detailsVC animated:YES];
     
 }

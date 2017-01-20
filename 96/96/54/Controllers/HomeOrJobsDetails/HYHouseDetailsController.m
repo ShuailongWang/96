@@ -151,6 +151,7 @@
     if (nil == cell) {
         cell = [[HYJonsDetailsSixCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJonsDetailsSixCellID"];
     }
+    cell.iconArr = @[];
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -160,7 +161,7 @@
         }else if(indexPath.row == 1){
             return 70;
         }else if (indexPath.row == 2) {
-            return [HYReleaseRecruitTypesCell cellHeight];
+            return MAX([HYReleaseRecruitTypesCell cellHeight], 40);
         }
     }else if (indexPath.section == 1){
         return 50;

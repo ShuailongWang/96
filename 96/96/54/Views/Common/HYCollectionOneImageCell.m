@@ -13,11 +13,13 @@
 -(instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         if (nil == _iconView) {
-            _iconView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 120)];
+            _iconView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width-20, 120)];
             [self.contentView addSubview:_iconView];
         }
     }
     return self;
 }
+
+
 
 @end

@@ -22,6 +22,7 @@
 
 static NSString *HYReleaseRecruitTypesCollectionCellID = @"HYReleaseRecruitTypesCollectionCellID";
 CGFloat collectionHeight = 0;
+
 @implementation HYReleaseRecruitTypesCell
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{

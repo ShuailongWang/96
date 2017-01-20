@@ -18,7 +18,7 @@
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         if (nil == _iconView) {
-            _iconView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, 120)];
+            _iconView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, KScreen_Width, HYOneImgaeCellHeight)];
             [self.contentView addSubview:_iconView];
         }
     }

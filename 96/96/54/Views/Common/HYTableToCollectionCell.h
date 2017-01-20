@@ -4,7 +4,7 @@
 //
 //  Created by admin on 17/1/12.
 //  Copyright © 2017年 王帅龙. All rights reserved.
-//
+//  轮播图 - UITableViewCell
 
 #import <UIKit/UIKit.h>
 

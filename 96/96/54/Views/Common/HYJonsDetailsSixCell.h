@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#define HYJonsDetailsSixCellHeight 150
+#define HYJonsDetailsSixCellHeight 200
 
 @interface HYJonsDetailsSixCell : UITableViewCell
+
+@property (strong, nonatomic) NSArray *iconArr;
 
 @end
 

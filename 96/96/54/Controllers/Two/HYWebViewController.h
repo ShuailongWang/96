@@ -1,14 +1,14 @@
 //
-//  HYWebController.h
+//  HYWebViewController.h
 //  96
 //
-//  Created by admin on 17/1/13.
+//  Created by admin on 17/1/20.
 //  Copyright © 2017年 王帅龙. All rights reserved.
 //
 
 #import "HYBaseController.h"
 
-@interface HYWebController : HYBaseController
+@interface HYWebViewController : HYBaseController
 
 @property (nonatomic, copy) NSString *strUrl;
 

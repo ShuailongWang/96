@@ -22,7 +22,7 @@
 #import "HYPartTimeJobController.h"
 #import "HYZhaoPinModel.h"
 #import "HYHomeCompListController.h"
-#import "HYWebController.h"
+#import "HYWebViewController.h"
 #import "HYGoodsController.h"
 #import "HYFreshController.h"
 
@@ -114,19 +114,24 @@
             };
             return cell;
         } else if (indexPath.row == 1){
+            //MARK: - 文字轮播图
             HYHomeCycleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYHomeCycleCellID"];
             if (nil == cell) {
                 cell = [[HYHomeCycleCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYHomeCycleCellID"];
             }
             return cell;
         }else if (indexPath.row == 2){
+            //MARK: - 图片
             HYHomeImageCell *cell = [HYHomeImageCell cellWithTableView:tableView NSIndexPath:indexPath];
             cell.backgroundColor = kClearColor;
+            [cell.iconImage sd_setImageWithURL:[NSURL URLWithString:@"http://img1.ph.126.net/2HfqDZOQVaRMmLDEmPLgQg==/2779002445082210500.jpg"] placeholderImage:[UIImage imageNamed:@"404"]];
             return cell;
         } else if (indexPath.row == 3){
+            //MARK: - 点击查看更多
             HYHomeTipCell *cell = [HYHomeTipCell cellWithTableView:tableView NSIndexPath:indexPath];
             return cell;
         } else if (indexPath.row == 4) {
+            //MARK: - 月嫂
             HYHomeTypeThreeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HYHomeTypeThreeCellID"];
             if (nil == cell) {
                 cell = [[HYHomeTypeThreeCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYHomeTypeThreeCellID"];
@@ -134,10 +139,12 @@
             return cell;
         }
     } else if (indexPath.section == 1){
+        //MARK: - 招聘
         HYHomeSectionTwoCell *cell = [HYHomeSectionTwoCell cellWithTableView:tableView NSIndexPath:indexPath];
         cell.model = self.zpData[indexPath.row];
         return cell;
     }
+    //MARK: - 新闻
     HYHomeSectionThreeCell *cell = [HYHomeSectionThreeCell cellWithTableView:tableView NSIndexPath:indexPath];
     cell.dict = self.threeData[indexPath.row];
     return cell;
@@ -156,7 +163,7 @@
         NSDictionary *dict = self.threeData[indexPath.row];
         NSString *strUrl = [dict[@"url"] stringByReplacingOccurrencesOfString:@" " withString:@""];
         
-        HYWebController *webVC = [[HYWebController alloc]init];
+        HYWebViewController *webVC = [[HYWebViewController alloc]init];
         webVC.strUrl = strUrl;
         [self.navigationController pushViewController:webVC animated:YES];
     }

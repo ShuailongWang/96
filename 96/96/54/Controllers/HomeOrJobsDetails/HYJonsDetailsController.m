@@ -130,6 +130,7 @@
     if (nil == cell) {
         cell = [[HYJonsDetailsSixCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"HYJonsDetailsSixCellID"];
     }
+    cell.iconArr = @[];
     return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{

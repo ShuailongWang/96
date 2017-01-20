@@ -22,6 +22,9 @@
                 <constraint firstAttribute="trailing" secondItem="alg-vd-V7o" secondAttribute="trailing" constant="10" id="xay-AI-2hU"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImage" destination="alg-vd-V7o" id="jLx-my-TxE"/>
+            </connections>
             <point key="canvasLocation" x="48" y="-125.5"/>
         </view>
     </objects>

@@ -8,7 +8,7 @@
 
 #import "HYFreshTwoListController.h"
 #import "HYFreshCell.h"
-#import "HYFreshDetailsController.h"
+#import "HYGoodsDetailsController.h"
 
 @interface HYFreshTwoListController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -51,7 +51,8 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    HYFreshDetailsController *detailsVC = [[HYFreshDetailsController alloc]init];
+    HYGoodsDetailsController *detailsVC = [[HYGoodsDetailsController alloc]init];
+    detailsVC.model = self.freshData[indexPath.row];
     [self.navigationController pushViewController:detailsVC animated:YES];
 }
 

@@ -36,7 +36,6 @@
 		7811CCEA1E2909FA00CE39C9 /* caipu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCE91E2909FA00CE39C9 /* caipu.json */; };
 		7811CCEC1E290D1400CE39C9 /* zhaoPin.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCEB1E290D1400CE39C9 /* zhaoPin.json */; };
 		7811CCEF1E290D6700CE39C9 /* HYZhaoPinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811CCEE1E290D6700CE39C9 /* HYZhaoPinModel.m */; };
-		7811CCF21E29152900CE39C9 /* HYHomeCompListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7811CCF11E29152900CE39C9 /* HYHomeCompListController.m */; };
 		7811CCF41E2A28D000CE39C9 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 7811CCF31E2A28D000CE39C9 /* city.json */; };
 		785308B91E250C8700E6D71D /* HYHomeSectionTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308B81E250C8700E6D71D /* HYHomeSectionTwoCell.m */; };
 		785308BB1E250C9200E6D71D /* HYHomeSectionTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785308BA1E250C9200E6D71D /* HYHomeSectionTwoCell.xib */; };
@@ -55,15 +54,11 @@
 		785308EC1E252CBB00E6D71D /* HYJobsToSectonOneToOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308EB1E252CBB00E6D71D /* HYJobsToSectonOneToOneCell.m */; };
 		785308EE1E252CC200E6D71D /* HYJobsToSectonOneToOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785308ED1E252CC200E6D71D /* HYJobsToSectonOneToOneCell.xib */; };
 		785308F41E25342F00E6D71D /* HYJobsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308F21E25342F00E6D71D /* HYJobsController.m */; };
-		785308F71E25345900E6D71D /* HYHouseDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308F61E25345900E6D71D /* HYHouseDetailsController.m */; };
-		785308FA1E25346F00E6D71D /* HYJonsDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308F91E25346F00E6D71D /* HYJonsDetailsController.m */; };
 		785308FE1E25352100E6D71D /* HYJonsDetailsOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785308FD1E25352100E6D71D /* HYJonsDetailsOneCell.m */; };
 		785309001E25352A00E6D71D /* HYJonsDetailsOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785308FF1E25352A00E6D71D /* HYJonsDetailsOneCell.xib */; };
 		785309031E25392F00E6D71D /* HYJonsDetailsTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 785309021E25392F00E6D71D /* HYJonsDetailsTwoCell.m */; };
 		785309051E25393700E6D71D /* HYJonsDetailsTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 785309041E25393700E6D71D /* HYJonsDetailsTwoCell.xib */; };
 		789741061E2D08C1009D1C0A /* HYFreshTwoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */; };
-		7897410A1E2D0CD6009D1C0A /* HYFreshDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */; };
-		78AFD67F1E266B5E006C1D2F /* HYJobsTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD67E1E266B5E006C1D2F /* HYJobsTypeController.m */; };
 		78AFD6831E266D8E006C1D2F /* HYJobsTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFD6821E266D8E006C1D2F /* HYJobsTypeCell.m */; };
 		78AFD6851E266D96006C1D2F /* HYJobsTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78AFD6841E266D96006C1D2F /* HYJobsTypeCell.xib */; };
 		78AFD6871E26737B006C1D2F /* job_list_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78AFD6861E26737B006C1D2F /* job_list_line@3x.png */; };
@@ -128,6 +123,16 @@
 		841D3D2A1E2EF12D0066C7AF /* shengXian.json in Resources */ = {isa = PBXBuildFile; fileRef = 841D3D291E2EF12D0066C7AF /* shengXian.json */; };
 		841D3D2D1E2EF1590066C7AF /* HYFreshModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D3D2C1E2EF1590066C7AF /* HYFreshModel.m */; };
 		841D3D301E2EF44A0066C7AF /* ProductNewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841D3D2F1E2EF44A0066C7AF /* ProductNewDetailViewController.m */; };
+		8442F1451E31E4AE009642C6 /* HYTitleLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F1441E31E4AE009642C6 /* HYTitleLabelCell.m */; };
+		8442F1471E31E4B5009642C6 /* HYTitleLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8442F1461E31E4B5009642C6 /* HYTitleLabelCell.xib */; };
+		8442F14A1E31E640009642C6 /* HYGoodsDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F1491E31E640009642C6 /* HYGoodsDetailsCell.m */; };
+		8442F14C1E31E646009642C6 /* HYGoodsDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8442F14B1E31E646009642C6 /* HYGoodsDetailsCell.xib */; };
+		8442F1751E32077B009642C6 /* HYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F1741E32077B009642C6 /* HYWebViewController.m */; };
+		8442F1811E32082B009642C6 /* HYHomeCompListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F1781E32082B009642C6 /* HYHomeCompListController.m */; };
+		8442F1821E32082B009642C6 /* HYHomeNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F17A1E32082B009642C6 /* HYHomeNewController.m */; };
+		8442F1831E32082B009642C6 /* HYHouseDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F17C1E32082B009642C6 /* HYHouseDetailsController.m */; };
+		8442F1841E32082B009642C6 /* HYJobsTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F17E1E32082B009642C6 /* HYJobsTypeController.m */; };
+		8442F1851E32082B009642C6 /* HYJonsDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8442F1801E32082B009642C6 /* HYJonsDetailsController.m */; };
 		844A78021E2887C50069606D /* NSBundle+ZLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A77D31E2887C50069606D /* NSBundle+ZLPhotoBrowser.m */; };
 		844A78031E2887C50069606D /* btn_circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A77D51E2887C50069606D /* btn_circle@2x.png */; };
 		844A78041E2887C50069606D /* btn_circle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 844A77D61E2887C50069606D /* btn_circle@3x.png */; };
@@ -166,8 +171,6 @@
 		844A782C1E28C46F0069606D /* HYNewsGuanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A782B1E28C46F0069606D /* HYNewsGuanCell.m */; };
 		844A782E1E28C5080069606D /* HYNewsGuanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844A782D1E28C5080069606D /* HYNewsGuanCell.xib */; };
 		844A78301E28CE260069606D /* news.json in Resources */ = {isa = PBXBuildFile; fileRef = 844A782F1E28CE260069606D /* news.json */; };
-		844A78331E28D2970069606D /* HYHomeNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A78321E28D2970069606D /* HYHomeNewController.m */; };
-		844A78361E28D3800069606D /* HYWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A78351E28D3800069606D /* HYWebController.m */; };
 		845005AE1E2746A700C57D0A /* HYPartTimeJobController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005AD1E2746A700C57D0A /* HYPartTimeJobController.m */; };
 		845005B21E2746F900C57D0A /* HYPartTimeJobCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845005B11E2746F900C57D0A /* HYPartTimeJobCell.m */; };
 		845005B41E27470900C57D0A /* HYPartTimeJobCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845005B31E27470900C57D0A /* HYPartTimeJobCell.xib */; };
@@ -208,6 +211,8 @@
 		849D5D731E308F93007EA94A /* HYGoodsThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849D5D721E308F93007EA94A /* HYGoodsThreeCell.xib */; };
 		849D5D761E309062007EA94A /* HYPuBuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5D751E309062007EA94A /* HYPuBuLayout.m */; };
 		849D5D791E30B285007EA94A /* HYReusableHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D5D781E30B285007EA94A /* HYReusableHeadView.m */; };
+		84BE2A561E319FC50049F151 /* HYGoodsTwoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE2A551E319FC50049F151 /* HYGoodsTwoListController.m */; };
+		84BE2A5A1E31B3B90049F151 /* HYGoodsDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE2A591E31B3B90049F151 /* HYGoodsDetailsController.m */; };
 		84DD79B71E2605E9006C2624 /* HYJobsOSectonOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79B61E2605E9006C2624 /* HYJobsOSectonOneCell.m */; };
 		84DD79B91E2606C3006C2624 /* MyJob.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84DD79B81E2606C3006C2624 /* MyJob.plist */; };
 		84DD79BC1E260A7D006C2624 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD79BB1E260A7D006C2624 /* UIViewController+BackButtonHandler.m */; };
@@ -299,8 +304,6 @@
 		7811CCEB1E290D1400CE39C9 /* zhaoPin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zhaoPin.json; sourceTree = "<group>"; };
 		7811CCED1E290D6700CE39C9 /* HYZhaoPinModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZhaoPinModel.h; sourceTree = "<group>"; };
 		7811CCEE1E290D6700CE39C9 /* HYZhaoPinModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZhaoPinModel.m; sourceTree = "<group>"; };
-		7811CCF01E29152900CE39C9 /* HYHomeCompListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeCompListController.h; sourceTree = "<group>"; };
-		7811CCF11E29152900CE39C9 /* HYHomeCompListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeCompListController.m; sourceTree = "<group>"; };
 		7811CCF31E2A28D000CE39C9 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 		785308B71E250C8700E6D71D /* HYHomeSectionTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeSectionTwoCell.h; sourceTree = "<group>"; };
 		785308B81E250C8700E6D71D /* HYHomeSectionTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeSectionTwoCell.m; sourceTree = "<group>"; };
@@ -329,10 +332,6 @@
 		785308ED1E252CC200E6D71D /* HYJobsToSectonOneToOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJobsToSectonOneToOneCell.xib; sourceTree = "<group>"; };
 		785308F11E25342F00E6D71D /* HYJobsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsController.h; sourceTree = "<group>"; };
 		785308F21E25342F00E6D71D /* HYJobsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsController.m; sourceTree = "<group>"; };
-		785308F51E25345900E6D71D /* HYHouseDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHouseDetailsController.h; sourceTree = "<group>"; };
-		785308F61E25345900E6D71D /* HYHouseDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHouseDetailsController.m; sourceTree = "<group>"; };
-		785308F81E25346F00E6D71D /* HYJonsDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsController.h; sourceTree = "<group>"; };
-		785308F91E25346F00E6D71D /* HYJonsDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsController.m; sourceTree = "<group>"; };
 		785308FC1E25352100E6D71D /* HYJonsDetailsOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsOneCell.h; sourceTree = "<group>"; };
 		785308FD1E25352100E6D71D /* HYJonsDetailsOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsOneCell.m; sourceTree = "<group>"; };
 		785308FF1E25352A00E6D71D /* HYJonsDetailsOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJonsDetailsOneCell.xib; sourceTree = "<group>"; };
@@ -341,10 +340,6 @@
 		785309041E25393700E6D71D /* HYJonsDetailsTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJonsDetailsTwoCell.xib; sourceTree = "<group>"; };
 		789741041E2D08C1009D1C0A /* HYFreshTwoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshTwoListController.h; sourceTree = "<group>"; };
 		789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshTwoListController.m; sourceTree = "<group>"; };
-		789741081E2D0CD6009D1C0A /* HYFreshDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFreshDetailsController.h; sourceTree = "<group>"; };
-		789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshDetailsController.m; sourceTree = "<group>"; };
-		78AFD67D1E266B5E006C1D2F /* HYJobsTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsTypeController.h; sourceTree = "<group>"; };
-		78AFD67E1E266B5E006C1D2F /* HYJobsTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsTypeController.m; sourceTree = "<group>"; };
 		78AFD6811E266D8E006C1D2F /* HYJobsTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsTypeCell.h; sourceTree = "<group>"; };
 		78AFD6821E266D8E006C1D2F /* HYJobsTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsTypeCell.m; sourceTree = "<group>"; };
 		78AFD6841E266D96006C1D2F /* HYJobsTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYJobsTypeCell.xib; sourceTree = "<group>"; };
@@ -470,6 +465,24 @@
 		841D3D2C1E2EF1590066C7AF /* HYFreshModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFreshModel.m; sourceTree = "<group>"; };
 		841D3D2E1E2EF44A0066C7AF /* ProductNewDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductNewDetailViewController.h; sourceTree = "<group>"; };
 		841D3D2F1E2EF44A0066C7AF /* ProductNewDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductNewDetailViewController.m; sourceTree = "<group>"; };
+		8442F1431E31E4AE009642C6 /* HYTitleLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTitleLabelCell.h; sourceTree = "<group>"; };
+		8442F1441E31E4AE009642C6 /* HYTitleLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTitleLabelCell.m; sourceTree = "<group>"; };
+		8442F1461E31E4B5009642C6 /* HYTitleLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYTitleLabelCell.xib; sourceTree = "<group>"; };
+		8442F1481E31E640009642C6 /* HYGoodsDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGoodsDetailsCell.h; sourceTree = "<group>"; };
+		8442F1491E31E640009642C6 /* HYGoodsDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGoodsDetailsCell.m; sourceTree = "<group>"; };
+		8442F14B1E31E646009642C6 /* HYGoodsDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYGoodsDetailsCell.xib; sourceTree = "<group>"; };
+		8442F1731E32077B009642C6 /* HYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYWebViewController.h; sourceTree = "<group>"; };
+		8442F1741E32077B009642C6 /* HYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYWebViewController.m; sourceTree = "<group>"; };
+		8442F1771E32082B009642C6 /* HYHomeCompListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeCompListController.h; sourceTree = "<group>"; };
+		8442F1781E32082B009642C6 /* HYHomeCompListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeCompListController.m; sourceTree = "<group>"; };
+		8442F1791E32082B009642C6 /* HYHomeNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeNewController.h; sourceTree = "<group>"; };
+		8442F17A1E32082B009642C6 /* HYHomeNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeNewController.m; sourceTree = "<group>"; };
+		8442F17B1E32082B009642C6 /* HYHouseDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHouseDetailsController.h; sourceTree = "<group>"; };
+		8442F17C1E32082B009642C6 /* HYHouseDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHouseDetailsController.m; sourceTree = "<group>"; };
+		8442F17D1E32082B009642C6 /* HYJobsTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsTypeController.h; sourceTree = "<group>"; };
+		8442F17E1E32082B009642C6 /* HYJobsTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsTypeController.m; sourceTree = "<group>"; };
+		8442F17F1E32082B009642C6 /* HYJonsDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJonsDetailsController.h; sourceTree = "<group>"; };
+		8442F1801E32082B009642C6 /* HYJonsDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJonsDetailsController.m; sourceTree = "<group>"; };
 		844A77D21E2887C50069606D /* NSBundle+ZLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+ZLPhotoBrowser.h"; sourceTree = "<group>"; };
 		844A77D31E2887C50069606D /* NSBundle+ZLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+ZLPhotoBrowser.m"; sourceTree = "<group>"; };
 		844A77D51E2887C50069606D /* btn_circle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_circle@2x.png"; sourceTree = "<group>"; };
@@ -525,8 +538,6 @@
 		844A782B1E28C46F0069606D /* HYNewsGuanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYNewsGuanCell.m; sourceTree = "<group>"; };
 		844A782D1E28C5080069606D /* HYNewsGuanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYNewsGuanCell.xib; sourceTree = "<group>"; };
 		844A782F1E28CE260069606D /* news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = news.json; sourceTree = "<group>"; };
-		844A78311E28D2970069606D /* HYHomeNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHomeNewController.h; sourceTree = "<group>"; };
-		844A78321E28D2970069606D /* HYHomeNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHomeNewController.m; sourceTree = "<group>"; };
 		844A78341E28D3800069606D /* HYWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYWebController.h; path = 96/54/Controllers/Details/HYWebController.h; sourceTree = SOURCE_ROOT; };
 		844A78351E28D3800069606D /* HYWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYWebController.m; path = 96/54/Controllers/Details/HYWebController.m; sourceTree = SOURCE_ROOT; };
 		845005AC1E2746A700C57D0A /* HYPartTimeJobController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPartTimeJobController.h; sourceTree = "<group>"; };
@@ -595,6 +606,10 @@
 		849D5D751E309062007EA94A /* HYPuBuLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPuBuLayout.m; sourceTree = "<group>"; };
 		849D5D771E30B285007EA94A /* HYReusableHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYReusableHeadView.h; sourceTree = "<group>"; };
 		849D5D781E30B285007EA94A /* HYReusableHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYReusableHeadView.m; sourceTree = "<group>"; };
+		84BE2A541E319FC50049F151 /* HYGoodsTwoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGoodsTwoListController.h; sourceTree = "<group>"; };
+		84BE2A551E319FC50049F151 /* HYGoodsTwoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGoodsTwoListController.m; sourceTree = "<group>"; };
+		84BE2A581E31B3B90049F151 /* HYGoodsDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYGoodsDetailsController.h; sourceTree = "<group>"; };
+		84BE2A591E31B3B90049F151 /* HYGoodsDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYGoodsDetailsController.m; sourceTree = "<group>"; };
 		84DD79B51E2605E9006C2624 /* HYJobsOSectonOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYJobsOSectonOneCell.h; sourceTree = "<group>"; };
 		84DD79B61E2605E9006C2624 /* HYJobsOSectonOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYJobsOSectonOneCell.m; sourceTree = "<group>"; };
 		84DD79B81E2606C3006C2624 /* MyJob.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyJob.plist; sourceTree = "<group>"; };
@@ -720,23 +735,6 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		785308C31E2513E000E6D71D /* Details */ = {
-			isa = PBXGroup;
-			children = (
-				785308F51E25345900E6D71D /* HYHouseDetailsController.h */,
-				785308F61E25345900E6D71D /* HYHouseDetailsController.m */,
-				7811CCF01E29152900CE39C9 /* HYHomeCompListController.h */,
-				7811CCF11E29152900CE39C9 /* HYHomeCompListController.m */,
-				844A78311E28D2970069606D /* HYHomeNewController.h */,
-				844A78321E28D2970069606D /* HYHomeNewController.m */,
-				78AFD67D1E266B5E006C1D2F /* HYJobsTypeController.h */,
-				78AFD67E1E266B5E006C1D2F /* HYJobsTypeController.m */,
-				785308F81E25346F00E6D71D /* HYJonsDetailsController.h */,
-				785308F91E25346F00E6D71D /* HYJonsDetailsController.m */,
-			);
-			path = Details;
-			sourceTree = "<group>";
-		};
 		785308D21E251B4400E6D71D /* Jobs */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,8 +782,6 @@
 		789741071E2D0CC7009D1C0A /* FreshDetails */ = {
 			isa = PBXGroup;
 			children = (
-				789741081E2D0CD6009D1C0A /* HYFreshDetailsController.h */,
-				789741091E2D0CD6009D1C0A /* HYFreshDetailsController.m */,
 			);
 			path = FreshDetails;
 			sourceTree = "<group>";
@@ -944,8 +940,9 @@
 				78EA7CDC1E227CF700C0E423 /* Main */,
 				78EA7CDA1E227CF700C0E423 /* Home */,
 				849C86921E2CA1BB00C7EF50 /* Two */,
+				8442F1761E32082B009642C6 /* HomeOrJobsDetails */,
+				84BE2A571E31B3A60049F151 /* GoodsDetails */,
 				789741071E2D0CC7009D1C0A /* FreshDetails */,
-				785308C31E2513E000E6D71D /* Details */,
 				78EA7CDD1E227CF700C0E423 /* Mine */,
 				78EA7D521E2280EA00C0E423 /* Upload */,
 				78EA7CDE1E227CF700C0E423 /* News */,
@@ -1302,6 +1299,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8442F1761E32082B009642C6 /* HomeOrJobsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				8442F1771E32082B009642C6 /* HYHomeCompListController.h */,
+				8442F1781E32082B009642C6 /* HYHomeCompListController.m */,
+				8442F1791E32082B009642C6 /* HYHomeNewController.h */,
+				8442F17A1E32082B009642C6 /* HYHomeNewController.m */,
+				8442F17B1E32082B009642C6 /* HYHouseDetailsController.h */,
+				8442F17C1E32082B009642C6 /* HYHouseDetailsController.m */,
+				8442F17D1E32082B009642C6 /* HYJobsTypeController.h */,
+				8442F17E1E32082B009642C6 /* HYJobsTypeController.m */,
+				8442F17F1E32082B009642C6 /* HYJonsDetailsController.h */,
+				8442F1801E32082B009642C6 /* HYJonsDetailsController.m */,
+			);
+			path = HomeOrJobsDetails;
+			sourceTree = "<group>";
+		};
 		844A77D11E2887C50069606D /* PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
@@ -1448,6 +1462,10 @@
 				849C86941E2CA1E800C7EF50 /* HYPartTimeListController.m */,
 				789741041E2D08C1009D1C0A /* HYFreshTwoListController.h */,
 				789741051E2D08C1009D1C0A /* HYFreshTwoListController.m */,
+				84BE2A541E319FC50049F151 /* HYGoodsTwoListController.h */,
+				84BE2A551E319FC50049F151 /* HYGoodsTwoListController.m */,
+				8442F1731E32077B009642C6 /* HYWebViewController.h */,
+				8442F1741E32077B009642C6 /* HYWebViewController.m */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -1473,8 +1491,23 @@
 				849D5D721E308F93007EA94A /* HYGoodsThreeCell.xib */,
 				849D5D771E30B285007EA94A /* HYReusableHeadView.h */,
 				849D5D781E30B285007EA94A /* HYReusableHeadView.m */,
+				8442F1431E31E4AE009642C6 /* HYTitleLabelCell.h */,
+				8442F1441E31E4AE009642C6 /* HYTitleLabelCell.m */,
+				8442F1461E31E4B5009642C6 /* HYTitleLabelCell.xib */,
+				8442F1481E31E640009642C6 /* HYGoodsDetailsCell.h */,
+				8442F1491E31E640009642C6 /* HYGoodsDetailsCell.m */,
+				8442F14B1E31E646009642C6 /* HYGoodsDetailsCell.xib */,
 			);
 			path = Goods;
+			sourceTree = "<group>";
+		};
+		84BE2A571E31B3A60049F151 /* GoodsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				84BE2A581E31B3B90049F151 /* HYGoodsDetailsController.h */,
+				84BE2A591E31B3B90049F151 /* HYGoodsDetailsController.m */,
+			);
+			path = GoodsDetails;
 			sourceTree = "<group>";
 		};
 		84DD79CC1E263792006C2624 /* SDPhotoBrowser */ = {
@@ -1681,6 +1714,7 @@
 				84DD79C11E262728006C2624 /* HYJobsDetailsPlaceCell.xib in Resources */,
 				78EA7D201E227CF800C0E423 /* PYSearch.bundle in Resources */,
 				841D3D2A1E2EF12D0066C7AF /* shengXian.json in Resources */,
+				8442F1471E31E4B5009642C6 /* HYTitleLabelCell.xib in Resources */,
 				84787F791E287FEE00C1CB80 /* radiobox_default@3x.png in Resources */,
 				844A78131E2887C60069606D /* ZLPhotoActionSheet.xib in Resources */,
 				844A780B1E2887C60069606D /* btn_unselected.png in Resources */,
@@ -1694,6 +1728,7 @@
 				844A78111E2887C60069606D /* ZLCollectionCell.xib in Resources */,
 				785308EE1E252CC200E6D71D /* HYJobsToSectonOneToOneCell.xib in Resources */,
 				844A78121E2887C60069606D /* ZLNoAuthorityViewController.xib in Resources */,
+				8442F14C1E31E646009642C6 /* HYGoodsDetailsCell.xib in Resources */,
 				844A78141E2887C60069606D /* ZLPhotoBrowser.bundle in Resources */,
 				844A78101E2887C60069606D /* navBackBtn@2x.png in Resources */,
 				785308BB1E250C9200E6D71D /* HYHomeSectionTwoCell.xib in Resources */,
@@ -1873,29 +1908,29 @@
 				84787F821E287FEE00C1CB80 /* SQSelectAddressModel.m in Sources */,
 				78EA7D361E227DFA00C0E423 /* HYLoginController.m in Sources */,
 				785308BF1E25112E00E6D71D /* HYSectionFootView.m in Sources */,
-				844A78331E28D2970069606D /* HYHomeNewController.m in Sources */,
 				849D5D791E30B285007EA94A /* HYReusableHeadView.m in Sources */,
 				84787F851E287FEE00C1CB80 /* SQSelectAddressViewController.m in Sources */,
 				84DD79B71E2605E9006C2624 /* HYJobsOSectonOneCell.m in Sources */,
 				844A78201E2887C60069606D /* ZLSelectPhotoModel.m in Sources */,
 				849514961E2762BB00220F8C /* HYTableToCollectionCell.m in Sources */,
+				8442F14A1E31E640009642C6 /* HYGoodsDetailsCell.m in Sources */,
 				785308C91E25166F00E6D71D /* HYHomeSectionThreeCell.m in Sources */,
 				785308E41E25270D00E6D71D /* HYJobsTSectionThreeCell.m in Sources */,
 				84648D921E30645E00DF3FE6 /* HYOneImgaeCell.m in Sources */,
 				7804324D1E23E8AE00EBE4E7 /* HYHomeImageCell.m in Sources */,
 				845005AE1E2746A700C57D0A /* HYPartTimeJobController.m in Sources */,
+				84BE2A561E319FC50049F151 /* HYGoodsTwoListController.m in Sources */,
 				844A78211E2887C60069606D /* ZLShowBigImgViewController.m in Sources */,
-				785308F71E25345900E6D71D /* HYHouseDetailsController.m in Sources */,
 				789741061E2D08C1009D1C0A /* HYFreshTwoListController.m in Sources */,
 				780A5AAF1E27D72E0086B152 /* HYEditUserCell.m in Sources */,
 				78EA7D151E227CF800C0E423 /* UIView+Extension.m in Sources */,
 				78EA7D171E227CF800C0E423 /* DLCustomSlideView.m in Sources */,
 				78EA7D0F1E227CF800C0E423 /* NSObject+Common.m in Sources */,
 				780432481E23E24F00EBE4E7 /* HYHomeCycleCell.m in Sources */,
-				7811CCF21E29152900CE39C9 /* HYHomeCompListController.m in Sources */,
 				849C869C1E2CBC5E00C7EF50 /* HYFreshController.m in Sources */,
 				78EA7D141E227CF800C0E423 /* UITextView+Extension.m in Sources */,
 				78EA7D1F1E227CF800C0E423 /* YBPopupMenu.m in Sources */,
+				8442F1811E32082B009642C6 /* HYHomeCompListController.m in Sources */,
 				780A5AAB1E27D7260086B152 /* HYMineHeadCell.m in Sources */,
 				78EA7D5E1E228B5600C0E423 /* HYNewsDetailsController.m in Sources */,
 				785308FE1E25352100E6D71D /* HYJonsDetailsOneCell.m in Sources */,
@@ -1906,26 +1941,29 @@
 				78EA7D241E227CF800C0E423 /* UIColor+PYExtension.m in Sources */,
 				780432331E23C88700EBE4E7 /* HYJianliController.m in Sources */,
 				785308EC1E252CBB00E6D71D /* HYJobsToSectonOneToOneCell.m in Sources */,
-				7897410A1E2D0CD6009D1C0A /* HYFreshDetailsController.m in Sources */,
 				780432361E23CC8B00EBE4E7 /* HYJianliCell.m in Sources */,
 				78EA7D261E227CF800C0E423 /* NSString+Hash.m in Sources */,
 				78EA7D1A1E227CF800C0E423 /* DLScrollTabbarView.m in Sources */,
+				84BE2A5A1E31B3B90049F151 /* HYGoodsDetailsController.m in Sources */,
 				84E8B6B01E24AF3C00630C4C /* HYHomeTypeThreeCell.m in Sources */,
 				78EA7D381E227DFA00C0E423 /* HYRegisterBtn.m in Sources */,
 				84DD79C41E262973006C2624 /* HYJonsDetailsFourCell.m in Sources */,
 				84648D951E306DB400DF3FE6 /* HYCollectionCyclesCell.m in Sources */,
 				84787F7F1E287FEE00C1CB80 /* SQCity.m in Sources */,
-				785308FA1E25346F00E6D71D /* HYJonsDetailsController.m in Sources */,
 				844A781E1E2887C60069606D /* ZLPhotoTool.m in Sources */,
 				78EA7D371E227DFA00C0E423 /* HYLoginHomeController.m in Sources */,
 				78EA7D3C1E227E4600C0E423 /* HYBaseController.m in Sources */,
+				8442F1851E32082B009642C6 /* HYJonsDetailsController.m in Sources */,
 				7804322E1E23BB4900EBE4E7 /* HYJobCell.m in Sources */,
+				8442F1831E32082B009642C6 /* HYHouseDetailsController.m in Sources */,
+				8442F1751E32077B009642C6 /* HYWebViewController.m in Sources */,
 				84E8B6A91E24ABAF00630C4C /* HYTypeCollectionCell.m in Sources */,
 				785308C21E25118E00E6D71D /* HYSectionHeadView.m in Sources */,
 				841D3D281E2EE8FF0066C7AF /* HYJonsDetailsSixCell.m in Sources */,
 				785308DC1E25227900E6D71D /* HYJobsOSectonToCell.m in Sources */,
 				84648D981E306E2600DF3FE6 /* HYCollectionOneImageCell.m in Sources */,
 				84787F7C1E287FEE00C1CB80 /* SQChinaCitiesController.m in Sources */,
+				8442F1821E32082B009642C6 /* HYHomeNewController.m in Sources */,
 				780A5A961E27BB740086B152 /* HYErShouController.m in Sources */,
 				844A781B1E2887C60069606D /* ZLPhotoActionSheet.m in Sources */,
 				78EA7D121E227CF800C0E423 /* UILabel+Extension.m in Sources */,
@@ -1935,7 +1973,6 @@
 				78EA7D4E1E227F1700C0E423 /* HYNewsController.m in Sources */,
 				84787F841E287FEE00C1CB80 /* SQSelectAddressTransitioning.m in Sources */,
 				7811CCEF1E290D6700CE39C9 /* HYZhaoPinModel.m in Sources */,
-				78AFD67F1E266B5E006C1D2F /* HYJobsTypeController.m in Sources */,
 				78EA7D551E2280F600C0E423 /* HYUploadController.m in Sources */,
 				780432431E23E0C700EBE4E7 /* HYTypeHeadCell.m in Sources */,
 				84787F7E1E287FEE00C1CB80 /* SQChinaCity.m in Sources */,
@@ -1962,9 +1999,9 @@
 				78EA7D1B1E227CF800C0E423 /* DLTabedSlideView.m in Sources */,
 				785309031E25392F00E6D71D /* HYJonsDetailsTwoCell.m in Sources */,
 				78EA7C961E227C1E00C0E423 /* AppDelegate.m in Sources */,
+				8442F1451E31E4AE009642C6 /* HYTitleLabelCell.m in Sources */,
 				849C86A01E2CC73800C7EF50 /* HYFreshCell.m in Sources */,
 				78EA7C931E227C1E00C0E423 /* main.m in Sources */,
-				844A78361E28D3800069606D /* HYWebController.m in Sources */,
 				844A781A1E2887C60069606D /* ZLNoAuthorityViewController.m in Sources */,
 				78EA7D6B1E229BA500C0E423 /* HYTypeCell.m in Sources */,
 				844A781F1E2887C60069606D /* ZLProgressHUD.m in Sources */,
@@ -1977,6 +2014,7 @@
 				78EA7D231E227CF800C0E423 /* PYSearchViewController.m in Sources */,
 				78EA7D111E227CF800C0E423 /* UIImage+Common.m in Sources */,
 				78EA7D181E227CF800C0E423 /* DLSlideView.m in Sources */,
+				8442F1841E32082B009642C6 /* HYJobsTypeController.m in Sources */,
 				785308DF1E2522B500E6D71D /* HYJobsOSectonToOneCell.m in Sources */,
 				844A781D1E2887C60069606D /* ZLPhotoBrowserCell.m in Sources */,
 				78EA7D101E227CF800C0E423 /* NSString+Common.m in Sources */,
@@ -2149,6 +2187,40 @@
 				INFOPLIST_FILE = 96/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"ActionSheetPicker-3.0\"",
+					"-l\"FMDB\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"TPKeyboardAvoiding\"",
+					"-l\"YYModel\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.96.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2164,6 +2236,40 @@
 				INFOPLIST_FILE = 96/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"ActionSheetPicker-3.0\"",
+					"-l\"FMDB\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"MJExtension\"",
+					"-l\"MJRefresh\"",
+					"-l\"Masonry\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"SVProgressHUD\"",
+					"-l\"TPKeyboardAvoiding\"",
+					"-l\"YYModel\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsl.96.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

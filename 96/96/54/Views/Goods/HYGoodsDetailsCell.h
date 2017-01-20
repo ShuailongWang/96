@@ -1,16 +1,18 @@
 //
-//  HYHomeImageCell.h
+//  HYGoodsDetailsCell.h
 //  96
 //
-//  Created by WSL on 17/1/9.
+//  Created by admin on 17/1/20.
 //  Copyright © 2017年 王帅龙. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface HYHomeImageCell : UITableViewCell
+@class HYFreshModel;
+@interface HYGoodsDetailsCell : UITableViewCell
 
-@property (weak, nonatomic) IBOutlet UIImageView *iconImage;
+@property (nonatomic, strong) HYFreshModel *model;
+
 + (instancetype)cellWithTableView:(UITableView *)tableView NSIndexPath:(NSIndexPath *)indexPath;
 
 @end

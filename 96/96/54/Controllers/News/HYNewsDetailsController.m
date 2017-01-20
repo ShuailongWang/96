@@ -8,7 +8,7 @@
 
 #import "HYNewsDetailsController.h"
 #import "HYNewsGuanCell.h"
-#import "HYWebController.h"
+#import "HYWebViewController.h"
 
 @interface HYNewsDetailsController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -60,7 +60,7 @@
     
     NSDictionary *dict = self.newsData[indexPath.row];
     
-    HYWebController *webVC = [[HYWebController alloc]init];
+    HYWebViewController *webVC = [[HYWebViewController alloc]init];
     webVC.strUrl = dict[@"url"];
     [self.navigationController pushViewController:webVC animated:YES];
 }

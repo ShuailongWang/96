@@ -14,7 +14,7 @@
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="404" translatesAutoresizingMaskIntoConstraints="NO" id="zT5-Rn-jLl">
                     <constraints>
-                        <constraint firstAttribute="height" constant="100" id="suM-78-T3g"/>
+                        <constraint firstAttribute="height" constant="130" id="suM-78-T3g"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmT-85-y2m">
@@ -27,9 +27,6 @@
                     <color key="textColor" red="0.16221998209999999" green="0.16118436559999999" blue="0.1934212387" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zlo-KX-n6G">
-                    <state key="normal" title="沟通"/>
-                </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价钱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sYR-o9-Wbm">
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="0eA-CP-joO"/>
@@ -47,15 +44,12 @@
                 <constraint firstItem="sYR-o9-Wbm" firstAttribute="leading" secondItem="CIq-PR-G2f" secondAttribute="leading" id="SHh-HC-AGJ"/>
                 <constraint firstItem="CIq-PR-G2f" firstAttribute="trailing" secondItem="VmT-85-y2m" secondAttribute="trailing" id="SNd-r9-JAc"/>
                 <constraint firstItem="CIq-PR-G2f" firstAttribute="leading" secondItem="VmT-85-y2m" secondAttribute="leading" id="Wlw-dL-cSG"/>
-                <constraint firstItem="Zlo-KX-n6G" firstAttribute="trailing" secondItem="CIq-PR-G2f" secondAttribute="trailing" id="Wqe-tS-EiN"/>
                 <constraint firstItem="VmT-85-y2m" firstAttribute="top" secondItem="zT5-Rn-jLl" secondAttribute="bottom" constant="10" id="cMi-rF-vLQ"/>
-                <constraint firstItem="Zlo-KX-n6G" firstAttribute="bottom" secondItem="sYR-o9-Wbm" secondAttribute="bottom" id="fG3-H5-tAg"/>
                 <constraint firstItem="zT5-Rn-jLl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="lgv-2h-8Qp"/>
-                <constraint firstItem="Zlo-KX-n6G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="sYR-o9-Wbm" secondAttribute="trailing" constant="10" id="nRD-u5-Nup"/>
                 <constraint firstAttribute="trailing" secondItem="VmT-85-y2m" secondAttribute="trailing" constant="10" id="oNJ-Ls-hZ6"/>
                 <constraint firstAttribute="bottom" secondItem="sYR-o9-Wbm" secondAttribute="bottom" constant="10" id="oTe-2T-aSk"/>
                 <constraint firstItem="zT5-Rn-jLl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oaw-Xz-XVA"/>
-                <constraint firstItem="Zlo-KX-n6G" firstAttribute="height" secondItem="sYR-o9-Wbm" secondAttribute="height" id="qGE-ee-iuK"/>
+                <constraint firstAttribute="trailing" secondItem="sYR-o9-Wbm" secondAttribute="trailing" constant="10" id="r1w-A8-12j"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>

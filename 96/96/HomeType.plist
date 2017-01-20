@@ -62,53 +62,5 @@
 		<key>Title</key>
 		<string>58到家</string>
 	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>SUV</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>peilian_thirdutility</string>
-		<key>Title</key>
-		<string>练手车</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>附近工作</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>福利工作</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>地图租房</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>优品房源</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>押一付一</string>
-	</dict>
-	<dict>
-		<key>Icon</key>
-		<string>shangjie_maincate</string>
-		<key>Title</key>
-		<string>更多</string>
-	</dict>
 </array>
 </plist>

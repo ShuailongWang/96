@@ -49,6 +49,7 @@
 @property (copy, nonatomic) NSString *market_price;
 @property (copy, nonatomic) NSString *brand_id;
 @property (copy, nonatomic) NSString *brand_name;
+@property (nonatomic, copy) NSString *pm_desc;
 
 +(NSArray *)FreshModelWithArray;
 

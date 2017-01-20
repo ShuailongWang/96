@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) UICollectionView *myCollectionView;
 @property (strong, nonatomic) UILabel *numLabel;
-@property (strong, nonatomic) NSArray *iconArr;
+
 
 @end
 
@@ -48,7 +48,6 @@ static NSString *HYJonsDetailsSixCellID = @"HYJonsDetailsSixCellID";
             _numLabel.backgroundColor = [UIColor blackColor];
             _numLabel.textColor = [UIColor whiteColor];
             _numLabel.textAlignment = NSTextAlignmentCenter;
-            _numLabel.text = [NSString stringWithFormat:@"1/%zd",self.iconArr.count];
             [self.contentView addSubview:_numLabel];
         }
         [_numLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -91,12 +90,13 @@ static NSString *HYJonsDetailsSixCellID = @"HYJonsDetailsSixCellID";
     self.numLabel.text = [NSString stringWithFormat:@"%d/%zd", pageNum + 1, self.iconArr.count];
 }
 
--(NSArray *)iconArr{
-    if (nil == _iconArr) {
+
+-(void)setIconArr:(NSArray *)iconArr{
+    _iconArr = iconArr;
+    
+    if (_iconArr.count == 0) {
         _iconArr = @[
                      @"http://img2.niutuku.com/desk/1207/1049/ntk133175.jpg",
-                     @"http://img2.niutuku.com/desk/1207/1057/ntk121901.jpg",
-                     @"http://img2.niutuku.com/desk/1207/1002/ntk122412.jpg",
                      @"http://img2.niutuku.com/desk/130220/37/37-niutuku.com-927.jpg",
                      @"http://img2.niutuku.com/desk/1207/1037/ntk131964.jpg",
                      @"http://img2.niutuku.com/desk/1208/1921/ntk-1921-39435.jpg",
@@ -104,8 +104,13 @@ static NSString *HYJonsDetailsSixCellID = @"HYJonsDetailsSixCellID";
                      @"http://img2.niutuku.com/desk/1207/1011/ntk123346.jpg"
                      ];
     }
-    return _iconArr;
+    
+    self.numLabel.text = [NSString stringWithFormat:@"1/%ld",_iconArr.count];
+
+    
+    [self.myCollectionView reloadData];
 }
+
 @end
 
 

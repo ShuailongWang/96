@@ -4,7 +4,7 @@
 //
 //  Created by admin on 17/1/19.
 //  Copyright © 2017年 王帅龙. All rights reserved.
-//
+//  轮播图 - UICollectionView
 
 #import <UIKit/UIKit.h>
 

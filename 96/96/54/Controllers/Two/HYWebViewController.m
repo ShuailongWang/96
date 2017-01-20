@@ -1,21 +1,22 @@
 //
-//  HYWebController.m
+//  HYWebViewController.m
 //  96
 //
-//  Created by admin on 17/1/13.
+//  Created by admin on 17/1/20.
 //  Copyright © 2017年 王帅龙. All rights reserved.
 //
 
-#import "HYWebController.h"
+#import "HYWebViewController.h"
 #import <WebKit/WebKit.h>
 
-@interface HYWebController ()
+@interface HYWebViewController ()
 
 @property (nonatomic, strong) WKWebView *wkWebView;
 
 @end
 
-@implementation HYWebController
+@implementation HYWebViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,5 +32,7 @@
 -(void)setStrUrl:(NSString *)strUrl{
     _strUrl = strUrl;
 }
+
+
 
 @end
