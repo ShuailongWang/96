@@ -14,6 +14,7 @@
 @property (nonatomic, strong) UIImage *image;
 @property (nonatomic, copy) NSString *userName;
 @property (nonatomic, copy) NSString *subName;
+
 @end
 
 static NSString *HYEditUserControllerCellID = @"HYEditUserControllerCellID";
@@ -38,6 +39,8 @@ static NSString *HYEditUserControllerCellID = @"HYEditUserControllerCellID";
         [self.view addSubview:_myTableView];
     }
 }
+
+//完成
 -(void)clickTopButton{
     
     [NSObject showSuccessMsg:@"修改成功"];
@@ -61,7 +64,7 @@ static NSString *HYEditUserControllerCellID = @"HYEditUserControllerCellID";
         if (self.image) {
             cell.subImgView.image = self.image;
         }else{
-            cell.subImgView.image = [UIImage imageNamed:@"user"];
+            cell.subImgView.image = [UIImage imageNamed:@"404"];
         }
         
         [cell.subImgView setHidden:NO];

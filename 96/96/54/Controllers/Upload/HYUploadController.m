@@ -7,6 +7,7 @@
 //
 
 #import "HYUploadController.h"
+#import "HYMyUploadController.h"
 #import "HYUploadMainCell.h"
 #import "HYErShouController.h"
 #import "HYHouseController.h"
@@ -32,7 +33,7 @@ static NSString *HYUploadControllerCellID = @"HYUploadControllerCellID";
     [self setupUI];
 }
 
-
+//设置UI
 -(void)setupUI{
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"我的..." style:UIBarButtonItemStylePlain target:self action:@selector(clickRightButton)];
     if (nil == _myCollectionView) {
@@ -49,9 +50,10 @@ static NSString *HYUploadControllerCellID = @"HYUploadControllerCellID";
         [self.view addSubview:_myCollectionView];
     }
 }
-//
+//点击我的发布
 -(void)clickRightButton{
-    
+    HYMyUploadController *myUploadVC = [[HYMyUploadController alloc]init];
+    [self.navigationController pushViewController:myUploadVC animated:YES];
 }
 
 #pragma mark - UICollectionViewDelegate

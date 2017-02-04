@@ -195,6 +195,9 @@
 		84787F831E287FEE00C1CB80 /* SQTown.m in Sources */ = {isa = PBXBuildFile; fileRef = 84787F6F1E287FEE00C1CB80 /* SQTown.m */; };
 		84787F841E287FEE00C1CB80 /* SQSelectAddressTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 84787F711E287FEE00C1CB80 /* SQSelectAddressTransitioning.m */; };
 		84787F851E287FEE00C1CB80 /* SQSelectAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84787F731E287FEE00C1CB80 /* SQSelectAddressViewController.m */; };
+		8494D60E1E45696900250006 /* HYMyUploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494D60D1E45696900250006 /* HYMyUploadController.m */; };
+		8494D6111E456A2000250006 /* HYMyUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494D6101E456A2000250006 /* HYMyUploadCell.m */; };
+		8494D6131E456A2700250006 /* HYMyUploadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8494D6121E456A2700250006 /* HYMyUploadCell.xib */; };
 		849514931E275EDB00220F8C /* HYCyclesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514921E275EDB00220F8C /* HYCyclesCell.m */; };
 		849514961E2762BB00220F8C /* HYTableToCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514951E2762BB00220F8C /* HYTableToCollectionCell.m */; };
 		849514991E2762FD00220F8C /* HYToCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 849514981E2762FD00220F8C /* HYToCollectionCell.m */; };
@@ -578,6 +581,11 @@
 		84787F711E287FEE00C1CB80 /* SQSelectAddressTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSelectAddressTransitioning.m; sourceTree = "<group>"; };
 		84787F721E287FEE00C1CB80 /* SQSelectAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQSelectAddressViewController.h; sourceTree = "<group>"; };
 		84787F731E287FEE00C1CB80 /* SQSelectAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQSelectAddressViewController.m; sourceTree = "<group>"; };
+		8494D60C1E45696900250006 /* HYMyUploadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMyUploadController.h; sourceTree = "<group>"; };
+		8494D60D1E45696900250006 /* HYMyUploadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMyUploadController.m; sourceTree = "<group>"; };
+		8494D60F1E456A2000250006 /* HYMyUploadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMyUploadCell.h; sourceTree = "<group>"; };
+		8494D6101E456A2000250006 /* HYMyUploadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMyUploadCell.m; sourceTree = "<group>"; };
+		8494D6121E456A2700250006 /* HYMyUploadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYMyUploadCell.xib; sourceTree = "<group>"; };
 		849514911E275EDB00220F8C /* HYCyclesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCyclesCell.h; sourceTree = "<group>"; };
 		849514921E275EDB00220F8C /* HYCyclesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCyclesCell.m; sourceTree = "<group>"; };
 		849514941E2762BB00220F8C /* HYTableToCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTableToCollectionCell.h; sourceTree = "<group>"; };
@@ -694,6 +702,9 @@
 				780A5AA81E27D7260086B152 /* HYMineHeadCell.h */,
 				780A5AA91E27D7260086B152 /* HYMineHeadCell.m */,
 				780A5AAA1E27D7260086B152 /* HYMineHeadCell.xib */,
+				8494D60F1E456A2000250006 /* HYMyUploadCell.h */,
+				8494D6101E456A2000250006 /* HYMyUploadCell.m */,
+				8494D6121E456A2700250006 /* HYMyUploadCell.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -1011,6 +1022,8 @@
 				78EA7D501E227F3E00C0E423 /* HYMineController.m */,
 				780A5AB01E27D7540086B152 /* HYEditUserController.h */,
 				780A5AB11E27D7540086B152 /* HYEditUserController.m */,
+				8494D60C1E45696900250006 /* HYMyUploadController.h */,
+				8494D60D1E45696900250006 /* HYMyUploadController.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -1715,6 +1728,7 @@
 				78EA7D201E227CF800C0E423 /* PYSearch.bundle in Resources */,
 				841D3D2A1E2EF12D0066C7AF /* shengXian.json in Resources */,
 				8442F1471E31E4B5009642C6 /* HYTitleLabelCell.xib in Resources */,
+				8494D6131E456A2700250006 /* HYMyUploadCell.xib in Resources */,
 				84787F791E287FEE00C1CB80 /* radiobox_default@3x.png in Resources */,
 				844A78131E2887C60069606D /* ZLPhotoActionSheet.xib in Resources */,
 				844A780B1E2887C60069606D /* btn_unselected.png in Resources */,
@@ -1902,6 +1916,7 @@
 				84787F801E287FEE00C1CB80 /* SQCounty.m in Sources */,
 				78AFD6831E266D8E006C1D2F /* HYJobsTypeCell.m in Sources */,
 				78EA7D511E227F3E00C0E423 /* HYMineController.m in Sources */,
+				8494D6111E456A2000250006 /* HYMyUploadCell.m in Sources */,
 				844A782C1E28C46F0069606D /* HYNewsGuanCell.m in Sources */,
 				849514931E275EDB00220F8C /* HYCyclesCell.m in Sources */,
 				780A5A9A1E27C09B0086B152 /* HYErShouTypeCell.m in Sources */,
@@ -1993,6 +2008,7 @@
 				845005B21E2746F900C57D0A /* HYPartTimeJobCell.m in Sources */,
 				849D5D761E309062007EA94A /* HYPuBuLayout.m in Sources */,
 				84DD79BC1E260A7D006C2624 /* UIViewController+BackButtonHandler.m in Sources */,
+				8494D60E1E45696900250006 /* HYMyUploadController.m in Sources */,
 				78EA7D481E227F0700C0E423 /* HYBackPassController.m in Sources */,
 				78EA7D2B1E227D4500C0E423 /* HYMainNavController.m in Sources */,
 				780432521E23EC0D00EBE4E7 /* HYHomeTipCell.m in Sources */,
