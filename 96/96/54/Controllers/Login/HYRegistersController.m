@@ -35,13 +35,16 @@
 
 @implementation HYRegistersController
 
+-(void)loadView{
+    TPKeyboardAvoidingScrollView *tpKeyBoardView = [[TPKeyboardAvoidingScrollView alloc]init];
+    self.view = tpKeyBoardView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
     [self setupUI];
 }
-
 
 -(void)setupUI{
     CGFloat leftMargin = 20;
@@ -60,19 +63,20 @@
         [_dismisBtn addTarget:self action:@selector(clickDisMisButton:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:_dismisBtn];
     }
-    UILabel *userLabel = [UILabel labelWithTitle:@"用户名: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+
+    UILabel *userLabel = [UILabel labelWithTitle:@"用户名: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     userLabel.frame = CGRectMake(leftMargin, y, width, height);
     [self.view addSubview:userLabel];
     //
-    UILabel *passLabel = [UILabel labelWithTitle:@"密码: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *passLabel = [UILabel labelWithTitle:@"密码: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     passLabel.frame = CGRectMake(leftMargin, userLabel.bottom + 10, width, height);
     [self.view addSubview:passLabel];
     //
-    UILabel *okPassLabel = [UILabel labelWithTitle:@"确认密码: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *okPassLabel = [UILabel labelWithTitle:@"确认密码: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     okPassLabel.frame = CGRectMake(leftMargin, passLabel.bottom + 10, width, height);
     [self.view addSubview:okPassLabel];
     //
-    UILabel *typeLabel = [UILabel labelWithTitle:@"类别: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *typeLabel = [UILabel labelWithTitle:@"类别: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     typeLabel.frame = CGRectMake(leftMargin, okPassLabel.bottom + 10, width, height);
     [self.view addSubview:typeLabel];
 
@@ -101,6 +105,7 @@
         _yeyBtn.frame = CGRectMake(userLabel.right + 5, _okPassField.bottom + 10, buttonWidth, 30);
         [_yeyBtn setTitle:@"幼儿园" forState:UIControlStateNormal];
         [_yeyBtn addTarget:self action:@selector(clickTypeButton:) forControlEvents:UIControlEventTouchUpInside];
+        [_yeyBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.view addSubview:_yeyBtn];
     }
     if (nil == _forginBtn) {
@@ -108,6 +113,7 @@
         _forginBtn.frame = CGRectMake(_yeyBtn.right + 5, _okPassField.bottom + 10, buttonWidth, 30);
         [_forginBtn setTitle:@"外教" forState:UIControlStateNormal];
         [_forginBtn addTarget:self action:@selector(clickTypeButton:) forControlEvents:UIControlEventTouchUpInside];
+        [_forginBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.view addSubview:_forginBtn];
     }
     if (nil == _schoolBtn) {
@@ -115,6 +121,7 @@
         _schoolBtn.frame = CGRectMake(_forginBtn.right + 5, _okPassField.bottom + 10, buttonWidth, 30);
         [_schoolBtn setTitle:@"学校" forState:UIControlStateNormal];
         [_schoolBtn addTarget:self action:@selector(clickTypeButton:) forControlEvents:UIControlEventTouchUpInside];
+        [_schoolBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.view addSubview:_schoolBtn];
     }
     if (nil == _gysBtn) {
@@ -122,6 +129,7 @@
         _gysBtn.frame = CGRectMake(userLabel.right + 5, _yeyBtn.bottom + 10, buttonWidth, 30);
         [_gysBtn setTitle:@"供应商" forState:UIControlStateNormal];
         [_gysBtn addTarget:self action:@selector(clickTypeButton:) forControlEvents:UIControlEventTouchUpInside];
+        [_gysBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.view addSubview:_gysBtn];
     }
     if (nil == _chinaBtn) {
@@ -129,22 +137,23 @@
         _chinaBtn.frame = CGRectMake(_gysBtn.right + 5, _yeyBtn.bottom + 10, buttonWidth, 30);
         [_chinaBtn setTitle:@"中教" forState:UIControlStateNormal];
         [_chinaBtn addTarget:self action:@selector(clickTypeButton:) forControlEvents:UIControlEventTouchUpInside];
+        [_chinaBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.view addSubview:_chinaBtn];
     }
     //
-    UILabel *companyLabel = [UILabel labelWithTitle:@"组织架构: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *companyLabel = [UILabel labelWithTitle:@"组织架构: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     companyLabel.frame = CGRectMake(leftMargin, _chinaBtn.bottom + 10, width, height);
     [self.view addSubview:companyLabel];
     //
-    UILabel *contactLabel = [UILabel labelWithTitle:@"联系人: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *contactLabel = [UILabel labelWithTitle:@"联系人: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     contactLabel.frame = CGRectMake(leftMargin, companyLabel.bottom + 10, width, height);
     [self.view addSubview:contactLabel];
     //
-    UILabel *phoneLabel = [UILabel labelWithTitle:@"电话号码: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *phoneLabel = [UILabel labelWithTitle:@"电话号码: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     phoneLabel.frame = CGRectMake(leftMargin, contactLabel.bottom + 10, width, height);
     [self.view addSubview:phoneLabel];
     //
-    UILabel *emailLabel = [UILabel labelWithTitle:@"邮箱: " fontSize:17 textColor: [UIColor whiteColor] textAlignment:NSTextAlignmentLeft];
+    UILabel *emailLabel = [UILabel labelWithTitle:@"邮箱: " fontSize:17 textColor: [UIColor blackColor] textAlignment:NSTextAlignmentLeft];
     emailLabel.frame = CGRectMake(leftMargin, phoneLabel.bottom + 10, width, height);
     [self.view addSubview:emailLabel];
     
@@ -180,7 +189,7 @@
         [self.view addSubview:_regisBtn];
     }
     if (nil == _regisLabel) {
-        _regisLabel = [UILabel labelWithTitle:@"" fontSize:15 textColor:[UIColor whiteColor] textAlignment:NSTextAlignmentCenter];
+        _regisLabel = [UILabel labelWithTitle:@"" fontSize:15 textColor:[UIColor blackColor] textAlignment:NSTextAlignmentCenter];
         _regisLabel.frame = CGRectMake(_regisBtn.x, _regisBtn.bottom + 5, _regisBtn.width, 20);
         NSMutableAttributedString *content = [[NSMutableAttributedString alloc]initWithString:[NSString stringWithFormat:@"点击注册代表你已经阅读并同意<***协议>"]];
         NSRange contentRange = {0,[content length]};

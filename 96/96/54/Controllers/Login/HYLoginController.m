@@ -29,14 +29,13 @@
 -(void)loadView{
     TPKeyboardAvoidingScrollView *tpKeyBoardView = [[TPKeyboardAvoidingScrollView alloc]init];
     self.view = tpKeyBoardView;
-    
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 
     [self setupUI];
 }
-
 
 -(void)setupUI{
     if (nil == _bgImageView) {
@@ -72,6 +71,7 @@
         _registerButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_registerButton setTitle:@"马上注册" forState:UIControlStateNormal];
         _registerButton.titleLabel.font = [UIFont systemFontOfSize:14];
+        [_registerButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_registerButton addTarget:self action:@selector(registerAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:_registerButton];
     }
@@ -79,6 +79,7 @@
         _removePassButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_removePassButton setTitle:@"忘记密码?" forState:UIControlStateNormal];
         _removePassButton.titleLabel.font = [UIFont systemFontOfSize:14];
+        [_removePassButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [_removePassButton addTarget:self action:@selector(forgetPwdAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:_removePassButton];
     }
@@ -123,7 +124,7 @@
     }];
     [_password_TF mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self.userID_TF);
-        make.top.equalTo(self.userID_TF.mas_bottom);
+        make.top.equalTo(self.userID_TF.mas_bottom).offset(5);
         make.right.equalTo(self.userID_TF);
         make.height.equalTo(self.userID_TF);
     }];

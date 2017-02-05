@@ -67,6 +67,7 @@ static NSString *RightTableViewCellID = @"RightTableViewCellID";
     }
     if (nil == _leftBtn) {
         _leftBtn = [[UIButton alloc]initWithFrame:CGRectMake(20, _leftTableView.bottom + 30, tableWidth, 50)];
+        _leftBtn.tag = 1;
         [_leftBtn setTitle:@"登陆" forState:UIControlStateNormal];
         _leftBtn.backgroundColor = [UIColor blueColor];
         [_leftBtn addTarget:self action:@selector(clickLoginButton:) forControlEvents:UIControlEventTouchUpInside];
@@ -74,6 +75,7 @@ static NSString *RightTableViewCellID = @"RightTableViewCellID";
     }
     if (nil == _rightBtn) {
         _rightBtn = [[UIButton alloc]initWithFrame:CGRectMake(_leftBtn.right + 20, _rightTableView.bottom + 30, tableWidth, 50)];
+        _rightBtn.tag = 2;
         [_rightBtn setTitle:@"登陆" forState:UIControlStateNormal];
         _rightBtn.backgroundColor = [UIColor redColor];
         [_rightBtn addTarget:self action:@selector(clickLoginButton:) forControlEvents:UIControlEventTouchUpInside];
@@ -85,6 +87,7 @@ static NSString *RightTableViewCellID = @"RightTableViewCellID";
 -(void)clickLoginButton:(UIButton*)sender{
     
     HYLoginController *loginVC = [[HYLoginController alloc]init];
+    loginVC.index = sender.tag;
     [self presentViewController: loginVC animated:YES completion:nil];
 }
 

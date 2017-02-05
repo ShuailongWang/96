@@ -10,4 +10,6 @@
 
 @interface HYLoginController : HYBaseController
 
+@property (assign,nonatomic) NSInteger index;   //标识点击了那个登录按钮
+
 @end

@@ -25,11 +25,12 @@
     // 设置Window
     self.window = [[UIWindow alloc]initWithFrame: KScreen_Bounds];
     
+    //登录
 //    HYMainNavController *nav = [[HYMainNavController alloc]initWithRootViewController:[[HYLoginHomeController alloc]init]];
 //    self.window.rootViewController = nav;
     
     
-        self.window.rootViewController = [[HYMainTabBarController alloc]init];
+    self.window.rootViewController = [[HYMainTabBarController alloc]init];
     
     [self.window makeKeyAndVisible];
     
